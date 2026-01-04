@@ -1,6 +1,5 @@
 [
   {
-    "id": 281,
     "name": "Fish and Chips",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "description": "Battered fried fish with potato chips.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 282,
     "name": "Shepherd's Pie",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd67",
+    "emoji": "🥧",
     "description": "Meat pie with mashed potato topping.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 283,
     "name": "Beef Wellington",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd69",
+    "emoji": "🥩",
     "description": "Beef wrapped in pastry.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 284,
     "name": "Full English Breakfast",
     "category": "Breakfast",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf73",
+    "emoji": "🍳",
     "description": "Complete breakfast with eggs, bacon, beans.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 285,
     "name": "Bangers and Mash",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2d",
+    "emoji": "🌭",
     "description": "Sausages with mashed potatoes.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 286,
     "name": "Yorkshire Pudding",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd50",
+    "emoji": "🥐",
     "description": "Baked batter pudding.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 287,
     "name": "Cornish Pasty",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5f",
+    "emoji": "🥟",
     "description": "Pastry filled with meat and vegetables.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 288,
     "name": "Toad in the Hole",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2d",
+    "emoji": "🌭",
     "description": "Sausages in Yorkshire pudding batter.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 289,
     "name": "Scotch Egg",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5a",
+    "emoji": "🥚",
     "description": "Boiled egg wrapped in sausage meat.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 290,
     "name": "Bubble and Squeak",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd54",
+    "emoji": "🥔",
     "description": "Fried leftover vegetables.",
     "ingredients": [
       "Main ingredient 1",

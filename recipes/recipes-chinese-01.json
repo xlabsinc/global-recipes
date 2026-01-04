@@ -1,6 +1,5 @@
 [
   {
-    "id": 161,
     "name": "Kung Pao Chicken",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "description": "Spicy stir-fried chicken with peanuts and vegetables.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 162,
     "name": "Sweet and Sour Pork",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "description": "Crispy pork in tangy sweet and sour sauce.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 163,
     "name": "Mapo Tofu",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Spicy Sichuan tofu with minced pork and chili oil.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 164,
     "name": "Spring Rolls",
     "category": "Snack",
     "type": "Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd62",
+    "emoji": "🥢",
     "description": "Crispy fried rolls with vegetable filling.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 165,
     "name": "Peking Duck",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd86",
+    "emoji": "🦆",
     "description": "Crispy roasted duck with thin pancakes.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 166,
     "name": "Fried Rice",
     "category": "Rice",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Stir-fried rice with vegetables and eggs.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 167,
     "name": "Dim Sum",
     "category": "Snack",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5f",
+    "emoji": "🥟",
     "description": "Steamed dumplings with various fillings.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 168,
     "name": "Hot Pot",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf72",
+    "emoji": "🍲",
     "description": "Communal pot of simmering broth with ingredients.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 169,
     "name": "Chow Mein",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5c",
+    "emoji": "🍜",
     "description": "Stir-fried noodles with vegetables.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 170,
     "name": "Wonton Soup",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd63",
+    "emoji": "🥣",
     "description": "Clear broth with pork-filled wontons.",
     "ingredients": [
       "Main ingredient 1",

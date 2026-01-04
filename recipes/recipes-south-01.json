@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Masala Dosa",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -34,10 +33,13 @@
       "Place potato filling in the center and fold the dosa",
       "Serve hot with coconut chutney and sambar"
     ],
-    "tags": ["Breakfast", "Traditional", "Popular"]
+    "tags": [
+      "Breakfast",
+      "Traditional",
+      "Popular"
+    ]
   },
   {
-    "id": 2,
     "name": "Idli",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -65,10 +67,13 @@
       "Steam for 12-15 minutes",
       "Remove and serve hot with chutney and sambar"
     ],
-    "tags": ["Breakfast", "Healthy", "Light"]
+    "tags": [
+      "Breakfast",
+      "Healthy",
+      "Light"
+    ]
   },
   {
-    "id": 3,
     "name": "Sambar",
     "category": "Curry",
     "type": "Vegetarian",
@@ -104,10 +109,13 @@
       "Pour tempering over sambar and mix well",
       "Serve hot with rice, idli, or dosa"
     ],
-    "tags": ["Curry", "Lentils", "Traditional"]
+    "tags": [
+      "Curry",
+      "Lentils",
+      "Traditional"
+    ]
   },
   {
-    "id": 4,
     "name": "Coconut Chutney",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -137,10 +145,13 @@
       "Pour tempering over chutney and mix",
       "Serve fresh with idli, dosa, or vada"
     ],
-    "tags": ["Side Dish", "Chutney", "Quick"]
+    "tags": [
+      "Side Dish",
+      "Chutney",
+      "Quick"
+    ]
   },
   {
-    "id": 5,
     "name": "Medu Vada",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -171,10 +182,13 @@
       "Fry until golden brown on both sides",
       "Drain and serve hot with chutney and sambar"
     ],
-    "tags": ["Breakfast", "Fried", "Crispy"]
+    "tags": [
+      "Breakfast",
+      "Fried",
+      "Crispy"
+    ]
   },
   {
-    "id": 6,
     "name": "Rasam",
     "category": "Soup",
     "type": "Vegetarian",
@@ -212,10 +226,13 @@
       "Pour tempering into rasam, add coriander leaves",
       "Serve hot with rice or drink as soup"
     ],
-    "tags": ["Soup", "Tangy", "Comfort Food"]
+    "tags": [
+      "Soup",
+      "Tangy",
+      "Comfort Food"
+    ]
   },
   {
-    "id": 7,
     "name": "Bisi Bele Bath",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -251,10 +268,13 @@
       "Garnish with fried cashews",
       "Serve hot with papad and raita"
     ],
-    "tags": ["Main Course", "One Pot", "Karnataka Special"]
+    "tags": [
+      "Main Course",
+      "One Pot",
+      "Karnataka Special"
+    ]
   },
   {
-    "id": 8,
     "name": "Pongal",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -288,10 +308,13 @@
       "Pour this tempering over pongal and mix well",
       "Serve hot with coconut chutney and sambar"
     ],
-    "tags": ["Breakfast", "Comfort Food", "Easy"]
+    "tags": [
+      "Breakfast",
+      "Comfort Food",
+      "Easy"
+    ]
   },
   {
-    "id": 9,
     "name": "Upma",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -328,10 +351,13 @@
       "Cook for 5 minutes on low flame, stirring occasionally",
       "Garnish with coriander leaves and serve hot"
     ],
-    "tags": ["Breakfast", "Quick", "Light"]
+    "tags": [
+      "Breakfast",
+      "Quick",
+      "Light"
+    ]
   },
   {
-    "id": 10,
     "name": "Lemon Rice",
     "category": "Rice",
     "type": "Vegetarian",
@@ -367,6 +393,10 @@
       "Garnish with coriander leaves",
       "Serve with papad or potato chips"
     ],
-    "tags": ["Rice", "Tangy", "Quick"]
+    "tags": [
+      "Rice",
+      "Tangy",
+      "Quick"
+    ]
   }
 ]

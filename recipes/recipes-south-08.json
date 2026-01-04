@@ -1,6 +1,5 @@
 [
   {
-    "id": 71,
     "name": "Kara Sev",
     "category": "Snack",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 8,
-    "emoji": "\ud83e\uddf6",
+    "emoji": "🧶",
     "description": "Spicy fried gram flour noodles.",
     "ingredients": [
       "2 cups gram flour",
@@ -33,7 +32,6 @@
     ]
   },
   {
-    "id": 72,
     "name": "Pineapple Kesari",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -41,7 +39,7 @@
     "prepTime": 10,
     "cookTime": 20,
     "servings": 6,
-    "emoji": "\ud83c\udf4d",
+    "emoji": "🍍",
     "description": "Pineapple flavored semolina sweet.",
     "ingredients": [
       "1 cup rava",
@@ -67,7 +65,6 @@
     ]
   },
   {
-    "id": 73,
     "name": "Karuppatti Coffee",
     "category": "Beverage",
     "type": "Vegetarian",
@@ -75,7 +72,7 @@
     "prepTime": 5,
     "cookTime": 10,
     "servings": 2,
-    "emoji": "\u2615",
+    "emoji": "☕",
     "description": "Palm jaggery sweetened coffee.",
     "ingredients": [
       "2 cups milk",
@@ -97,7 +94,6 @@
     ]
   },
   {
-    "id": 74,
     "name": "Kovakkai Fry",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -105,7 +101,7 @@
     "prepTime": 15,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\udd52",
+    "emoji": "🥒",
     "description": "Crispy ivy gourd stir fry.",
     "ingredients": [
       "250g kovakkai",
@@ -130,7 +126,6 @@
     ]
   },
   {
-    "id": 75,
     "name": "Sundal",
     "category": "Snack",
     "type": "Vegetarian",
@@ -138,7 +133,7 @@
     "prepTime": 15,
     "cookTime": 10,
     "servings": 4,
-    "emoji": "\ud83e\udd5c",
+    "emoji": "🥜",
     "description": "Spiced chickpea or lentil snack popular in Tamil Nadu.",
     "ingredients": [
       "1 cup chickpeas",
@@ -166,7 +161,6 @@
     ]
   },
   {
-    "id": 76,
     "name": "Mor Milagai",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -174,7 +168,7 @@
     "prepTime": 30,
     "cookTime": 0,
     "servings": 10,
-    "emoji": "\ud83c\udf36\ufe0f",
+    "emoji": "🌶️",
     "description": "Yogurt marinated sun-dried chilies.",
     "ingredients": [
       "20 green chilies",
@@ -196,7 +190,6 @@
     ]
   },
   {
-    "id": 77,
     "name": "Milagu Kuzhambu",
     "category": "Curry",
     "type": "Vegetarian",
@@ -204,7 +197,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\u26ab",
+    "emoji": "⚫",
     "description": "Spicy black pepper curry.",
     "ingredients": [
       "Black pepper",
@@ -230,7 +223,6 @@
     ]
   },
   {
-    "id": 78,
     "name": "Nei Payasam",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -238,7 +230,7 @@
     "prepTime": 10,
     "cookTime": 30,
     "servings": 6,
-    "emoji": "\ud83e\udd5b",
+    "emoji": "🥛",
     "description": "Ghee-rich rice pudding.",
     "ingredients": [
       "1/4 cup rice",
@@ -263,7 +255,6 @@
     ]
   },
   {
-    "id": 79,
     "name": "Seeni Sambol",
     "category": "Side Dish",
     "type": "Non-Vegetarian",
@@ -271,7 +262,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\uddc5",
+    "emoji": "🧅",
     "description": "Caramelized onion chili relish.",
     "ingredients": [
       "4 onions sliced",
@@ -296,7 +287,6 @@
     ]
   },
   {
-    "id": 80,
     "name": "Vazhaithandu Mor Kootu",
     "category": "Curry",
     "type": "Vegetarian",
@@ -304,7 +294,7 @@
     "prepTime": 20,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83c\udf3f",
+    "emoji": "🌿",
     "description": "Banana stem in yogurt gravy.",
     "ingredients": [
       "1 cup banana stem chopped",

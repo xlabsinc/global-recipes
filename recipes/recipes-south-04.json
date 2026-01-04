@@ -1,6 +1,5 @@
 [
   {
-    "id": 31,
     "name": "Kuzhi Paniyaram",
     "category": "Snack",
     "type": "Vegetarian",
@@ -34,10 +33,13 @@
       "Flip and cook other side",
       "Serve hot with chutney"
     ],
-    "tags": ["Snack", "Easy", "Quick"]
+    "tags": [
+      "Snack",
+      "Easy",
+      "Quick"
+    ]
   },
   {
-    "id": 32,
     "name": "Mangalore Buns",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -68,10 +70,13 @@
       "Drain excess oil",
       "Serve hot with coconut chutney or sambar"
     ],
-    "tags": ["Breakfast", "Sweet", "Karnataka"]
+    "tags": [
+      "Breakfast",
+      "Sweet",
+      "Karnataka"
+    ]
   },
   {
-    "id": 33,
     "name": "Prawn Curry",
     "category": "Curry",
     "type": "Non-Vegetarian",
@@ -107,10 +112,13 @@
       "Add coconut milk and simmer for 5 minutes",
       "Serve hot with rice"
     ],
-    "tags": ["Curry", "Seafood", "Coastal"]
+    "tags": [
+      "Curry",
+      "Seafood",
+      "Coastal"
+    ]
   },
   {
-    "id": 34,
     "name": "Ennai Kathirikai",
     "category": "Curry",
     "type": "Vegetarian",
@@ -148,10 +156,13 @@
       "Simmer until gravy thickens",
       "Serve with rice"
     ],
-    "tags": ["Curry", "Stuffed", "Tamil Nadu"]
+    "tags": [
+      "Curry",
+      "Stuffed",
+      "Tamil Nadu"
+    ]
   },
   {
-    "id": 35,
     "name": "Vendakkai Puli Kuzhambu",
     "category": "Curry",
     "type": "Vegetarian",
@@ -187,10 +198,13 @@
       "Simmer for 5 minutes",
       "Serve with rice"
     ],
-    "tags": ["Curry", "Tangy", "Tamil Nadu"]
+    "tags": [
+      "Curry",
+      "Tangy",
+      "Tamil Nadu"
+    ]
   },
   {
-    "id": 36,
     "name": "Parotta",
     "category": "Bread",
     "type": "Vegetarian",
@@ -224,10 +238,13 @@
       "Clap between hands to separate layers",
       "Serve hot with kurma or salna"
     ],
-    "tags": ["Bread", "Flaky", "Popular"]
+    "tags": [
+      "Bread",
+      "Flaky",
+      "Popular"
+    ]
   },
   {
-    "id": 37,
     "name": "Beetroot Poriyal",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -258,10 +275,13 @@
       "Mix well and cook for 2 minutes",
       "Serve hot with rice"
     ],
-    "tags": ["Side Dish", "Healthy", "Quick"]
+    "tags": [
+      "Side Dish",
+      "Healthy",
+      "Quick"
+    ]
   },
   {
-    "id": 38,
     "name": "Cabbage Thoran",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -292,10 +312,13 @@
       "Mix well and cook for 2 minutes",
       "Serve with rice"
     ],
-    "tags": ["Side Dish", "Kerala", "Healthy"]
+    "tags": [
+      "Side Dish",
+      "Kerala",
+      "Healthy"
+    ]
   },
   {
-    "id": 39,
     "name": "Vadai Curry",
     "category": "Curry",
     "type": "Vegetarian",
@@ -334,10 +357,13 @@
       "Garnish with coriander",
       "Serve with rice"
     ],
-    "tags": ["Curry", "Traditional", "Tamil Nadu"]
+    "tags": [
+      "Curry",
+      "Traditional",
+      "Tamil Nadu"
+    ]
   },
   {
-    "id": 40,
     "name": "Rava Kesari",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -370,6 +396,10 @@
       "Cook until ghee separates",
       "Serve warm"
     ],
-    "tags": ["Dessert", "Sweet", "Festival"]
+    "tags": [
+      "Dessert",
+      "Sweet",
+      "Festival"
+    ]
   }
 ]

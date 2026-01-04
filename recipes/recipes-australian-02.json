@@ -1,6 +1,5 @@
 [
   {
-    "id": 371,
     "name": "Fairy Bread",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5e",
+    "emoji": "🍞",
     "description": "Buttered bread with sprinkles.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 372,
     "name": "Kangaroo Steak",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd98",
+    "emoji": "🦘",
     "description": "Grilled kangaroo meat.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 373,
     "name": "Chicken Parmigiana",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "description": "Breaded chicken with tomato and cheese.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 374,
     "name": "Fish and Chips",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "description": "Battered fish with chips.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 375,
     "name": "Witchetty Grub",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83d\udc1b",
+    "emoji": "🐛",
     "description": "Aboriginal bush food.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 376,
     "name": "Emu Steak",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udda2",
+    "emoji": "🦢",
     "description": "Grilled emu meat.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 377,
     "name": "Beetroot Burger",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf54",
+    "emoji": "🍔",
     "description": "Burger with beetroot slice.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 378,
     "name": "Golden Gaytime",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf66",
+    "emoji": "🍦",
     "description": "Toffee ice cream on a stick.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 379,
     "name": "Milo",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5b",
+    "emoji": "🥛",
     "description": "Chocolate malt drink.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 380,
     "name": "Cabanossi",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2d",
+    "emoji": "🌭",
     "description": "Semi-dried sausage.",
     "ingredients": [
       "Main ingredient 1",

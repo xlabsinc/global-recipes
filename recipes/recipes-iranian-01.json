@@ -1,6 +1,5 @@
 [
   {
-    "id": 321,
     "name": "Ghormeh Sabzi",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Herb stew with kidney beans and lamb.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 322,
     "name": "Tahdig",
     "category": "Rice",
     "type": "Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Crispy rice from the bottom of the pot.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 323,
     "name": "Fesenjan",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf72",
+    "emoji": "🍲",
     "description": "Chicken in walnut pomegranate sauce.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 324,
     "name": "Kabab Koobideh",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ufffd\u4e32",
+    "emoji": "�串",
     "description": "Grilled minced meat kebabs.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 325,
     "name": "Zereshk Polo",
     "category": "Rice",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Rice with barberries and chicken.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 326,
     "name": "Ash Reshteh",
     "category": "Soup",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5c",
+    "emoji": "🍜",
     "description": "Thick noodle soup with herbs.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 327,
     "name": "Khoresh Bademjan",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf46",
+    "emoji": "🍆",
     "description": "Eggplant stew with meat.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 328,
     "name": "Sabzi Polo Mahi",
     "category": "Rice",
     "type": "Non-Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "description": "Herbed rice with fish.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 329,
     "name": "Kashk e Bademjan",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf46",
+    "emoji": "🍆",
     "description": "Eggplant dip with whey.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 330,
     "name": "Mirza Ghasemi",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf45",
+    "emoji": "🍅",
     "description": "Smoky eggplant with tomato.",
     "ingredients": [
       "Main ingredient 1",

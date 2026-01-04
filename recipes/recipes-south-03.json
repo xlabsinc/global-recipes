@@ -1,6 +1,5 @@
 [
   {
-    "id": 21,
     "name": "Puttu",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -26,10 +25,13 @@
       "Remove carefully onto plate",
       "Serve hot with banana, kadala curry, or sugar"
     ],
-    "tags": ["Breakfast", "Steamed", "Kerala"]
+    "tags": [
+      "Breakfast",
+      "Steamed",
+      "Kerala"
+    ]
   },
   {
-    "id": 22,
     "name": "Pesarattu",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -59,10 +61,13 @@
       "Cook until crispy and golden",
       "Serve hot with ginger chutney or upma"
     ],
-    "tags": ["Breakfast", "Healthy", "Andhra"]
+    "tags": [
+      "Breakfast",
+      "Healthy",
+      "Andhra"
+    ]
   },
   {
-    "id": 23,
     "name": "Andhra Chicken Curry",
     "category": "Curry",
     "type": "Non-Vegetarian",
@@ -99,10 +104,13 @@
       "Garnish with coriander leaves",
       "Serve hot with rice or roti"
     ],
-    "tags": ["Curry", "Spicy", "Andhra"]
+    "tags": [
+      "Curry",
+      "Spicy",
+      "Andhra"
+    ]
   },
   {
-    "id": 24,
     "name": "Mutton Chukka",
     "category": "Side Dish",
     "type": "Non-Vegetarian",
@@ -139,10 +147,13 @@
       "Cook on high heat until dry and well coated",
       "Serve hot with rice or parotta"
     ],
-    "tags": ["Side Dish", "Non-Veg", "Tamil Nadu"]
+    "tags": [
+      "Side Dish",
+      "Non-Veg",
+      "Tamil Nadu"
+    ]
   },
   {
-    "id": 25,
     "name": "Kothu Parotta",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -180,10 +191,13 @@
       "Garnish with coriander",
       "Serve hot with raita"
     ],
-    "tags": ["Main Course", "Street Food", "Tamil Nadu"]
+    "tags": [
+      "Main Course",
+      "Street Food",
+      "Tamil Nadu"
+    ]
   },
   {
-    "id": 26,
     "name": "Masala Vada",
     "category": "Snack",
     "type": "Vegetarian",
@@ -217,10 +231,13 @@
       "Drain excess oil",
       "Serve hot with coconut chutney"
     ],
-    "tags": ["Snack", "Fried", "Tea Time"]
+    "tags": [
+      "Snack",
+      "Fried",
+      "Tea Time"
+    ]
   },
   {
-    "id": 27,
     "name": "Murukku",
     "category": "Snack",
     "type": "Vegetarian",
@@ -251,10 +268,13 @@
       "Drain excess oil",
       "Cool completely and store in airtight container"
     ],
-    "tags": ["Snack", "Crunchy", "Festival"]
+    "tags": [
+      "Snack",
+      "Crunchy",
+      "Festival"
+    ]
   },
   {
-    "id": 28,
     "name": "Banana Chips",
     "category": "Snack",
     "type": "Vegetarian",
@@ -282,10 +302,13 @@
       "Cool completely",
       "Store in airtight container"
     ],
-    "tags": ["Snack", "Crispy", "Kerala"]
+    "tags": [
+      "Snack",
+      "Crispy",
+      "Kerala"
+    ]
   },
   {
-    "id": 29,
     "name": "Nei Appam",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -316,10 +339,13 @@
       "Cook on low heat until golden on both sides",
       "Serve warm"
     ],
-    "tags": ["Dessert", "Sweet", "Festival"]
+    "tags": [
+      "Dessert",
+      "Sweet",
+      "Festival"
+    ]
   },
   {
-    "id": 30,
     "name": "Kozhukattai",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -350,6 +376,10 @@
       "Steam for 15 minutes",
       "Serve warm with ghee"
     ],
-    "tags": ["Dessert", "Steamed", "Festival"]
+    "tags": [
+      "Dessert",
+      "Steamed",
+      "Festival"
+    ]
   }
 ]

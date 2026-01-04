@@ -1,6 +1,5 @@
 [
   {
-    "id": 151,
     "name": "Dhokla",
     "category": "Snack",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83d\udfe8",
+    "emoji": "🟨",
     "description": "Steamed gram flour cake from Gujarat",
     "ingredients": [
       "Main ingredient",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 152,
     "name": "Pav Bhaji",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83c\udf5e",
+    "emoji": "🍞",
     "description": "Spicy vegetable mash with bread rolls",
     "ingredients": [
       "Main ingredient",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 153,
     "name": "Vada Pav",
     "category": "Snack",
     "type": "Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83c\udf54",
+    "emoji": "🍔",
     "description": "Potato fritter in bread bun",
     "ingredients": [
       "Main ingredient",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 154,
     "name": "Misal Pav",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83c\udf36\ufe0f",
+    "emoji": "🌶️",
     "description": "Spicy sprouted lentils with bread",
     "ingredients": [
       "Main ingredient",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 155,
     "name": "Poha",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Flattened rice with peanuts and spices",
     "ingredients": [
       "Main ingredient",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 156,
     "name": "Litti Chokha",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83d\udd25",
+    "emoji": "🔥",
     "description": "Roasted wheat balls with mashed vegetables",
     "ingredients": [
       "Main ingredient",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 157,
     "name": "Rasgulla",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\u26aa",
+    "emoji": "⚪",
     "description": "Spongy cheese balls in sugar syrup",
     "ingredients": [
       "Main ingredient",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 158,
     "name": "Sandesh",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83d\udfe8",
+    "emoji": "🟨",
     "description": "Bengali sweet made from cottage cheese",
     "ingredients": [
       "Main ingredient",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 159,
     "name": "Fish Curry Bengali",
     "category": "Curry",
     "type": "Non-Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "description": "Bengali style fish in mustard gravy",
     "ingredients": [
       "Main ingredient",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 160,
     "name": "Thukpa",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 25,
     "servings": 4,
-    "emoji": "\ud83c\udf5c",
+    "emoji": "🍜",
     "description": "Tibetan noodle soup popular in Northeast",
     "ingredients": [
       "Main ingredient",

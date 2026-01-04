@@ -1,6 +1,5 @@
 [
   {
-    "id": 311,
     "name": "Chicken and Waffles",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\uddc7",
+    "emoji": "🧇",
     "description": "Fried chicken with waffles.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 312,
     "name": "Corn Dog",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf3d",
+    "emoji": "🌽",
     "description": "Hot dog in cornmeal batter.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 313,
     "name": "Cobb Salad",
     "category": "Side Dish",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd57",
+    "emoji": "🥗",
     "description": "Salad with chicken, bacon, and egg.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 314,
     "name": "Meatloaf",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd69",
+    "emoji": "🥩",
     "description": "Baked ground beef loaf.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 315,
     "name": "Biscuits and Gravy",
     "category": "Breakfast",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5e",
+    "emoji": "🍞",
     "description": "Biscuits with sausage gravy.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 316,
     "name": "Pancakes",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5e",
+    "emoji": "🥞",
     "description": "Fluffy breakfast pancakes.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 317,
     "name": "Apple Pie",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd67",
+    "emoji": "🥧",
     "description": "Classic baked apple pie.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 318,
     "name": "Brownies",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf6b",
+    "emoji": "🍫",
     "description": "Chocolate fudge squares.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 319,
     "name": "Cheesecake",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf70",
+    "emoji": "🍰",
     "description": "Cream cheese cake.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 320,
     "name": "S'mores",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf6b",
+    "emoji": "🍫",
     "description": "Toasted marshmallow with chocolate.",
     "ingredients": [
       "Main ingredient 1",

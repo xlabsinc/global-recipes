@@ -14,15 +14,13 @@ First off, thank you for considering contributing to the Global Recipe Collectio
 2. Create a new branch (`git checkout -b add-recipe-name`)
 3. Add your recipe to the appropriate JSON file in the `recipes/` folder (or create a new one)
 4. Follow the recipe format below
-5. Ensure your recipe ID is unique
-6. Test that it loads correctly
-7. Submit a pull request
+5. Test that it loads correctly
+6. Submit a pull request
 
 #### Recipe Format
 
 ```json
 {
-  "id": 421,
   "name": "Recipe Name",
   "category": "Breakfast|Main Course|Curry|Rice|Snack|Dessert|Side Dish|Soup|Bread",
   "type": "Vegetarian|Non-Vegetarian",
@@ -45,6 +43,8 @@ First off, thank you for considering contributing to the Global Recipe Collectio
   "tags": ["Quick", "Traditional", "Popular"]
 }
 ```
+
+**Important:** The `id` field is **optional** and will be auto-generated if not provided. You don't need to worry about assigning unique IDs - the system handles this automatically!
 
 #### Where to Add Your Recipe
 
@@ -141,8 +141,8 @@ We organize recipes into these categories:
 
 1. Open the appropriate file in `recipes/` folder
 2. Add your recipe to the JSON array
-3. Ensure the ID is unique (use next available number)
-4. Validate JSON syntax at [jsonlint.com](https://jsonlint.com)
+3. Validate JSON syntax at [jsonlint.com](https://jsonlint.com)
+4. No need to assign an ID - it will be auto-generated!
 
 ### Creating New Files
 
@@ -162,8 +162,8 @@ We organize recipes into these categories:
 - Use 4 spaces for indentation
 - Use semantic HTML5 elements
 - Keep CSS organized by component
-- Follow the Apple-inspired design aesthetic
-- Maintain color consistency (#0071e3, #00c6ff, #0072ff)
+- Follow the modern, clean design aesthetic
+- Maintain color consistency (#667eea, #764ba2, #f5f7fa)
 
 ### JavaScript
 - Use ES6+ syntax (const, let, arrow functions)

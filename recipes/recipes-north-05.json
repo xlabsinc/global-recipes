@@ -1,6 +1,5 @@
 [
   {
-    "id": 141,
     "name": "Kashmiri Dum Aloo",
     "category": "Curry",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Kashmiri Dum Aloo curry.",
     "ingredients": [
       "Vegetables",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 142,
     "name": "Shahi Paneer",
     "category": "Curry",
     "type": "Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Shahi Paneer curry.",
     "ingredients": [
       "Vegetables",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 143,
     "name": "Matar Paneer",
     "category": "Curry",
     "type": "Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Matar Paneer curry.",
     "ingredients": [
       "Vegetables",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 144,
     "name": "Mix Veg Curry",
     "category": "Curry",
     "type": "Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Mix Veg Curry curry.",
     "ingredients": [
       "Vegetables",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 145,
     "name": "Baingan Bharta",
     "category": "Curry",
     "type": "Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Baingan Bharta curry.",
     "ingredients": [
       "Vegetables",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 146,
     "name": "Aloo Gobi",
     "category": "Curry",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Aloo Gobi curry.",
     "ingredients": [
       "Vegetables",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 147,
     "name": "Chana Masala",
     "category": "Curry",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Chana Masala curry.",
     "ingredients": [
       "Vegetables",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 148,
     "name": "Bhindi Masala",
     "category": "Curry",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Bhindi Masala curry.",
     "ingredients": [
       "Vegetables",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 149,
     "name": "Kadai Vegetables",
     "category": "Curry",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Kadai Vegetables curry.",
     "ingredients": [
       "Vegetables",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 150,
     "name": "Malai Kofta",
     "category": "Curry",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Delicious Malai Kofta curry.",
     "ingredients": [
       "Vegetables",

@@ -1,6 +1,5 @@
 [
   {
-    "id": 381,
     "name": "Jollof Rice",
     "category": "Rice",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Spiced tomato rice with meat.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 382,
     "name": "Injera",
     "category": "Bread",
     "type": "Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Ethiopian sourdough flatbread.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 383,
     "name": "Bobotie",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "South African spiced meatloaf.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 384,
     "name": "Bunny Chow",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5e",
+    "emoji": "🍞",
     "description": "Curry in hollowed-out bread.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 385,
     "name": "Peri-Peri Chicken",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "description": "Spicy grilled chicken.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 386,
     "name": "Fufu",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd54",
+    "emoji": "🥔",
     "description": "Pounded yam or cassava.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 387,
     "name": "Suya",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "description": "Spicy grilled meat skewers.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 388,
     "name": "Egusi Soup",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf72",
+    "emoji": "🍲",
     "description": "Melon seed soup with vegetables.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 389,
     "name": "Boerewors",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2d",
+    "emoji": "🌭",
     "description": "South African sausage.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 390,
     "name": "Tagine",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf72",
+    "emoji": "🍲",
     "description": "Moroccan slow-cooked stew.",
     "ingredients": [
       "Main ingredient 1",

@@ -1,6 +1,5 @@
 [
   {
-    "id": 91,
     "name": "Kaima Idli",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Kaima Idli from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 92,
     "name": "Rava Idli",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Rava Idli from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 93,
     "name": "Thattu Dosa",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Thattu Dosa from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 94,
     "name": "Attu Kaal Soup",
     "category": "Curry",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Attu Kaal Soup from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 95,
     "name": "Mutton Sukka",
     "category": "Curry",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Mutton Sukka from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 96,
     "name": "Anchovies Fry",
     "category": "Curry",
     "type": "Non-Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Anchovies Fry from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 97,
     "name": "Karuvattu Kuzhambu",
     "category": "Curry",
     "type": "Non-Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Karuvattu Kuzhambu from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 98,
     "name": "Thengai Sadam",
     "category": "Rice",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Thengai Sadam from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 99,
     "name": "Ven Pongal",
     "category": "Rice",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Ven Pongal from South India.",
     "ingredients": [
       "Primary ingredient",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 100,
     "name": "Chakka Varattiyathu",
     "category": "Rice",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5b",
+    "emoji": "🍛",
     "description": "Authentic Chakka Varattiyathu from South India.",
     "ingredients": [
       "Primary ingredient",

@@ -1,6 +1,5 @@
 [
   {
-    "id": 261,
     "name": "Pizza Margherita",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf55",
+    "emoji": "🍕",
     "description": "Italian pizza with tomato and mozzarella.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 262,
     "name": "Pasta Carbonara",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5d",
+    "emoji": "🍝",
     "description": "Creamy pasta with bacon and egg.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 263,
     "name": "Paella",
     "category": "Rice",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd58",
+    "emoji": "🥘",
     "description": "Spanish saffron rice with seafood.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 264,
     "name": "Moussaka",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf46",
+    "emoji": "🍆",
     "description": "Greek eggplant casserole.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 265,
     "name": "Ratatouille",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf45",
+    "emoji": "🍅",
     "description": "French vegetable stew.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 266,
     "name": "Schnitzel",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd69",
+    "emoji": "🥩",
     "description": "Austrian breaded veal cutlet.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 267,
     "name": "Goulash",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf72",
+    "emoji": "🍲",
     "description": "Hungarian beef stew with paprika.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 268,
     "name": "Pierogi",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5f",
+    "emoji": "🥟",
     "description": "Polish dumplings with potato.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 269,
     "name": "Tiramisu",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf70",
+    "emoji": "🍰",
     "description": "Italian coffee dessert.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 270,
     "name": "Croque Monsieur",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd6a",
+    "emoji": "🥪",
     "description": "French grilled ham and cheese.",
     "ingredients": [
       "Main ingredient 1",

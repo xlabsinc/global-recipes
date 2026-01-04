@@ -1,6 +1,5 @@
 [
   {
-    "id": 131,
     "name": "Kulcha",
     "category": "Bread",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Kulcha bread.",
     "ingredients": [
       "Flour",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 132,
     "name": "Bhatura",
     "category": "Bread",
     "type": "Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Bhatura bread.",
     "ingredients": [
       "Flour",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 133,
     "name": "Litti",
     "category": "Bread",
     "type": "Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Litti bread.",
     "ingredients": [
       "Flour",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 134,
     "name": "Thepla",
     "category": "Bread",
     "type": "Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Thepla bread.",
     "ingredients": [
       "Flour",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 135,
     "name": "Methi Paratha",
     "category": "Bread",
     "type": "Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Methi Paratha bread.",
     "ingredients": [
       "Flour",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 136,
     "name": "Gobi Paratha",
     "category": "Bread",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Gobi Paratha bread.",
     "ingredients": [
       "Flour",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 137,
     "name": "Mooli Paratha",
     "category": "Bread",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Mooli Paratha bread.",
     "ingredients": [
       "Flour",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 138,
     "name": "Paneer Paratha",
     "category": "Bread",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Paneer Paratha bread.",
     "ingredients": [
       "Flour",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 139,
     "name": "Pudina Paratha",
     "category": "Bread",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Pudina Paratha bread.",
     "ingredients": [
       "Flour",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 140,
     "name": "Laccha Paratha",
     "category": "Bread",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Traditional Laccha Paratha bread.",
     "ingredients": [
       "Flour",

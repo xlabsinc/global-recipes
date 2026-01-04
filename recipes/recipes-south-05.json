@@ -1,6 +1,5 @@
 [
   {
-    "id": 41,
     "name": "Bread Upma",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -33,10 +32,13 @@
       "Garnish with coriander leaves",
       "Serve hot with chutney"
     ],
-    "tags": ["Breakfast", "Quick", "Easy"]
+    "tags": [
+      "Breakfast",
+      "Quick",
+      "Easy"
+    ]
   },
   {
-    "id": 42,
     "name": "Egg Roast",
     "category": "Side Dish",
     "type": "Non-Vegetarian",
@@ -73,10 +75,13 @@
       "Add little water and simmer for 5 minutes",
       "Serve with appam or parotta"
     ],
-    "tags": ["Side Dish", "Spicy", "Kerala"]
+    "tags": [
+      "Side Dish",
+      "Spicy",
+      "Kerala"
+    ]
   },
   {
-    "id": 43,
     "name": "Kaara Kuzhambu",
     "category": "Curry",
     "type": "Vegetarian",
@@ -110,10 +115,13 @@
       "Simmer until oil floats on top",
       "Serve hot with rice"
     ],
-    "tags": ["Curry", "Spicy", "Traditional"]
+    "tags": [
+      "Curry",
+      "Spicy",
+      "Traditional"
+    ]
   },
   {
-    "id": 44,
     "name": "Thakkali Sadam",
     "category": "Rice",
     "type": "Vegetarian",
@@ -146,10 +154,13 @@
       "Cook for 2 minutes",
       "Serve hot with raita"
     ],
-    "tags": ["Rice", "Simple", "Quick"]
+    "tags": [
+      "Rice",
+      "Simple",
+      "Quick"
+    ]
   },
   {
-    "id": 45,
     "name": "Pineapple Pachadi",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -181,10 +192,13 @@
       "Pour over pachadi",
       "Serve with rice"
     ],
-    "tags": ["Side Dish", "Sweet-Tangy", "Kerala"]
+    "tags": [
+      "Side Dish",
+      "Sweet-Tangy",
+      "Kerala"
+    ]
   },
   {
-    "id": 46,
     "name": "Sundal",
     "category": "Snack",
     "type": "Vegetarian",
@@ -215,10 +229,13 @@
       "Mix and cook for 2 minutes",
       "Serve as snack or offering"
     ],
-    "tags": ["Snack", "Healthy", "Protein"]
+    "tags": [
+      "Snack",
+      "Healthy",
+      "Protein"
+    ]
   },
   {
-    "id": 47,
     "name": "Garlic Rasam",
     "category": "Soup",
     "type": "Vegetarian",
@@ -256,10 +273,13 @@
       "Garnish with coriander",
       "Serve hot with rice or as soup"
     ],
-    "tags": ["Soup", "Medicinal", "Immunity"]
+    "tags": [
+      "Soup",
+      "Medicinal",
+      "Immunity"
+    ]
   },
   {
-    "id": 48,
     "name": "Adhirasam",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -290,10 +310,13 @@
       "Drain and cool completely",
       "Store in airtight container"
     ],
-    "tags": ["Dessert", "Traditional", "Festival"]
+    "tags": [
+      "Dessert",
+      "Traditional",
+      "Festival"
+    ]
   },
   {
-    "id": 49,
     "name": "Mor Kuzhambu",
     "category": "Curry",
     "type": "Vegetarian",
@@ -326,10 +349,13 @@
       "Pour tempering over kuzhambu",
       "Serve with rice"
     ],
-    "tags": ["Curry", "Cooling", "Summer"]
+    "tags": [
+      "Curry",
+      "Cooling",
+      "Summer"
+    ]
   },
   {
-    "id": 50,
     "name": "Paniyaram with Jaggery",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -357,6 +383,10 @@
       "Flip and cook other side",
       "Serve warm as dessert"
     ],
-    "tags": ["Dessert", "Sweet", "Easy"]
+    "tags": [
+      "Dessert",
+      "Sweet",
+      "Easy"
+    ]
   }
 ]

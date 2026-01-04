@@ -1,6 +1,5 @@
 [
   {
-    "id": 331,
     "name": "Baghali Polo",
     "category": "Rice",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Rice with dill and fava beans.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 332,
     "name": "Kuku Sabzi",
     "category": "Main Course",
     "type": "Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5a",
+    "emoji": "🥚",
     "description": "Herb frittata.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 333,
     "name": "Dolmeh",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\uded1",
+    "emoji": "🫑",
     "description": "Stuffed grape leaves or vegetables.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 334,
     "name": "Halim",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd63",
+    "emoji": "🥣",
     "description": "Wheat and meat porridge.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 335,
     "name": "Abgoosht",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf72",
+    "emoji": "🍲",
     "description": "Lamb and chickpea stew.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 336,
     "name": "Kotlet",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd69",
+    "emoji": "🥩",
     "description": "Persian meat patties.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 337,
     "name": "Shirazi Salad",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd57",
+    "emoji": "🥗",
     "description": "Cucumber tomato salad.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 338,
     "name": "Bastani",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf68",
+    "emoji": "🍨",
     "description": "Saffron ice cream with pistachios.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 339,
     "name": "Faloodeh",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf67",
+    "emoji": "🍧",
     "description": "Frozen noodle dessert.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 340,
     "name": "Sholeh Zard",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf6e",
+    "emoji": "🍮",
     "description": "Saffron rice pudding.",
     "ingredients": [
       "Main ingredient 1",

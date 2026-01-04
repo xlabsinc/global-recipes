@@ -1,6 +1,5 @@
 [
   {
-    "id": 181,
     "name": "Pho",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5c",
+    "emoji": "🍜",
     "description": "Aromatic beef noodle soup with herbs.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 182,
     "name": "Banh Mi",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd56",
+    "emoji": "🥖",
     "description": "Vietnamese baguette sandwich with pork.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 183,
     "name": "Spring Rolls",
     "category": "Snack",
     "type": "Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2f",
+    "emoji": "🌯",
     "description": "Fresh rice paper rolls with vegetables.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 184,
     "name": "Bun Cha",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf72",
+    "emoji": "🍲",
     "description": "Grilled pork with noodles and herbs.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 185,
     "name": "Cao Lau",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5c",
+    "emoji": "🍜",
     "description": "Hoi An specialty noodles with pork.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 186,
     "name": "Com Tam",
     "category": "Rice",
     "type": "Non-Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Broken rice with grilled pork.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 187,
     "name": "Goi Cuon",
     "category": "Snack",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2f",
+    "emoji": "🌯",
     "description": "Fresh summer rolls with shrimp.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 188,
     "name": "Banh Xeo",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5e",
+    "emoji": "🥞",
     "description": "Crispy turmeric crepe with pork and shrimp.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 189,
     "name": "Bun Bo Hue",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5c",
+    "emoji": "🍜",
     "description": "Spicy beef noodle soup from Hue.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 190,
     "name": "Cha Ca",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "description": "Turmeric fish with dill and noodles.",
     "ingredients": [
       "Main ingredient 1",

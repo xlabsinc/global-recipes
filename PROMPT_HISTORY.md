@@ -156,6 +156,35 @@ in README file, update all necessary files as well.
 
 ---
 
+## Prompt 13: Optional ID Field & Auto-Generation
+```
+why the json file needs id parameter, can this be removed and the code modified for that
+```
+
+**Result:** Implemented auto-ID generation in three places (built-in file loading, URL loading, custom file upload). IDs are now optional - if missing, the system auto-generates them using the pattern `${filePrefix}-${index}`. Updated README.md and CONTRIBUTING.md to reflect that ID field is optional and automatically handled.
+
+---
+
+## Prompt 14: ID Removal & Button Fix
+```
+remove id from the json files, generate a commit message at the end for the changes done
+```
+
+**Result:** Removed "id" field from all 420 recipes across 40 JSON files using automated script. Fixed onclick handler bug where string IDs needed to be quoted in the HTML templates (dockRecipe, closeRecipe, restoreRecipe, closeDocked functions).
+
+---
+
+## Prompt 15: Color Scheme Redesign
+```
+change the main page background, it is still dark blue, make it better, use contrasting
+colors with the cards and the background of the page. Update the markdown files for the
+changes done as well. Also at the end, display a commit message for the changes done
+```
+
+**Result:** Complete color scheme redesign from dark blue to light modern design. Changed background to light gray gradient (#f5f7fa to #e4e9f2), header now has white background with gradient text, replaced blue accent colors (#0071e3) with purple-blue gradient (#667eea to #764ba2). Updated all UI elements including cards, buttons, stats, docked area, and section headings. Documentation updated in README.md and CONTRIBUTING.md.
+
+---
+
 ## Summary of Evolution
 
 ### Version 1.0
@@ -208,12 +237,38 @@ in README file, update all necessary files as well.
 - Refined button styles and shadows
 - Apple-inspired color palette (#0071e3)
 
-### Version 9.0 (Current)
+### Version 9.0
 - Recipe files organized in recipes/ folder
 - Fixed color contrast (light card headers vs blue background)
 - Card headers: light gray gradient (unexpanded) → blue gradient (expanded)
 - Better visual hierarchy and readability
 - Updated all file paths to recipes/ subfolder
+- Official repository: https://github.com/xlabsinc/global-recipes
+- Live demo: https://xlabsinc.github.io/global-recipes/
+- Added comprehensive GitHub Pages setup instructions
+
+### Version 10.0
+- ID field now optional in all recipe JSON files
+- Auto-ID generation using filename + index pattern
+- Simplified contribution process (no manual ID tracking needed)
+- Updated all documentation to reflect optional IDs
+- Maintains all functionality while reducing contributor burden
+
+### Version 11.0
+- Removed "id" field from all 420 recipes across 40 JSON files
+- Fixed onclick handlers to properly quote string IDs
+- All buttons (minimize, close, restore, dock) now working correctly
+- Automated ID removal with Python script
+
+### Version 12.0 (Current)
+- Complete color scheme redesign for better contrast
+- Light background: gradient from #f5f7fa to #e4e9f2
+- Purple-blue accent colors: #667eea and #764ba2
+- White header card with gradient text effect
+- Enhanced visual hierarchy and readability
+- Modern, clean design aesthetic
+- All UI elements updated (buttons, cards, docked area, stats)
+- Documentation updated to reflect new color scheme
 
 ---
 

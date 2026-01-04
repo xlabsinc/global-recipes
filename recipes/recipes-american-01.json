@@ -1,6 +1,5 @@
 [
   {
-    "id": 301,
     "name": "Hamburger",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf54",
+    "emoji": "🍔",
     "description": "Beef patty in a bun.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 302,
     "name": "Hot Dog",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2d",
+    "emoji": "🌭",
     "description": "Sausage in a bun.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 303,
     "name": "BBQ Ribs",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "description": "Grilled ribs with BBQ sauce.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 304,
     "name": "Mac and Cheese",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\uddc0",
+    "emoji": "🧀",
     "description": "Macaroni pasta with cheese sauce.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 305,
     "name": "Fried Chicken",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "description": "Crispy fried chicken pieces.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 306,
     "name": "Buffalo Wings",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "description": "Spicy chicken wings.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 307,
     "name": "Philly Cheesesteak",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd6a",
+    "emoji": "🥪",
     "description": "Beef sandwich with cheese.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 308,
     "name": "Clam Chowder",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd63",
+    "emoji": "🥣",
     "description": "Creamy soup with clams.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 309,
     "name": "Jambalaya",
     "category": "Rice",
     "type": "Non-Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Cajun rice with meat and seafood.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 310,
     "name": "Gumbo",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf72",
+    "emoji": "🍲",
     "description": "Louisiana stew with okra.",
     "ingredients": [
       "Main ingredient 1",

@@ -1,6 +1,5 @@
 [
   {
-    "id": 191,
     "name": "Banh Cuon",
     "category": "Breakfast",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2f",
+    "emoji": "🌯",
     "description": "Steamed rice rolls with pork.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 192,
     "name": "Mi Quang",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5c",
+    "emoji": "🍜",
     "description": "Turmeric noodles with pork and shrimp.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 193,
     "name": "Canh Chua",
     "category": "Soup",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd63",
+    "emoji": "🥣",
     "description": "Sweet and sour fish soup.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 194,
     "name": "Ga Nuong",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "description": "Grilled lemongrass chicken.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 195,
     "name": "Banh Bao",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5f",
+    "emoji": "🥟",
     "description": "Steamed buns with pork filling.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 196,
     "name": "Che",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf68",
+    "emoji": "🍨",
     "description": "Sweet dessert soup with beans.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 197,
     "name": "Ca Kho To",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "description": "Caramelized fish in clay pot.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 198,
     "name": "Nem Nuong",
     "category": "Snack",
     "type": "Non-Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf2d",
+    "emoji": "🌭",
     "description": "Grilled pork sausage skewers.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 199,
     "name": "Xoi",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Sticky rice with toppings.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 200,
     "name": "Banh Flan",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -260,8 +250,8 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf6e",
-    "description": "Vietnamese cr\u00e8me caramel.",
+    "emoji": "🍮",
+    "description": "Vietnamese crème caramel.",
     "ingredients": [
       "Main ingredient 1",
       "Main ingredient 2",

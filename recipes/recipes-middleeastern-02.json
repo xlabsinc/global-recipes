@@ -1,6 +1,5 @@
 [
   {
-    "id": 351,
     "name": "Maqluba",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Upside-down rice and meat casserole.",
     "ingredients": [
       "Main ingredient 1",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 352,
     "name": "Fatayer",
     "category": "Snack",
     "type": "Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5f",
+    "emoji": "🥟",
     "description": "Stuffed pastries with spinach.",
     "ingredients": [
       "Main ingredient 1",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 353,
     "name": "Manakish",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\uded3",
+    "emoji": "🫓",
     "description": "Flatbread with za'atar.",
     "ingredients": [
       "Main ingredient 1",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 354,
     "name": "Labneh",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd5b",
+    "emoji": "🥛",
     "description": "Strained yogurt cheese.",
     "ingredients": [
       "Main ingredient 1",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 355,
     "name": "Shakshuka",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf73",
+    "emoji": "🍳",
     "description": "Eggs poached in tomato sauce.",
     "ingredients": [
       "Main ingredient 1",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 356,
     "name": "Kunafa",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf70",
+    "emoji": "🍰",
     "description": "Cheese pastry with syrup.",
     "ingredients": [
       "Main ingredient 1",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 357,
     "name": "Baklava",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\udd50",
+    "emoji": "🥐",
     "description": "Layered phyllo with nuts.",
     "ingredients": [
       "Main ingredient 1",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 358,
     "name": "Ma'amoul",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf6a",
+    "emoji": "🍪",
     "description": "Date-filled cookies.",
     "ingredients": [
       "Main ingredient 1",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 359,
     "name": "Halva",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83c\udf6c",
+    "emoji": "🍬",
     "description": "Sesame seed sweet.",
     "ingredients": [
       "Main ingredient 1",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 360,
     "name": "Turkish Coffee",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\u2615",
+    "emoji": "☕",
     "description": "Strong unfiltered coffee.",
     "ingredients": [
       "Main ingredient 1",

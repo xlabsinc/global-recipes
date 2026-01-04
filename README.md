@@ -187,7 +187,6 @@ Each recipe follows this JSON structure:
 
 ```json
 {
-  "id": 1,
   "name": "Recipe Name",
   "category": "Breakfast|Main Course|Curry|Rice|Snack|Dessert|Side Dish|Soup|Bread",
   "type": "Vegetarian|Non-Vegetarian",
@@ -211,12 +210,15 @@ Each recipe follows this JSON structure:
 }
 ```
 
+**Note:** The `id` field is **optional**. If not provided, IDs are automatically generated based on the filename and recipe position. This makes it easier to add new recipes without worrying about ID conflicts!
+
 ## 🎨 Design & User Experience
 
-### Apple-Inspired Design
+### Modern, Clean Design
 - **San Francisco Font System** - Native Apple font stack for crisp text
-- **Blue Color Palette** - Clean blue gradients (#0071e3, #00c6ff, #0072ff)
-- **Smart Contrast** - Light card headers on blue background for excellent visibility
+- **Purple-Blue Gradient Accent** - Modern gradient (#667eea, #764ba2)
+- **Light Background** - Clean light gray gradient (#f5f7fa to #e4e9f2)
+- **Excellent Contrast** - White cards on light background with dark text
 - **Smooth Animations** - Subtle transitions throughout the interface
 
 ### Advanced Features
@@ -264,10 +266,11 @@ const jsonFiles = [
 ### Modifying Colors
 
 All CSS is in `index.html`. Key color variables:
-- Background: `linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)`
-- Active buttons: `#0071e3`
+- Background: `linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%)`
+- Active buttons: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
 - Card headers (normal): `linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)`
-- Card headers (expanded): `linear-gradient(135deg, #0071e3 0%, #005bb5 100%)`
+- Card headers (expanded): `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
+- Accent color: `#667eea` (used for borders, icons, and interactive elements)
 
 ## 🤝 Contributing
 

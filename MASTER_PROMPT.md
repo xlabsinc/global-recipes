@@ -75,7 +75,6 @@ Create 420 recipes from around the world across 40 JSON files organized in a rec
 ### JSON Structure:
 Each recipe must include:
 {
-  "id": 1,
   "name": "Recipe Name",
   "category": "Breakfast|Main Course|Curry|Rice|Snack|Dessert|Side Dish|Soup|Bread",
   "type": "Vegetarian|Non-Vegetarian",
@@ -89,6 +88,8 @@ Each recipe must include:
   "instructions": ["Step 1", "Step 2", "Step 3"],
   "tags": ["Quick", "Easy", "Popular"]
 }
+
+**Note:** The `id` field is **optional**. If not provided, IDs will be automatically generated based on the filename and recipe position using the pattern `${filePrefix}-${index}`. This makes it easier to contribute recipes without worrying about ID conflicts.
 
 ### Recipe Requirements:
 - All 420 recipes must be unique (no duplicates by name or ID)
@@ -165,17 +166,19 @@ Each recipe must include:
    - Provide tips (validate at jsonlint.com, use GitHub Gist for sharing)
 
 ### User Interface Design:
-**Apple-Inspired Design Aesthetic:**
+**Modern, Clean Design Aesthetic:**
 - San Francisco font system (-apple-system, BlinkMacSystemFont)
 - Clean, minimal interface with subtle shadows
-- Blue color palette inspired by Apple (#0071e3, #00c6ff, #0072ff)
-- Light/white card colors for contrast against blue background
+- Purple-blue gradient accent colors (#667eea, #764ba2)
+- Light gray background gradient (#f5f7fa to #e4e9f2)
+- White cards with excellent contrast
 - Smooth animations and transitions
 
 - **Header:**
   - Title: "🌍 Global Recipe Collection"
   - Subtitle: "Discover 400+ authentic recipes from around the world"
-  - Blue gradient background (#00c6ff to #0072ff)
+  - White background card with gradient text effect
+  - Text gradient: #667eea to #764ba2
 
 - **Search Bar:**
   - Large search input with icon
@@ -184,28 +187,31 @@ Each recipe must include:
 
 - **Controls Section:**
   - Type filter dropdown at top
-  - Category filter buttons (pill-shaped, active state in Apple blue #0071e3)
+  - Category filter buttons (pill-shaped, active state with purple-blue gradient)
   - Single-line loader buttons (Load Recipes, Help)
   - Expandable sections for loader and help
   - Collapsible loaded files section (collapsed by default)
 
 - **Recipe Cards:**
   - White background, rounded corners, shadow
-  - Hover effect: lift up slightly with blue shadow
+  - Hover effect: lift up with purple border
   - Expanded: full width, two-column layout (ingredients | instructions)
   - Card header colors:
-    - Normal state: Light gray gradient (#f8f9fa to #e9ecef) with dark text (#1d3557)
-    - Expanded state: Blue gradient (#0071e3 to #005bb5) with white text
-  - Ingredient checkmarks in Apple blue (#0071e3)
-  - Step numbers in Apple blue circles
-  - Action buttons adapt to header color (blue tint on light, white on blue)
+    - Normal state: Light gray gradient (#f8f9fa to #e9ecef) with dark text (#2c3e50)
+    - Expanded state: Purple-blue gradient (#667eea to #764ba2) with white text
+  - Ingredient checkmarks in purple (#667eea)
+  - Step numbers in purple gradient circles
+  - Action buttons adapt to header color (purple tint on light, white on gradient)
 
 - **Docked Area:**
   - Fixed at bottom of screen
-  - White background with blue top border (#0071e3)
-  - Horizontal scrolling for multiple cards
-  - Blue gradient for docked cards
+  - White background with purple top border (#667eea)
+  - Purple gradient for docked cards (#667eea to #764ba2)
   - Show when recipes are docked, hide when empty
+
+- **Stats Display:**
+  - White card with dark text
+  - Shows recipe count information
 
 ### Technical Requirements:
 1. **Single HTML File:**
@@ -237,8 +243,9 @@ Each recipe must include:
    - `currentTypeFilter` - active type filter
 
 5. **Key Functions to Implement:**
-   - `loadRecipes()` - Load built-in files with BASE_URL support
-   - `loadFromURL()` - Load from remote URL
+   - `loadRecipes()` - Load built-in files with BASE_URL support, auto-generate IDs if missing
+   - `loadFromURL()` - Load from remote URL, auto-generate IDs if missing
+   - Custom file upload handler - Process uploaded files, auto-generate IDs if missing
    - `filterRecipes()` - Apply search and filters
    - `displayRecipes()` - Render recipe cards
    - `expandRecipe(id)` - Show full recipe
@@ -251,6 +258,17 @@ Each recipe must include:
    - `toggleLoader()` - Show/hide loader section
    - `toggleHelp()` - Show/hide help section
    - `toggleLoadedFiles()` - Show/hide loaded files list
+
+**ID Auto-Generation Pattern:**
+All three loading mechanisms (built-in, URL, custom upload) should check each recipe and auto-generate IDs if missing:
+```javascript
+data.forEach((recipe, index) => {
+    if (!recipe.id) {
+        const filePrefix = [source].replace('.json', '');
+        recipe.id = `${filePrefix}-${index}`;
+    }
+});
+```
 
 ## DOCUMENTATION
 
@@ -289,10 +307,11 @@ Create the following documentation files:
 ## VALIDATION REQUIREMENTS
 
 Before completing, validate:
-- ✓ All 420 recipe IDs are unique (1-400, no gaps)
+- ✓ All recipe IDs are unique (auto-generated if not provided)
 - ✓ No duplicate recipe names
 - ✓ All files use two-digit numbering (01-10, not 1-10)
 - ✓ All JSON files are valid and loadable
+- ✓ ID auto-generation works in all three loading mechanisms
 - ✓ Search and filters work correctly
 - ✓ Minimize/restore/close functions work
 - ✓ File loading works (local and URL)
@@ -300,7 +319,7 @@ Before completing, validate:
 - ✓ No console errors
 - ✓ Category buttons don't duplicate when loading files
 - ✓ Loaded files section collapsed by default
-- ✓ Apple-style colors applied throughout
+- ✓ Modern color scheme with excellent contrast (light background, purple-blue accents)
 
 ## DEPLOYMENT CONFIGURATION
 
@@ -467,7 +486,7 @@ global-recipes/
 - Load time: <3 seconds
 - Browser support: Modern browsers (Chrome, Firefox, Safari, Edge)
 - Mobile support: Yes (responsive design)
-- Design: Apple-inspired aesthetic
+- Design: Modern, clean aesthetic with purple-blue gradient accents
 
 ---
 
@@ -480,8 +499,8 @@ global-recipes/
 5. **Validate data:** Run duplicate checks before finalizing
 6. **Document as you go:** Write docs while features are fresh
 7. **Think deployment:** Consider both local and remote loading from start
-8. **Apply design consistently:** Use Apple-style colors throughout
-9. **Maintain contrast:** Ensure light card headers contrast with blue background
+8. **Apply design consistently:** Use purple-blue gradient colors throughout
+9. **Maintain contrast:** Ensure dark text on light background for readability
 10. **Default states:** Set loaded files to collapsed on initial load
 
 This prompt encapsulates the entire Global Recipe Collection project and can be

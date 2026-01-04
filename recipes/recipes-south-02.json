@@ -1,6 +1,5 @@
 [
   {
-    "id": 11,
     "name": "Curd Rice",
     "category": "Rice",
     "type": "Vegetarian",
@@ -35,10 +34,13 @@
       "Garnish with coriander leaves and pomegranate seeds if available",
       "Serve chilled or at room temperature"
     ],
-    "tags": ["Rice", "Cooling", "Summer"]
+    "tags": [
+      "Rice",
+      "Cooling",
+      "Summer"
+    ]
   },
   {
-    "id": 12,
     "name": "Tomato Rice",
     "category": "Rice",
     "type": "Vegetarian",
@@ -75,10 +77,13 @@
       "Garnish with coriander leaves",
       "Serve hot with raita or papad"
     ],
-    "tags": ["Rice", "Tangy", "Easy"]
+    "tags": [
+      "Rice",
+      "Tangy",
+      "Easy"
+    ]
   },
   {
-    "id": 13,
     "name": "Hyderabadi Biryani",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -120,10 +125,13 @@
       "Turn off heat, let it rest for 10 minutes",
       "Open and serve hot with raita"
     ],
-    "tags": ["Biryani", "Festive", "Non-Veg"]
+    "tags": [
+      "Biryani",
+      "Festive",
+      "Non-Veg"
+    ]
   },
   {
-    "id": 14,
     "name": "Chicken Chettinad",
     "category": "Curry",
     "type": "Non-Vegetarian",
@@ -163,10 +171,13 @@
       "Simmer until gravy thickens",
       "Serve hot with rice or roti"
     ],
-    "tags": ["Curry", "Spicy", "Chettinad"]
+    "tags": [
+      "Curry",
+      "Spicy",
+      "Chettinad"
+    ]
   },
   {
-    "id": 15,
     "name": "Fish Fry Kerala Style",
     "category": "Side Dish",
     "type": "Non-Vegetarian",
@@ -201,10 +212,13 @@
       "Drain excess oil on paper towels",
       "Serve hot with lemon wedges"
     ],
-    "tags": ["Seafood", "Fried", "Kerala"]
+    "tags": [
+      "Seafood",
+      "Fried",
+      "Kerala"
+    ]
   },
   {
-    "id": 16,
     "name": "Avial",
     "category": "Curry",
     "type": "Vegetarian",
@@ -237,10 +251,13 @@
       "Pour over avial and mix",
       "Serve with rice"
     ],
-    "tags": ["Curry", "Traditional", "Kerala"]
+    "tags": [
+      "Curry",
+      "Traditional",
+      "Kerala"
+    ]
   },
   {
-    "id": 17,
     "name": "Mysore Pak",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -270,10 +287,13 @@
       "Let it cool for 10 minutes and cut into pieces",
       "Store in airtight container"
     ],
-    "tags": ["Dessert", "Sweet", "Traditional"]
+    "tags": [
+      "Dessert",
+      "Sweet",
+      "Traditional"
+    ]
   },
   {
-    "id": 18,
     "name": "Payasam",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -305,10 +325,13 @@
       "Simmer for 5 minutes",
       "Serve warm or chilled"
     ],
-    "tags": ["Dessert", "Sweet", "Festive"]
+    "tags": [
+      "Dessert",
+      "Sweet",
+      "Festive"
+    ]
   },
   {
-    "id": 19,
     "name": "Puliyogare (Tamarind Rice)",
     "category": "Rice",
     "type": "Vegetarian",
@@ -346,10 +369,13 @@
       "Add to cooked rice and mix gently",
       "Serve with potato chips or appalam"
     ],
-    "tags": ["Rice", "Tangy", "Travel Food"]
+    "tags": [
+      "Rice",
+      "Tangy",
+      "Travel Food"
+    ]
   },
   {
-    "id": 20,
     "name": "Appam",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -379,6 +405,10 @@
       "Cover and cook until edges turn crispy and center is soft",
       "Serve hot with vegetable stew or coconut milk"
     ],
-    "tags": ["Breakfast", "Fermented", "Kerala"]
+    "tags": [
+      "Breakfast",
+      "Fermented",
+      "Kerala"
+    ]
   }
 ]

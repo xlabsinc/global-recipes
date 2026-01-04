@@ -1,6 +1,5 @@
 [
   {
-    "id": 61,
     "name": "Onion Pakoda",
     "category": "Snack",
     "type": "Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 15,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83e\uddc5",
+    "emoji": "🧅",
     "description": "Crispy onion fritters with spices.",
     "ingredients": [
       "2 large onions sliced",
@@ -33,7 +32,6 @@
     ]
   },
   {
-    "id": 62,
     "name": "Karadaiyan Nombu Adai",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -41,7 +39,7 @@
     "prepTime": 20,
     "cookTime": 15,
     "servings": 6,
-    "emoji": "\ud83d\udfe4",
+    "emoji": "🟤",
     "description": "Sweet rice flour dumplings for festival.",
     "ingredients": [
       "1 cup rice flour",
@@ -65,7 +63,6 @@
     ]
   },
   {
-    "id": 63,
     "name": "Ellu Urundai",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -73,7 +70,7 @@
     "prepTime": 10,
     "cookTime": 15,
     "servings": 8,
-    "emoji": "\u26ab",
+    "emoji": "⚫",
     "description": "Sesame seed balls with jaggery.",
     "ingredients": [
       "2 cups sesame seeds",
@@ -95,7 +92,6 @@
     ]
   },
   {
-    "id": 64,
     "name": "Vazhakkai Bajji",
     "category": "Snack",
     "type": "Vegetarian",
@@ -103,7 +99,7 @@
     "prepTime": 15,
     "cookTime": 20,
     "servings": 4,
-    "emoji": "\ud83c\udf4c",
+    "emoji": "🍌",
     "description": "Raw banana fritters in gram flour batter.",
     "ingredients": [
       "2 raw bananas",
@@ -128,7 +124,6 @@
     ]
   },
   {
-    "id": 65,
     "name": "Karuveppilai Sadam",
     "category": "Rice",
     "type": "Vegetarian",
@@ -136,7 +131,7 @@
     "prepTime": 10,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83c\udf5a",
+    "emoji": "🍚",
     "description": "Curry leaf rice with aromatic spices.",
     "ingredients": [
       "2 cups cooked rice",
@@ -163,7 +158,6 @@
     ]
   },
   {
-    "id": 66,
     "name": "Kadala Curry",
     "category": "Curry",
     "type": "Vegetarian",
@@ -171,7 +165,7 @@
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
-    "emoji": "\ud83e\uded8",
+    "emoji": "🫘",
     "description": "Black chickpea curry from Kerala.",
     "ingredients": [
       "1 cup black chickpeas",
@@ -196,7 +190,6 @@
     ]
   },
   {
-    "id": 67,
     "name": "Maa Laddu",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -204,7 +197,7 @@
     "prepTime": 30,
     "cookTime": 40,
     "servings": 10,
-    "emoji": "\ud83d\udfe1",
+    "emoji": "🟡",
     "description": "Roasted gram flour sweet balls.",
     "ingredients": [
       "2 cups roasted gram flour",
@@ -227,7 +220,6 @@
     ]
   },
   {
-    "id": 68,
     "name": "Tamarind Sevai",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -235,7 +227,7 @@
     "prepTime": 15,
     "cookTime": 15,
     "servings": 4,
-    "emoji": "\ud83c\udf5c",
+    "emoji": "🍜",
     "description": "Tangy tamarind vermicelli.",
     "ingredients": [
       "2 cups sevai",
@@ -262,7 +254,6 @@
     ]
   },
   {
-    "id": 69,
     "name": "Vazhaipoo Vadai",
     "category": "Snack",
     "type": "Vegetarian",
@@ -270,7 +261,7 @@
     "prepTime": 30,
     "cookTime": 20,
     "servings": 6,
-    "emoji": "\ud83c\udf38",
+    "emoji": "🌸",
     "description": "Banana flower fritters.",
     "ingredients": [
       "1 banana flower",
@@ -295,7 +286,6 @@
     ]
   },
   {
-    "id": 70,
     "name": "Paruppu Usili",
     "category": "Side Dish",
     "type": "Vegetarian",
@@ -303,7 +293,7 @@
     "prepTime": 20,
     "cookTime": 20,
     "servings": 4,
-    "emoji": "\ud83e\udd57",
+    "emoji": "🥗",
     "description": "Steamed lentil crumble with vegetables.",
     "ingredients": [
       "Toor dal and chana dal",
@@ -318,7 +308,7 @@
       "Soak dals and grind coarsely",
       "Steam the dal mixture",
       "Crumble when cool",
-      "Saut\u00e9 beans",
+      "Sauté beans",
       "Add crumbled dal",
       "Mix and serve"
     ],

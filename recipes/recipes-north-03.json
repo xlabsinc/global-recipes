@@ -1,6 +1,5 @@
 [
   {
-    "id": 121,
     "name": "Keema",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -8,7 +7,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "description": "Rich North Indian Keema.",
     "ingredients": [
       "Premium ingredients",
@@ -28,7 +27,6 @@
     ]
   },
   {
-    "id": 122,
     "name": "Seekh Kebab",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -36,7 +34,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "description": "Rich North Indian Seekh Kebab.",
     "ingredients": [
       "Premium ingredients",
@@ -56,7 +54,6 @@
     ]
   },
   {
-    "id": 123,
     "name": "Nihari",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -64,7 +61,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "description": "Rich North Indian Nihari.",
     "ingredients": [
       "Premium ingredients",
@@ -84,7 +81,6 @@
     ]
   },
   {
-    "id": 124,
     "name": "Haleem",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -92,7 +88,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "description": "Rich North Indian Haleem.",
     "ingredients": [
       "Premium ingredients",
@@ -112,7 +108,6 @@
     ]
   },
   {
-    "id": 125,
     "name": "Biryani Lucknowi",
     "category": "Main Course",
     "type": "Non-Vegetarian",
@@ -120,7 +115,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "description": "Rich North Indian Biryani Lucknowi.",
     "ingredients": [
       "Premium ingredients",
@@ -140,7 +135,6 @@
     ]
   },
   {
-    "id": 126,
     "name": "Shahi Tukda",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -148,7 +142,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf6e",
+    "emoji": "🍮",
     "description": "Rich North Indian Shahi Tukda.",
     "ingredients": [
       "Premium ingredients",
@@ -168,7 +162,6 @@
     ]
   },
   {
-    "id": 127,
     "name": "Ras Malai",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -176,7 +169,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf6e",
+    "emoji": "🍮",
     "description": "Rich North Indian Ras Malai.",
     "ingredients": [
       "Premium ingredients",
@@ -196,7 +189,6 @@
     ]
   },
   {
-    "id": 128,
     "name": "Kheer",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -204,7 +196,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf6e",
+    "emoji": "🍮",
     "description": "Rich North Indian Kheer.",
     "ingredients": [
       "Premium ingredients",
@@ -224,7 +216,6 @@
     ]
   },
   {
-    "id": 129,
     "name": "Peda",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -232,7 +223,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf6e",
+    "emoji": "🍮",
     "description": "Rich North Indian Peda.",
     "ingredients": [
       "Premium ingredients",
@@ -252,7 +243,6 @@
     ]
   },
   {
-    "id": 130,
     "name": "Barfi",
     "category": "Dessert",
     "type": "Vegetarian",
@@ -260,7 +250,7 @@
     "prepTime": 30,
     "cookTime": 45,
     "servings": 6,
-    "emoji": "\ud83c\udf6e",
+    "emoji": "🍮",
     "description": "Rich North Indian Barfi.",
     "ingredients": [
       "Premium ingredients",
