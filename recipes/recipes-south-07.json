@@ -28,7 +28,10 @@
     "tags": [
       "Snack",
       "Fried",
-      "Tea-time"
+      "Tea-time",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -59,7 +62,10 @@
     "tags": [
       "Dessert",
       "Festival",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -88,7 +94,10 @@
     "tags": [
       "Dessert",
       "Healthy",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -120,7 +129,10 @@
     "tags": [
       "Snack",
       "Fried",
-      "Popular"
+      "Popular",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -154,7 +166,10 @@
     "tags": [
       "Rice",
       "Aromatic",
-      "Easy"
+      "Easy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -186,7 +201,10 @@
     "tags": [
       "Curry",
       "Kerala",
-      "Protein"
+      "Protein",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -216,7 +234,10 @@
     "tags": [
       "Dessert",
       "Sweet",
-      "Festive"
+      "Festive",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -250,7 +271,10 @@
     "tags": [
       "Breakfast",
       "Tangy",
-      "Easy"
+      "Easy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -282,7 +306,10 @@
     "tags": [
       "Snack",
       "Unique",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -315,7 +342,10 @@
     "tags": [
       "Side Dish",
       "Protein",
-      "Tamil Nadu"
+      "Tamil Nadu",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   }
 ]

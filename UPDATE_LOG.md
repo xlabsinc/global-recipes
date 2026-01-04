@@ -1,5 +1,46 @@
 # Update Log - Enhanced Features
 
+## Version 2.1 - Z-Index Management & Dragging Improvements
+
+### 🎉 New Features Implemented
+
+#### 1. **Smart Z-Index Management**
+- Dragged floating cards now always come to the front
+- Newly opened cards appear on top with proper z-index
+- Clicking existing cards brings them to front
+- Eliminates issue where dragged cards go behind other cards
+
+**How it works:**
+- Tracks highest z-index in a global counter (`highestZIndex`)
+- `bringToFront()` function increments counter and applies to element
+- Called automatically when:
+  - Opening a new floating card
+  - Starting to drag a card
+  - Clicking on an existing card
+
+**Technical implementation:**
+```javascript
+let highestZIndex = 1000;  // Starting z-index
+
+function bringToFront(element) {
+    highestZIndex++;
+    element.style.zIndex = highestZIndex;
+}
+```
+
+#### 2. **Improved Drag Behavior**
+- Cards come to front immediately when drag starts
+- No more dragged cards hiding behind others
+- Smooth visual stacking order
+- Works with multiple floating windows
+
+**User experience:**
+- Click and drag any card header → card jumps to front
+- Open multiple cards → newest is always on top
+- Click any card to bring to front without dragging
+
+---
+
 ## Version 2.0 - Multi-File Management & Enhanced UX
 
 ### 🎉 New Features Implemented

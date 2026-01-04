@@ -37,7 +37,10 @@
     "tags": [
       "Rice",
       "Cooling",
-      "Summer"
+      "Summer",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -80,7 +83,10 @@
     "tags": [
       "Rice",
       "Tangy",
-      "Easy"
+      "Easy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -128,7 +134,10 @@
     "tags": [
       "Biryani",
       "Festive",
-      "Non-Veg"
+      "Non-Veg",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -174,7 +183,10 @@
     "tags": [
       "Curry",
       "Spicy",
-      "Chettinad"
+      "Chettinad",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -215,7 +227,10 @@
     "tags": [
       "Seafood",
       "Fried",
-      "Kerala"
+      "Kerala",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -254,7 +269,10 @@
     "tags": [
       "Curry",
       "Traditional",
-      "Kerala"
+      "Kerala",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -290,7 +308,10 @@
     "tags": [
       "Dessert",
       "Sweet",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -328,7 +349,10 @@
     "tags": [
       "Dessert",
       "Sweet",
-      "Festive"
+      "Festive",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -372,7 +396,10 @@
     "tags": [
       "Rice",
       "Tangy",
-      "Travel Food"
+      "Travel Food",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -408,7 +435,10 @@
     "tags": [
       "Breakfast",
       "Fermented",
-      "Kerala"
+      "Kerala",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   }
 ]

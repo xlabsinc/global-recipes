@@ -36,7 +36,10 @@
     "tags": [
       "Breakfast",
       "Traditional",
-      "Popular"
+      "Popular",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -70,7 +73,10 @@
     "tags": [
       "Breakfast",
       "Healthy",
-      "Light"
+      "Light",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -112,7 +118,10 @@
     "tags": [
       "Curry",
       "Lentils",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -148,7 +157,10 @@
     "tags": [
       "Side Dish",
       "Chutney",
-      "Quick"
+      "Quick",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -185,7 +197,10 @@
     "tags": [
       "Breakfast",
       "Fried",
-      "Crispy"
+      "Crispy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -229,7 +244,10 @@
     "tags": [
       "Soup",
       "Tangy",
-      "Comfort Food"
+      "Comfort Food",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -271,7 +289,10 @@
     "tags": [
       "Main Course",
       "One Pot",
-      "Karnataka Special"
+      "Karnataka Special",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -311,7 +332,10 @@
     "tags": [
       "Breakfast",
       "Comfort Food",
-      "Easy"
+      "Easy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -354,7 +378,10 @@
     "tags": [
       "Breakfast",
       "Quick",
-      "Light"
+      "Light",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -396,7 +423,10 @@
     "tags": [
       "Rice",
       "Tangy",
-      "Quick"
+      "Quick",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   }
 ]

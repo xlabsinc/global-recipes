@@ -28,7 +28,10 @@
     "tags": [
       "Snack",
       "Crunchy",
-      "Spicy"
+      "Spicy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -61,7 +64,10 @@
     "tags": [
       "Dessert",
       "Fruity",
-      "Sweet"
+      "Sweet",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -90,7 +96,10 @@
     "tags": [
       "Beverage",
       "Traditional",
-      "Healthy"
+      "Healthy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -122,7 +131,10 @@
     "tags": [
       "Side Dish",
       "Crispy",
-      "Healthy"
+      "Healthy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -157,7 +169,10 @@
     "tags": [
       "Snack",
       "Healthy",
-      "Protein"
+      "Protein",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -186,7 +201,10 @@
     "tags": [
       "Pickle",
       "Tangy",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -219,7 +237,10 @@
     "tags": [
       "Curry",
       "Spicy",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -251,7 +272,10 @@
     "tags": [
       "Dessert",
       "Rich",
-      "Festive"
+      "Festive",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -283,7 +307,10 @@
     "tags": [
       "Side Dish",
       "Spicy",
-      "Sri Lankan"
+      "Sri Lankan",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -315,7 +342,10 @@
     "tags": [
       "Curry",
       "Healthy",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   }
 ]

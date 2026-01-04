@@ -28,7 +28,10 @@
     ],
     "tags": [
       "Breakfast",
-      "Easy"
+      "Easy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -62,7 +65,10 @@
     ],
     "tags": [
       "Snack",
-      "Chaat"
+      "Chaat",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -95,7 +101,10 @@
     ],
     "tags": [
       "Breakfast",
-      "Quick"
+      "Quick",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -128,7 +137,10 @@
     "tags": [
       "Salad",
       "Raw",
-      "Healthy"
+      "Healthy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -159,7 +171,10 @@
     "tags": [
       "Breakfast",
       "Soft",
-      "Karnataka"
+      "Karnataka",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -189,7 +204,10 @@
     "tags": [
       "Main Course",
       "Healthy",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -221,7 +239,10 @@
     ],
     "tags": [
       "Curry",
-      "Healthy"
+      "Healthy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -252,7 +273,10 @@
     ],
     "tags": [
       "Side Dish",
-      "Healthy"
+      "Healthy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -284,7 +308,10 @@
     ],
     "tags": [
       "Curry",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -316,7 +343,10 @@
     ],
     "tags": [
       "Dessert",
-      "Sweet"
+      "Sweet",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   }
 ]

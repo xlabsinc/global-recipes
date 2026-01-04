@@ -28,7 +28,10 @@
     "tags": [
       "Breakfast",
       "Steamed",
-      "Kerala"
+      "Kerala",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -64,7 +67,10 @@
     "tags": [
       "Breakfast",
       "Healthy",
-      "Andhra"
+      "Andhra",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -107,7 +113,10 @@
     "tags": [
       "Curry",
       "Spicy",
-      "Andhra"
+      "Andhra",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -150,7 +159,10 @@
     "tags": [
       "Side Dish",
       "Non-Veg",
-      "Tamil Nadu"
+      "Tamil Nadu",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -194,7 +206,10 @@
     "tags": [
       "Main Course",
       "Street Food",
-      "Tamil Nadu"
+      "Tamil Nadu",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -234,7 +249,10 @@
     "tags": [
       "Snack",
       "Fried",
-      "Tea Time"
+      "Tea Time",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -271,7 +289,10 @@
     "tags": [
       "Snack",
       "Crunchy",
-      "Festival"
+      "Festival",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -305,7 +326,10 @@
     "tags": [
       "Snack",
       "Crispy",
-      "Kerala"
+      "Kerala",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -342,7 +366,10 @@
     "tags": [
       "Dessert",
       "Sweet",
-      "Festival"
+      "Festival",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -379,7 +406,10 @@
     "tags": [
       "Dessert",
       "Steamed",
-      "Festival"
+      "Festival",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   }
 ]

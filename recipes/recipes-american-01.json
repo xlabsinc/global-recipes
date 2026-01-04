@@ -23,7 +23,9 @@
     ],
     "tags": [
       "Classic",
-      "Fast Food"
+      "Fast Food",
+      "American",
+      "Western"
     ]
   },
   {
@@ -50,7 +52,9 @@
     ],
     "tags": [
       "Street Food",
-      "Simple"
+      "Simple",
+      "American",
+      "Western"
     ]
   },
   {
@@ -77,7 +81,9 @@
     ],
     "tags": [
       "BBQ",
-      "Smoky"
+      "Smoky",
+      "American",
+      "Western"
     ]
   },
   {
@@ -104,7 +110,9 @@
     ],
     "tags": [
       "Comfort",
-      "Cheesy"
+      "Cheesy",
+      "American",
+      "Western"
     ]
   },
   {
@@ -131,7 +139,9 @@
     ],
     "tags": [
       "Fried",
-      "Southern"
+      "Southern",
+      "American",
+      "Western"
     ]
   },
   {
@@ -158,7 +168,9 @@
     ],
     "tags": [
       "Spicy",
-      "Sports Food"
+      "Sports Food",
+      "American",
+      "Western"
     ]
   },
   {
@@ -185,7 +197,9 @@
     ],
     "tags": [
       "Sandwich",
-      "Cheesy"
+      "Cheesy",
+      "American",
+      "Western"
     ]
   },
   {
@@ -212,7 +226,9 @@
     ],
     "tags": [
       "Soup",
-      "Seafood"
+      "Seafood",
+      "American",
+      "Western"
     ]
   },
   {
@@ -239,7 +255,9 @@
     ],
     "tags": [
       "Cajun",
-      "Spicy"
+      "Spicy",
+      "American",
+      "Western"
     ]
   },
   {
@@ -266,7 +284,9 @@
     ],
     "tags": [
       "Cajun",
-      "Hearty"
+      "Hearty",
+      "American",
+      "Western"
     ]
   }
 ]

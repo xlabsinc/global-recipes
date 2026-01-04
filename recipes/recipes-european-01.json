@@ -23,7 +23,9 @@
     ],
     "tags": [
       "Italian",
-      "Classic"
+      "Classic",
+      "European",
+      "Western"
     ]
   },
   {
@@ -50,7 +52,9 @@
     ],
     "tags": [
       "Italian",
-      "Creamy"
+      "Creamy",
+      "European",
+      "Western"
     ]
   },
   {
@@ -77,7 +81,9 @@
     ],
     "tags": [
       "Spanish",
-      "Seafood"
+      "Seafood",
+      "European",
+      "Western"
     ]
   },
   {
@@ -104,7 +110,9 @@
     ],
     "tags": [
       "Greek",
-      "Baked"
+      "Baked",
+      "European",
+      "Western"
     ]
   },
   {
@@ -131,7 +139,9 @@
     ],
     "tags": [
       "French",
-      "Vegetable"
+      "Vegetable",
+      "European",
+      "Western"
     ]
   },
   {
@@ -158,7 +168,9 @@
     ],
     "tags": [
       "Austrian",
-      "Fried"
+      "Fried",
+      "European",
+      "Western"
     ]
   },
   {
@@ -185,7 +197,9 @@
     ],
     "tags": [
       "Hungarian",
-      "Hearty"
+      "Hearty",
+      "European",
+      "Western"
     ]
   },
   {
@@ -212,7 +226,9 @@
     ],
     "tags": [
       "Polish",
-      "Comfort"
+      "Comfort",
+      "European",
+      "Western"
     ]
   },
   {
@@ -239,7 +255,9 @@
     ],
     "tags": [
       "Italian",
-      "Dessert"
+      "Dessert",
+      "European",
+      "Western"
     ]
   },
   {
@@ -266,7 +284,9 @@
     ],
     "tags": [
       "French",
-      "Sandwich"
+      "Sandwich",
+      "European",
+      "Western"
     ]
   }
 ]

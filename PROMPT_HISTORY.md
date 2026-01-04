@@ -185,6 +185,22 @@ changes done as well. Also at the end, display a commit message for the changes 
 
 ---
 
+## Prompt 16: Feature Additions - Version 13
+```
+Add regional tags to all recipes like 'north', 'south', 'indian', 'chinese', 'filipino',
+'vietnamese' etc. Replace the Type filter with a tag filter where the user can type and get
+autocomplete suggestions. Allow multiple tag selection with each tag removable. Display 5
+menu items per row. Add a dropdown to control items displayed per page (5, 10, 20, 30, All)
+with default 10 instead of 30. Add a close button to cards on main page to dismiss them.
+Make card name clickable to expand. Add checkboxes to loaded files section to show/hide
+recipes by file. Also implement theme selection and resizable floating cards for advanced
+features.
+```
+
+**Result:** Implemented high-priority features first. Added regional tags to all 420 recipes, replaced Type filter with Tag filter with autocomplete, changed grid to 5 columns with responsive breakpoints, added items-per-page dropdown (default 10), added close button to dismiss cards, made card names clickable, added file visibility checkboxes. Deferred theme selection and floating resizable cards as low-priority/complex features.
+
+---
+
 ## Summary of Evolution
 
 ### Version 1.0
@@ -260,7 +276,7 @@ changes done as well. Also at the end, display a commit message for the changes 
 - All buttons (minimize, close, restore, dock) now working correctly
 - Automated ID removal with Python script
 
-### Version 12.0 (Current)
+### Version 12.0
 - Complete color scheme redesign for better contrast
 - Light background: gradient from #f5f7fa to #e4e9f2
 - Purple-blue accent colors: #667eea and #764ba2
@@ -269,6 +285,65 @@ changes done as well. Also at the end, display a commit message for the changes 
 - Modern, clean design aesthetic
 - All UI elements updated (buttons, cards, docked area, stats)
 - Documentation updated to reflect new color scheme
+
+### Version 13.0
+- Added regional tags to all 420 recipes across 40 JSON files
+- Replaced Type filter dropdown with Tag filter system with autocomplete
+- Added tag suggestions with chip-based UI (removable tags)
+- Tag filtering uses OR logic (matches if ANY selected tag matches)
+- Changed grid layout from 4 columns to 5 columns
+- Added responsive breakpoints: 5→4→3→2→1 columns
+- Added items-per-page dropdown selector (5, 10, 20, 30, 50, All)
+- Changed default display from 30 items to 10 items
+- Added close button (×) to main page cards for dismissing recipes
+- Made recipe card names clickable to expand (in addition to card body)
+- Added checkboxes to loaded files section for visibility toggle
+- File visibility toggle allows showing/hiding recipes by file
+- Updated all JavaScript functions for new features
+- Added event listeners for tag input, items-per-page, and document clicks
+- Enhanced user experience with smooth animations and transitions
+
+---
+
+## Prompt 17: Advanced Features - File Management, Themes, Pagination, and Resizable Cards
+```
+In the loading file section, good change with regards to the check box, but provide an intelligent
+option to select or deselect all. Also make the loaded file section as a scrollable text window to
+select, with 5 files or urls displayed in the window, still keep the loaded file section as
+collapsable and expandable. Add the skin option to the page. Also there is no next option in the
+display when you want to browse page by page. The cards are not resizable yet when expanded
+```
+
+**Result**: Implemented comprehensive set of advanced features:
+1. **Select All/Deselect All**: Added bulk file visibility control buttons
+2. **Scrollable File List**: Made loaded files section scrollable with 200px max-height (~5 files visible)
+3. **Theme Selector**: Added 5 themes (Light, Dark, Blue, Green, Orange) with fixed position selector in top-right
+4. **Pagination**: Added Previous/Next buttons with page indicator and smooth scrolling
+5. **Resizable Floating Cards**: Made expanded cards draggable and resizable with cleanup on close
+
+---
+
+### Version 14.0 (Current)
+- Added Select All and Deselect All buttons for loaded files section
+- Made loaded files section scrollable with 200px max-height showing ~5 files at once
+- Added theme selector in top-right corner with 5 themes:
+  - Light (default) - Light gray background with purple-blue accents
+  - Dark - Dark blue/black background with light text
+  - Blue - Bright blue gradient background
+  - Green - Nature-inspired green gradient
+  - Orange - Warm orange gradient
+- Theme selection persists via localStorage
+- Added pagination controls with Previous/Next buttons
+- Page indicator shows "Page X of Y"
+- Pagination integrates with items-per-page selector
+- Smooth scroll to top on page navigation
+- Made expanded recipe cards draggable and resizable
+- Cards become floating windows when expanded (fixed position)
+- Drag from header area (excluding buttons)
+- Resize handle in bottom-right corner with minimum dimensions (400x300px)
+- Complete cleanup of resize handles and inline styles when closing cards
+- Fixed recipe loading error (MAX_INITIAL_DISPLAY reference)
+- Cards properly reset to grid layout after closing from expanded state
 
 ---
 

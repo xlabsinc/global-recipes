@@ -11,12 +11,24 @@ A beautiful, interactive web application featuring 420 authentic recipes from ar
 ## ✨ Features
 
 - 🔍 **Real-time Search** - Search by recipe name, ingredients, or tags with instant results
-- 🎯 **Smart Filtering** - Filter by category, type (veg/non-veg), and cuisine
-- 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile devices
-- 🎨 **Apple-Inspired Design** - Clean, modern interface with beautiful gradients and smooth animations
-- 🌈 **Multi-Recipe View** - View multiple recipes simultaneously with expandable/collapsible cards
+- 🏷️ **Tag-Based Filtering** - Autocomplete tag filter with multi-tag selection (OR logic)
+- 🎯 **Smart Category Filters** - Filter by category (Breakfast, Main Course, Curry, etc.)
+- 🌍 **Regional Tags** - All recipes tagged with regions: South Indian, Chinese, Thai, European, etc.
+- 📊 **Flexible Display** - Choose how many items to display per page (5, 10, 20, 30, 50, All)
+- 📄 **Pagination Controls** - Navigate through recipes with Previous/Next buttons
+- 📱 **5-Column Responsive Grid** - Beautiful grid layout that adapts to all screen sizes
+- 🎨 **Theme Selection** - Choose from 5 beautiful themes (Light, Dark, Blue, Green, Orange)
+- 🎨 **Apple-Inspired Design** - Clean, modern interface with purple-blue gradients
+- 🌈 **Multi-Recipe View** - View multiple recipes simultaneously with expandable cards
+- 🪟 **Floating Resizable Cards** - Expanded recipes are draggable and resizable windows
+- 🎯 **Smart Z-Index Management** - Dragged cards always stay on top, no more hiding behind others
+- 👆 **Clickable Card Names** - Click recipe name or card body to expand
+- ❌ **Dismissible Cards** - Close button to dismiss recipes you're not interested in
 - 📥 **Docking System** - Minimize recipes to a bottom dock for easy access
-- 📂 **Custom Recipe Loading** - Upload your own recipe JSON files or load from URLs
+- 📂 **Advanced File Management** - Load/unload recipe files with visibility checkboxes
+- ✅ **Bulk File Control** - Select All / Deselect All buttons for loaded files
+- 📜 **Scrollable File List** - View loaded files in scrollable section (~5 visible at once)
+- 📥 **Custom Recipe Loading** - Upload your own recipe JSON files or load from URLs
 - 🔗 **Remote Loading** - Load recipes from GitHub Gist or any remote URL
 - 🌟 **No Dependencies** - Pure HTML, CSS, and JavaScript - no frameworks required
 - 🚀 **Fast & Lightweight** - Loads instantly with no backend required
@@ -218,11 +230,18 @@ Each recipe follows this JSON structure:
 - **San Francisco Font System** - Native Apple font stack for crisp text
 - **Purple-Blue Gradient Accent** - Modern gradient (#667eea, #764ba2)
 - **Light Background** - Clean light gray gradient (#f5f7fa to #e4e9f2)
+- **5 Beautiful Themes** - Light (default), Dark, Blue, Green, and Orange color schemes
+- **Theme Persistence** - Your theme selection is saved across sessions
 - **Excellent Contrast** - White cards on light background with dark text
 - **Smooth Animations** - Subtle transitions throughout the interface
 
 ### Advanced Features
+- **Pagination Controls** - Navigate through recipes page by page with Previous/Next buttons
+- **Floating Windows** - Expanded recipe cards become draggable and resizable floating windows
+- **Smart Z-Index** - Dragged and clicked cards automatically come to front, no stacking issues
 - **Collapsible Sections** - Keep interface clean with collapsible loaded files
+- **Scrollable File List** - View ~5 loaded files at once with smooth scrolling
+- **Bulk File Controls** - Select All / Deselect All buttons for quick file management
 - **Docking System** - Minimize recipes to bottom dock for multi-recipe reference
 - **Multi-Recipe View** - Compare multiple recipes side by side
 - **Smart Search** - Real-time filtering across names, ingredients, and tags

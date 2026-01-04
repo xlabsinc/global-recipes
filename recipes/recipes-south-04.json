@@ -36,7 +36,10 @@
     "tags": [
       "Snack",
       "Easy",
-      "Quick"
+      "Quick",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -73,7 +76,10 @@
     "tags": [
       "Breakfast",
       "Sweet",
-      "Karnataka"
+      "Karnataka",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -115,7 +121,10 @@
     "tags": [
       "Curry",
       "Seafood",
-      "Coastal"
+      "Coastal",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -159,7 +168,10 @@
     "tags": [
       "Curry",
       "Stuffed",
-      "Tamil Nadu"
+      "Tamil Nadu",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -201,7 +213,10 @@
     "tags": [
       "Curry",
       "Tangy",
-      "Tamil Nadu"
+      "Tamil Nadu",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -241,7 +256,10 @@
     "tags": [
       "Bread",
       "Flaky",
-      "Popular"
+      "Popular",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -278,7 +296,10 @@
     "tags": [
       "Side Dish",
       "Healthy",
-      "Quick"
+      "Quick",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -315,7 +336,10 @@
     "tags": [
       "Side Dish",
       "Kerala",
-      "Healthy"
+      "Healthy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -360,7 +384,10 @@
     "tags": [
       "Curry",
       "Traditional",
-      "Tamil Nadu"
+      "Tamil Nadu",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -399,7 +426,10 @@
     "tags": [
       "Dessert",
       "Sweet",
-      "Festival"
+      "Festival",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   }
 ]

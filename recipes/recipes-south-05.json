@@ -35,7 +35,10 @@
     "tags": [
       "Breakfast",
       "Quick",
-      "Easy"
+      "Easy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -78,7 +81,10 @@
     "tags": [
       "Side Dish",
       "Spicy",
-      "Kerala"
+      "Kerala",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -118,7 +124,10 @@
     "tags": [
       "Curry",
       "Spicy",
-      "Traditional"
+      "Traditional",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -157,7 +166,10 @@
     "tags": [
       "Rice",
       "Simple",
-      "Quick"
+      "Quick",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -195,7 +207,10 @@
     "tags": [
       "Side Dish",
       "Sweet-Tangy",
-      "Kerala"
+      "Kerala",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -232,7 +247,10 @@
     "tags": [
       "Snack",
       "Healthy",
-      "Protein"
+      "Protein",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -276,7 +294,10 @@
     "tags": [
       "Soup",
       "Medicinal",
-      "Immunity"
+      "Immunity",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -313,7 +334,10 @@
     "tags": [
       "Dessert",
       "Traditional",
-      "Festival"
+      "Festival",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -352,7 +376,10 @@
     "tags": [
       "Curry",
       "Cooling",
-      "Summer"
+      "Summer",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   },
   {
@@ -386,7 +413,10 @@
     "tags": [
       "Dessert",
       "Sweet",
-      "Easy"
+      "Easy",
+      "South Indian",
+      "Indian",
+      "Asian"
     ]
   }
 ]

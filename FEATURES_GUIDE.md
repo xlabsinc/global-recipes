@@ -1,8 +1,34 @@
-# 🎯 Features Guide - South Indian Recipe Collection v2.0
+# 🎯 Features Guide - Global Recipe Collection v2.1
 
 ## Quick Feature Overview
 
-### 1. 📁 Multiple File Upload
+### 1. 🪟 Floating Windows with Smart Z-Index
+
+**What it does:** Draggable, resizable recipe cards that always stay on top when you interact with them.
+
+**How to use:**
+```
+1. Click any recipe card to open it as a floating window
+2. Drag the header to move it around
+3. Card automatically comes to front when dragging
+4. Click any card to bring it to front
+5. Drag bottom-right corner to resize
+```
+
+**Z-Index behavior:**
+- New cards open on top
+- Dragging brings card to front instantly
+- Clicking any card brings it to front
+- Proper stacking order maintained
+
+**Perfect for:**
+- Comparing multiple recipes side-by-side
+- Keeping reference recipes visible while browsing
+- Organizing your cooking workflow
+
+---
+
+### 2. 📁 Multiple File Upload
 
 **What it does:** Load multiple JSON recipe files at once instead of one at a time.
 

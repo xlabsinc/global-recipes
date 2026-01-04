@@ -23,7 +23,9 @@
     ],
     "tags": [
       "Party",
-      "Kids"
+      "Kids",
+      "Australian",
+      "Oceania"
     ]
   },
   {
@@ -50,7 +52,8 @@
     ],
     "tags": [
       "Game",
-      "Australian"
+      "Australian",
+      "Oceania"
     ]
   },
   {
@@ -77,7 +80,9 @@
     ],
     "tags": [
       "Italian-Australian",
-      "Popular"
+      "Popular",
+      "Australian",
+      "Oceania"
     ]
   },
   {
@@ -104,7 +109,9 @@
     ],
     "tags": [
       "Fried",
-      "Seafood"
+      "Seafood",
+      "Australian",
+      "Oceania"
     ]
   },
   {
@@ -131,7 +138,9 @@
     ],
     "tags": [
       "Traditional",
-      "Bush"
+      "Bush",
+      "Australian",
+      "Oceania"
     ]
   },
   {
@@ -158,7 +167,9 @@
     ],
     "tags": [
       "Game",
-      "Lean"
+      "Lean",
+      "Australian",
+      "Oceania"
     ]
   },
   {
@@ -185,7 +196,8 @@
     ],
     "tags": [
       "Australian",
-      "Burger"
+      "Burger",
+      "Oceania"
     ]
   },
   {
@@ -212,7 +224,9 @@
     ],
     "tags": [
       "Dessert",
-      "Ice Cream"
+      "Ice Cream",
+      "Australian",
+      "Oceania"
     ]
   },
   {
@@ -239,7 +253,9 @@
     ],
     "tags": [
       "Beverage",
-      "Chocolate"
+      "Chocolate",
+      "Australian",
+      "Oceania"
     ]
   },
   {
@@ -266,7 +282,9 @@
     ],
     "tags": [
       "Snack",
-      "Portable"
+      "Portable",
+      "Australian",
+      "Oceania"
     ]
   }
 ]
