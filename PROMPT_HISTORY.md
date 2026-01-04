@@ -1,6 +1,90 @@
-# Prompt History - Indian Recipe Collection
+# Prompt History - Global Recipe Collection
 
-This document contains all the prompts used to create this project, in chronological order.
+This document contains all the prompts used to create and enhance this project, in chronological order.
+
+---
+
+## Latest Updates (Version 2.2)
+
+### Prompt: Preferences Management & Enhanced Theming
+```
+Save the user preferences, including tags, search etc in cookie, so when the user visits again, it shows where they left off
+Add a button on the page to forget previous preferences, clearing the cookies
+Make the url such that tags, search, skin etc can be given in the url
+Add a share button so, one can share the exact url with the preferences
+```
+
+**Result:** Implemented comprehensive preferences system:
+- localStorage persistence for all settings (theme, search, tags, filters, items-per-page)
+- URL parameter support for sharing (`?theme=dark&search=chicken&tags=Asian,Quick&category=Breakfast&items=20`)
+- Share button with clipboard copy (🔗 Share)
+- Clear preferences button (🗑️ Clear Prefs)
+- Auto-save with 500ms debounce
+- Priority: URL params > localStorage > defaults
+
+### Prompt: Tag Filtering Logic Fix
+```
+I just noticed the tags function as 'or', they should be 'and'; 'Chinese' and 'Vegetarian' should only show chinese vegetarian dishes
+```
+
+**Result:** Changed tag filtering from OR to AND logic:
+- `selectedTags.some()` → `selectedTags.every()`
+- Multiple tags now require ALL to match
+- Also checks `type` field for Vegetarian/Non-Vegetarian
+- Example: "Chinese" + "Vegetarian" = only Chinese vegetarian dishes
+
+### Prompt: Category Filter Toggle
+```
+Also noticed like when clicking on 'Rice', 'Beverage' etc, it selects that and filters, but clicking again, it should toggle it and unselect it
+```
+
+**Result:** Added toggle functionality:
+- Click active category filter again to deselect
+- Returns to "All" automatically
+- Improved UX - no need to manually click "All"
+
+### Prompt: Theme Expansion & Popup Modal
+```
+clear preferences doesn't reset to the default theme, add more themes, group them expandable, rather than showing them in one single column, maybe make it as a pop-up?
+```
+
+**Result:** Major theme system overhaul:
+- Expanded from 5 to 18 themes
+- Created beautiful popup modal with categories:
+  - ☀️ Classic (2): Light, Dark
+  - 🌈 Nature (6): Ocean Blue, Forest Green, Teal, Mint, Sage, Sky
+  - 🌺 Warm (4): Sunset Orange, Golden Hour, Crimson, Coral
+  - 💐 Vibrant (6): Royal Purple, Lavender, Cherry Blossom, Rose, Indigo, Magenta
+- Grid layout with large emoji icons
+- Active theme indicator with checkmark
+- Backdrop blur overlay
+- Fixed clear preferences to reset theme
+- Each theme includes 8 coordinated colors
+
+### Prompt: Help Text Fix
+```
+In the help text on the main page, it still shows 'id' for the json, fix that
+```
+
+**Result:** Updated JSON help section:
+- Removed `"id"` from example
+- Clarified ID is auto-generated
+- Added tip: "No need to add 'id' field - it's automatically generated!"
+
+---
+
+## Previous Updates (Version 2.1)
+
+### Prompt: Z-Index Management
+```
+The draggable issue is fixed; but when i open a new item and drag it over the existing one, it goes to the back, the one I'm dragging should always be on the top
+```
+
+**Result:** Implemented smart z-index management:
+- Global `highestZIndex` counter
+- `bringToFront()` function
+- Cards come to front when dragged, clicked, or opened
+- Eliminates stacking issues
 
 ---
 

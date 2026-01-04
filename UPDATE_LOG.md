@@ -1,5 +1,129 @@
 # Update Log - Enhanced Features
 
+## Version 2.2 - Preferences Management & Theme Expansion
+
+### 🎉 New Features Implemented
+
+#### 1. **Preferences Persistence with localStorage**
+- Automatically saves all user preferences to browser localStorage
+- Restores preferences on page reload
+- Settings saved:
+  - Selected theme
+  - Search query
+  - Selected tags (array)
+  - Current category filter
+  - Items per page setting
+
+**How it works:**
+- Auto-saves after 500ms debounce on search input
+- Saves immediately when tags, filters, theme, or items-per-page change
+- Loads preferences on app initialization
+- URL parameters take priority over localStorage
+
+#### 2. **URL Parameter Support for Sharing**
+- Generate shareable URLs with current search/filter state
+- URL parameters supported:
+  - `?theme=dark` - Sets theme
+  - `?search=chicken` - Pre-fills search
+  - `?tags=Asian,Quick` - Pre-selects tags (comma-separated)
+  - `?category=Breakfast` - Pre-selects category
+  - `?items=20` - Sets items per page
+
+**Example URLs:**
+```
+index.html?theme=dark&tags=Asian,Vegetarian
+index.html?search=chicken&category=Main%20Course&items=20
+```
+
+#### 3. **Share Button with Clipboard**
+- 🔗 Share button in top-right corner
+- Generates URL with current preferences
+- Copies to clipboard automatically
+- Visual feedback: "✓ Copied!" in green for 2 seconds
+- Fallback to prompt dialog if clipboard API unavailable
+- Only includes non-default values (clean URLs)
+
+#### 4. **Clear Preferences Button**
+- 🗑️ Clear Prefs button in top-right corner
+- Confirmation dialog before clearing
+- Clears both localStorage items:
+  - `recipePreferences`
+  - `selectedTheme`
+- Reloads page without URL parameters
+- Returns to default Light theme
+
+#### 5. **18 Beautiful Themes with Popup Modal**
+- Expanded from 5 to 18 themes
+- New themes added:
+  - Purple, Lavender, Pink, Rose, Indigo, Magenta
+  - Teal, Mint, Sage, Sky
+  - Crimson, Gold, Coral
+- Organized in 4 categories:
+  - ☀️ Classic Themes (2)
+  - 🌈 Nature Themes (6)
+  - 🌺 Warm Themes (4)
+  - 💐 Vibrant Themes (6)
+
+**Popup Features:**
+- Beautiful modal overlay with backdrop blur
+- Grid layout (auto-fill, min 140px per item)
+- Large emoji icons (2.5em)
+- Hover effects with elevation
+- Active theme shows gradient + checkmark badge
+- Close button with rotation animation
+- Click outside to close
+- Smooth 300ms transition
+- Mobile responsive
+
+**Each theme includes 8 coordinated colors:**
+- Background gradient
+- Card background
+- Text color
+- Header background (normal)
+- Header background (expanded)
+- Accent color
+- Accent hover color
+- Button gradient
+- Active filter button gradient
+
+#### 6. **Tag Filtering Logic Change: OR → AND**
+- Changed from OR logic to AND logic
+- Multiple selected tags now require ALL tags to match
+- Example: "Chinese" + "Vegetarian" shows only Chinese vegetarian dishes
+- Also checks recipe `type` field for "Vegetarian"/"Non-Vegetarian"
+
+**Technical Implementation:**
+```javascript
+// Before (OR): selectedTags.some(tag => ...)
+// After (AND): selectedTags.every(tag => ...)
+const matchesTags = selectedTags.every(tag => {
+    const inTags = recipe.tags && recipe.tags.includes(tag);
+    const matchesType = recipe.type === tag;
+    return inTags || matchesType;
+});
+```
+
+#### 7. **Category Filter Toggle**
+- Click active category filter to deselect it
+- Returns to "All" when toggled off
+- Improved UX - no need to manually click "All"
+
+**Logic:**
+```javascript
+if (currentFilter === category && category !== 'All') {
+    currentFilter = 'All';
+} else {
+    currentFilter = category;
+}
+```
+
+#### 8. **Help Text Fix**
+- Removed `"id"` field from JSON example in help section
+- Clarified that ID is auto-generated
+- Added tip: "No need to add 'id' field - it's automatically generated!"
+
+---
+
 ## Version 2.1 - Z-Index Management & Dragging Improvements
 
 ### 🎉 New Features Implemented

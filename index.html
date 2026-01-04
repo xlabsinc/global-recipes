@@ -564,12 +564,157 @@
             font-weight: 600;
         }
 
+        /* Theme Popup Modal */
+        .theme-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            z-index: 3000;
+            width: 90%;
+            max-width: 700px;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding: 30px;
+        }
+
+        .theme-popup.active {
+            display: block;
+        }
+
+        .theme-popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 2999;
+            backdrop-filter: blur(4px);
+        }
+
+        .theme-popup-overlay.active {
+            display: block;
+        }
+
+        .theme-popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .theme-popup-title {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .theme-popup-close {
+            background: #f0f0f0;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+
+        .theme-popup-close:hover {
+            background: #e0e0e0;
+            transform: rotate(90deg);
+        }
+
+        .theme-category {
+            margin-bottom: 30px;
+        }
+
+        .theme-category-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .theme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 15px;
+        }
+
+        .theme-item {
+            background: #f8f9fa;
+            border: 3px solid transparent;
+            border-radius: 12px;
+            padding: 20px 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .theme-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+
+        .theme-item.active {
+            border-color: #667eea;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .theme-item.active::after {
+            content: '✓';
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: white;
+            color: #667eea;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .theme-emoji {
+            font-size: 2.5em;
+            margin-bottom: 8px;
+        }
+
+        .theme-name {
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
         /* Theme Selector */
         .theme-selector {
             position: fixed;
             top: 20px;
             right: 20px;
             z-index: 2000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
         .theme-btn {
@@ -591,38 +736,24 @@
             border-color: #667eea;
         }
 
-        .theme-menu {
-            position: absolute;
-            top: 100%;
-            right: 0;
-            margin-top: 10px;
+        /* Preferences Controls */
+        .pref-btn {
             background: white;
-            border: 2px solid #667eea;
+            border: 2px solid #e1e4e8;
+            padding: 10px 18px;
             border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-            min-width: 150px;
-            overflow: hidden;
-        }
-
-        .theme-option {
-            padding: 12px 20px;
             cursor: pointer;
-            transition: background 0.2s;
-            border-bottom: 1px solid #f0f0f0;
-            font-size: 0.95em;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #495057;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s;
         }
 
-        .theme-option:last-child {
-            border-bottom: none;
-        }
-
-        .theme-option:hover {
-            background: #f8f9ff;
-        }
-
-        .theme-option.active {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+        .pref-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.25);
+            border-color: #667eea;
         }
 
         .recipe-grid {
@@ -1100,19 +1231,128 @@
             .recipe-grid {
                 grid-template-columns: 1fr;
             }
+
+            .theme-selector {
+                right: 10px;
+            }
+
+            .pref-btn {
+                padding: 8px 14px;
+                font-size: 0.85em;
+            }
         }
     </style>
 </head>
 <body>
-    <!-- Theme Selector -->
+    <!-- Theme Selector & Preferences -->
     <div class="theme-selector">
-        <button class="theme-btn" onclick="toggleThemeMenu()">🎨 Theme</button>
-        <div class="theme-menu" id="themeMenu" style="display: none;">
-            <div class="theme-option" onclick="setTheme('light')">☀️ Light</div>
-            <div class="theme-option" onclick="setTheme('dark')">🌙 Dark</div>
-            <div class="theme-option" onclick="setTheme('blue')">💙 Blue</div>
-            <div class="theme-option" onclick="setTheme('green')">💚 Green</div>
-            <div class="theme-option" onclick="setTheme('orange')">🧡 Orange</div>
+        <button class="theme-btn" onclick="openThemePopup()">🎨 Theme</button>
+        <button class="pref-btn" onclick="sharePreferences()" title="Share current search & filters">🔗 Share</button>
+        <button class="pref-btn" onclick="clearPreferences()" title="Clear saved preferences">🗑️ Clear Prefs</button>
+    </div>
+
+    <!-- Theme Popup -->
+    <div class="theme-popup-overlay" id="themeOverlay" onclick="closeThemePopup()"></div>
+    <div class="theme-popup" id="themePopup">
+        <div class="theme-popup-header">
+            <div class="theme-popup-title">🎨 Choose Theme</div>
+            <button class="theme-popup-close" onclick="closeThemePopup()">×</button>
+        </div>
+
+        <div class="theme-category">
+            <div class="theme-category-title">☀️ Classic Themes</div>
+            <div class="theme-grid">
+                <div class="theme-item" onclick="selectTheme('light')" data-theme="light">
+                    <div class="theme-emoji">☀️</div>
+                    <div class="theme-name">Light</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('dark')" data-theme="dark">
+                    <div class="theme-emoji">🌙</div>
+                    <div class="theme-name">Dark</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme-category">
+            <div class="theme-category-title">🌈 Nature Themes</div>
+            <div class="theme-grid">
+                <div class="theme-item" onclick="selectTheme('blue')" data-theme="blue">
+                    <div class="theme-emoji">💙</div>
+                    <div class="theme-name">Ocean Blue</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('green')" data-theme="green">
+                    <div class="theme-emoji">💚</div>
+                    <div class="theme-name">Forest Green</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('teal')" data-theme="teal">
+                    <div class="theme-emoji">🌊</div>
+                    <div class="theme-name">Teal Wave</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('mint')" data-theme="mint">
+                    <div class="theme-emoji">🍃</div>
+                    <div class="theme-name">Mint Fresh</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('sage')" data-theme="sage">
+                    <div class="theme-emoji">🌿</div>
+                    <div class="theme-name">Sage</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('sky')" data-theme="sky">
+                    <div class="theme-emoji">☁️</div>
+                    <div class="theme-name">Sky</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme-category">
+            <div class="theme-category-title">🌺 Warm Themes</div>
+            <div class="theme-grid">
+                <div class="theme-item" onclick="selectTheme('orange')" data-theme="orange">
+                    <div class="theme-emoji">🧡</div>
+                    <div class="theme-name">Sunset Orange</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('gold')" data-theme="gold">
+                    <div class="theme-emoji">⭐</div>
+                    <div class="theme-name">Golden Hour</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('crimson')" data-theme="crimson">
+                    <div class="theme-emoji">🌹</div>
+                    <div class="theme-name">Crimson Red</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('coral')" data-theme="coral">
+                    <div class="theme-emoji">🪸</div>
+                    <div class="theme-name">Coral</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme-category">
+            <div class="theme-category-title">💐 Vibrant Themes</div>
+            <div class="theme-grid">
+                <div class="theme-item" onclick="selectTheme('purple')" data-theme="purple">
+                    <div class="theme-emoji">💜</div>
+                    <div class="theme-name">Royal Purple</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('lavender')" data-theme="lavender">
+                    <div class="theme-emoji">🪻</div>
+                    <div class="theme-name">Lavender</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('pink')" data-theme="pink">
+                    <div class="theme-emoji">🌸</div>
+                    <div class="theme-name">Cherry Blossom</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('rose')" data-theme="rose">
+                    <div class="theme-emoji">🌷</div>
+                    <div class="theme-name">Rose</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('indigo')" data-theme="indigo">
+                    <div class="theme-emoji">🔮</div>
+                    <div class="theme-name">Indigo</div>
+                </div>
+                <div class="theme-item" onclick="selectTheme('magenta')" data-theme="magenta">
+                    <div class="theme-emoji">💗</div>
+                    <div class="theme-name">Magenta</div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -1186,7 +1426,6 @@
                         <p>Your JSON file should be an array of recipe objects with this structure:</p>
                         <pre><code>[
   {
-    "id": 1,
     "name": "Recipe Name",
     "category": "Breakfast",
     "type": "Vegetarian",
@@ -1225,7 +1464,7 @@
 
                         <h4>📦 Optional Fields</h4>
                         <ul>
-                            <li><strong>id:</strong> Unique number (auto-generated if missing)</li>
+                            <li><strong>id:</strong> Unique identifier (auto-generated from filename if missing - no need to add!)</li>
                             <li><strong>emoji:</strong> Emoji icon for the recipe</li>
                             <li><strong>description:</strong> Short description</li>
                             <li><strong>tags:</strong> Array of tag strings</li>
@@ -1237,6 +1476,7 @@
                             <li>Use GitHub Gist for sharing recipes</li>
                             <li>Keep ingredient measurements clear</li>
                             <li>Number your instructions for clarity</li>
+                            <li><strong>No need to add "id" field</strong> - it's automatically generated!</li>
                         </ul>
                     </div>
                 </div>
@@ -1315,42 +1555,229 @@
                 cardBg: '#ffffff',
                 text: '#2c3e50',
                 headerBg: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
-                headerExpandedBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+                headerExpandedBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                accent: '#667eea',
+                accentHover: '#5568d3',
+                buttonBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
             },
             dark: {
                 bg: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
                 cardBg: '#0f3460',
                 text: '#e9ecef',
                 headerBg: 'linear-gradient(135deg, #2c3e50 0%, #34495e 100%)',
-                headerExpandedBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+                headerExpandedBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                accent: '#667eea',
+                accentHover: '#5568d3',
+                buttonBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
             },
             blue: {
-                bg: 'linear-gradient(135deg, #e0f2fe 0%, #bfdbfe 100%)',
+                bg: 'linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%)',
                 cardBg: '#ffffff',
-                text: '#1e3a8a',
+                text: '#0c4a6e',
                 headerBg: 'linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%)',
-                headerExpandedBg: 'linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)'
+                headerExpandedBg: 'linear-gradient(135deg, #0284c7 0%, #0369a1 100%)',
+                accent: '#0284c7',
+                accentHover: '#0369a1',
+                buttonBg: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #0284c7 0%, #0369a1 100%)'
             },
             green: {
                 bg: 'linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%)',
                 cardBg: '#ffffff',
-                text: '#1b4332',
-                headerBg: 'linear-gradient(135deg, #d8f3dc 0%, #b7e4c7 100%)',
-                headerExpandedBg: 'linear-gradient(135deg, #52b788 0%, #2d6a4f 100%)'
+                text: '#14532d',
+                headerBg: 'linear-gradient(135deg, #d9f99d 0%, #bef264 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #16a34a 0%, #15803d 100%)',
+                accent: '#16a34a',
+                accentHover: '#15803d',
+                buttonBg: 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #16a34a 0%, #15803d 100%)'
             },
             orange: {
-                bg: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)',
+                bg: 'linear-gradient(135deg, #fed7aa 0%, #fdba74 100%)',
                 cardBg: '#ffffff',
-                text: '#6a0136',
-                headerBg: 'linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)',
-                headerExpandedBg: 'linear-gradient(135deg, #ff6b35 0%, #f7931e 100%)'
+                text: '#7c2d12',
+                headerBg: 'linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #ea580c 0%, #c2410c 100%)',
+                accent: '#ea580c',
+                accentHover: '#c2410c',
+                buttonBg: 'linear-gradient(135deg, #f97316 0%, #ea580c 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #ea580c 0%, #c2410c 100%)'
+            },
+            purple: {
+                bg: 'linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%)',
+                cardBg: '#ffffff',
+                text: '#581c87',
+                headerBg: 'linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #9333ea 0%, #7e22ce 100%)',
+                accent: '#9333ea',
+                accentHover: '#7e22ce',
+                buttonBg: 'linear-gradient(135deg, #a855f7 0%, #9333ea 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #9333ea 0%, #7e22ce 100%)'
+            },
+            pink: {
+                bg: 'linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%)',
+                cardBg: '#ffffff',
+                text: '#831843',
+                headerBg: 'linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #db2777 0%, #be185d 100%)',
+                accent: '#db2777',
+                accentHover: '#be185d',
+                buttonBg: 'linear-gradient(135deg, #ec4899 0%, #db2777 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #db2777 0%, #be185d 100%)'
+            },
+            teal: {
+                bg: 'linear-gradient(135deg, #ccfbf1 0%, #99f6e4 100%)',
+                cardBg: '#ffffff',
+                text: '#134e4a',
+                headerBg: 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #0d9488 0%, #0f766e 100%)',
+                accent: '#0d9488',
+                accentHover: '#0f766e',
+                buttonBg: 'linear-gradient(135deg, #14b8a6 0%, #0d9488 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #0d9488 0%, #0f766e 100%)'
+            },
+            crimson: {
+                bg: 'linear-gradient(135deg, #ffe4e6 0%, #fecdd3 100%)',
+                cardBg: '#ffffff',
+                text: '#881337',
+                headerBg: 'linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #e11d48 0%, #be123c 100%)',
+                accent: '#e11d48',
+                accentHover: '#be123c',
+                buttonBg: 'linear-gradient(135deg, #f43f5e 0%, #e11d48 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #e11d48 0%, #be123c 100%)'
+            },
+            gold: {
+                bg: 'linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)',
+                cardBg: '#ffffff',
+                text: '#78350f',
+                headerBg: 'linear-gradient(135deg, #fefce8 0%, #fef3c7 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #d97706 0%, #b45309 100%)',
+                accent: '#d97706',
+                accentHover: '#b45309',
+                buttonBg: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #d97706 0%, #b45309 100%)'
+            },
+            mint: {
+                bg: 'linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%)',
+                cardBg: '#ffffff',
+                text: '#064e3b',
+                headerBg: 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #059669 0%, #047857 100%)',
+                accent: '#059669',
+                accentHover: '#047857',
+                buttonBg: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #059669 0%, #047857 100%)'
+            },
+            lavender: {
+                bg: 'linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%)',
+                cardBg: '#ffffff',
+                text: '#5b21b6',
+                headerBg: 'linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%)',
+                accent: '#7c3aed',
+                accentHover: '#6d28d9',
+                buttonBg: 'linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%)'
+            },
+            sage: {
+                bg: 'linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%)',
+                cardBg: '#ffffff',
+                text: '#1f2937',
+                headerBg: 'linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #6b7280 0%, #4b5563 100%)',
+                accent: '#6b7280',
+                accentHover: '#4b5563',
+                buttonBg: 'linear-gradient(135deg, #9ca3af 0%, #6b7280 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #6b7280 0%, #4b5563 100%)'
+            },
+            sky: {
+                bg: 'linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%)',
+                cardBg: '#ffffff',
+                text: '#075985',
+                headerBg: 'linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #0284c7 0%, #075985 100%)',
+                accent: '#0284c7',
+                accentHover: '#075985',
+                buttonBg: 'linear-gradient(135deg, #38bdf8 0%, #0284c7 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #0284c7 0%, #075985 100%)'
+            },
+            coral: {
+                bg: 'linear-gradient(135deg, #ffe4e6 0%, #fecdd3 100%)',
+                cardBg: '#ffffff',
+                text: '#9f1239',
+                headerBg: 'linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #fb7185 0%, #f43f5e 100%)',
+                accent: '#fb7185',
+                accentHover: '#f43f5e',
+                buttonBg: 'linear-gradient(135deg, #fda4af 0%, #fb7185 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #fb7185 0%, #f43f5e 100%)'
+            },
+            rose: {
+                bg: 'linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%)',
+                cardBg: '#ffffff',
+                text: '#9f1239',
+                headerBg: 'linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #ec4899 0%, #db2777 100%)',
+                accent: '#ec4899',
+                accentHover: '#db2777',
+                buttonBg: 'linear-gradient(135deg, #f9a8d4 0%, #ec4899 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #ec4899 0%, #db2777 100%)'
+            },
+            indigo: {
+                bg: 'linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%)',
+                cardBg: '#ffffff',
+                text: '#3730a3',
+                headerBg: 'linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)',
+                accent: '#6366f1',
+                accentHover: '#4f46e5',
+                buttonBg: 'linear-gradient(135deg, #818cf8 0%, #6366f1 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)'
+            },
+            magenta: {
+                bg: 'linear-gradient(135deg, #fae8ff 0%, #f5d0fe 100%)',
+                cardBg: '#ffffff',
+                text: '#86198f',
+                headerBg: 'linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%)',
+                headerExpandedBg: 'linear-gradient(135deg, #c026d3 0%, #a21caf 100%)',
+                accent: '#c026d3',
+                accentHover: '#a21caf',
+                buttonBg: 'linear-gradient(135deg, #d946ef 0%, #c026d3 100%)',
+                filterBtnActive: 'linear-gradient(135deg, #c026d3 0%, #a21caf 100%)'
             }
         };
 
-        // Toggle theme menu
-        function toggleThemeMenu() {
-            const menu = document.getElementById('themeMenu');
-            menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+        // Theme popup functions
+        function openThemePopup() {
+            document.getElementById('themePopup').classList.add('active');
+            document.getElementById('themeOverlay').classList.add('active');
+            updateActiveTheme();
+        }
+
+        function closeThemePopup() {
+            document.getElementById('themePopup').classList.remove('active');
+            document.getElementById('themeOverlay').classList.remove('active');
+        }
+
+        function updateActiveTheme() {
+            document.querySelectorAll('.theme-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.dataset.theme === currentTheme) {
+                    item.classList.add('active');
+                }
+            });
+        }
+
+        function selectTheme(themeName) {
+            setTheme(themeName);
+            updateActiveTheme();
+            // Don't close popup immediately - let user see the change
+            setTimeout(() => {
+                closeThemePopup();
+            }, 300);
         }
 
         // Set theme
@@ -1361,24 +1788,79 @@
 
             // Update all cards
             document.querySelectorAll('.recipe-card').forEach(card => {
-                card.style.background = theme.cardBg;
-                card.style.color = theme.text;
+                if (!card.classList.contains('expanded')) {
+                    card.style.background = theme.cardBg;
+                    card.style.color = theme.text;
+                }
             });
 
-            // Update header cards
+            // Update card headers (non-expanded)
+            document.querySelectorAll('.recipe-card:not(.expanded) .recipe-header').forEach(header => {
+                header.style.background = theme.headerBg;
+                header.style.color = theme.text;
+            });
+
+            // Update expanded card headers
+            document.querySelectorAll('.recipe-card.expanded .recipe-header').forEach(header => {
+                header.style.background = theme.headerExpandedBg;
+                header.style.color = 'white';
+            });
+
+            // Update main containers
             document.querySelectorAll('header, .controls, .stats').forEach(el => {
                 el.style.background = theme.cardBg;
                 el.style.color = theme.text;
             });
 
+            // Update buttons with accent colors
+            document.querySelectorAll('.pagination-btn').forEach(btn => {
+                if (!btn.disabled) {
+                    btn.style.background = theme.buttonBg;
+                }
+            });
+
+            // Update active filter buttons
+            document.querySelectorAll('.filter-btn.active').forEach(btn => {
+                btn.style.background = theme.filterBtnActive;
+                btn.style.color = 'white';
+                btn.style.borderColor = 'transparent';
+            });
+
+            // Update accent colors throughout
+            const style = document.createElement('style');
+            style.id = 'theme-accent-style';
+            // Remove old theme style if exists
+            const oldStyle = document.getElementById('theme-accent-style');
+            if (oldStyle) oldStyle.remove();
+
+            style.innerHTML = `
+                .page-info { color: ${theme.accent} !important; }
+                .search-icon { color: ${theme.accent} !important; }
+                .filter-label { color: ${theme.text} !important; }
+                .tag { color: ${theme.accent} !important; }
+                .section h3 { color: ${theme.accent} !important; border-bottom-color: ${theme.accent} !important; }
+                .ingredients-list li:before { color: ${theme.accent} !important; }
+                .instructions-list li:before { background: ${theme.buttonBg} !important; }
+                .tag-chip { background: ${theme.buttonBg} !important; }
+                .docked-card { background: ${theme.buttonBg} !important; }
+                .filter-btn:hover { border-color: ${theme.accent} !important; }
+                .theme-menu { border-color: ${theme.accent} !important; }
+            `;
+            document.head.appendChild(style);
+
             // Mark active theme
             document.querySelectorAll('.theme-option').forEach(opt => {
                 opt.classList.remove('active');
             });
-            event.target.classList.add('active');
+            if (event && event.target) {
+                event.target.classList.add('active');
+            }
 
             localStorage.setItem('selectedTheme', themeName);
             document.getElementById('themeMenu').style.display = 'none';
+
+            // Save preferences
+            savePreferences();
         }
 
         // Pagination functions
@@ -1507,6 +1989,7 @@
                 selectedTags.push(tag);
                 renderSelectedTags();
                 filterRecipes();
+                savePreferences(); // Save when tag added
             }
             document.getElementById('tagInput').value = '';
             hideTagSuggestions();
@@ -1516,6 +1999,7 @@
             selectedTags = selectedTags.filter(t => t !== tag);
             renderSelectedTags();
             filterRecipes();
+            savePreferences(); // Save when tag removed
         }
 
         function renderSelectedTags() {
@@ -1535,6 +2019,7 @@
             itemsPerPage = value === 'all' ? filteredRecipes.length : parseInt(value);
             currentPage = 1; // Reset to first page
             displayCurrentPage();
+            savePreferences(); // Save when items per page changes
         }
 
         // Dismiss card function
@@ -1867,11 +2352,20 @@
                 btn.className = 'filter-btn' + (category === currentFilter ? ' active' : '');
                 btn.textContent = category;
                 btn.onclick = () => {
-                    currentFilter = category;
+                    // Toggle functionality: if clicking the active filter, switch back to "All"
+                    if (currentFilter === category && category !== 'All') {
+                        currentFilter = 'All';
+                    } else {
+                        currentFilter = category;
+                    }
+
+                    // Update button states
                     document.querySelectorAll('.filter-btn').forEach(b => {
-                        b.classList.toggle('active', b.textContent === category);
+                        b.classList.toggle('active', b.textContent === currentFilter);
                     });
+
                     filterRecipes();
+                    savePreferences(); // Save when filter changes
                 };
                 filtersContainer.appendChild(btn);
             });
@@ -1896,9 +2390,15 @@
 
                 const matchesCategory = currentFilter === 'All' || recipe.category === currentFilter;
 
-                // Tag filtering - match ANY selected tag
+                // Tag filtering - match ALL selected tags (AND logic)
+                // Check both the tags array AND the type field
                 const matchesTags = selectedTags.length === 0 ||
-                    selectedTags.some(tag => recipe.tags && recipe.tags.includes(tag));
+                    selectedTags.every(tag => {
+                        // Check if tag exists in tags array OR matches the type field
+                        const inTags = recipe.tags && recipe.tags.includes(tag);
+                        const matchesType = recipe.type === tag;
+                        return inTags || matchesType;
+                    });
 
                 if (!searchTerm) return matchesCategory && matchesTags;
 
@@ -2298,6 +2798,148 @@
             });
         }
 
+        // ==================== Preferences Management ====================
+
+        // Save preferences to localStorage
+        function savePreferences() {
+            const prefs = {
+                theme: currentTheme,
+                searchQuery: document.getElementById('searchInput').value,
+                selectedTags: selectedTags,
+                currentFilter: currentFilter,
+                itemsPerPage: itemsPerPage === filteredRecipes.length ? 'all' : itemsPerPage
+            };
+            localStorage.setItem('recipePreferences', JSON.stringify(prefs));
+        }
+
+        // Load preferences from localStorage
+        function loadPreferences() {
+            const saved = localStorage.getItem('recipePreferences');
+            if (!saved) return null;
+
+            try {
+                return JSON.parse(saved);
+            } catch (e) {
+                console.error('Error parsing saved preferences:', e);
+                return null;
+            }
+        }
+
+        // Apply preferences from object
+        function applyPreferences(prefs) {
+            if (!prefs) return;
+
+            // Apply theme
+            if (prefs.theme) {
+                setTheme(prefs.theme);
+            }
+
+            // Apply search query
+            if (prefs.searchQuery) {
+                document.getElementById('searchInput').value = prefs.searchQuery;
+            }
+
+            // Apply selected tags
+            if (prefs.selectedTags && Array.isArray(prefs.selectedTags)) {
+                selectedTags = prefs.selectedTags;
+                renderSelectedTags();
+            }
+
+            // Apply category filter
+            if (prefs.currentFilter) {
+                currentFilter = prefs.currentFilter;
+            }
+
+            // Apply items per page
+            if (prefs.itemsPerPage) {
+                const select = document.getElementById('itemsPerPageSelect');
+                select.value = prefs.itemsPerPage;
+                itemsPerPage = prefs.itemsPerPage === 'all' ? filteredRecipes.length : parseInt(prefs.itemsPerPage);
+            }
+
+            // Re-filter with loaded preferences
+            filterRecipes();
+        }
+
+        // Get URL parameters
+        function getURLParameters() {
+            const params = new URLSearchParams(window.location.search);
+            const prefs = {};
+
+            if (params.has('theme')) prefs.theme = params.get('theme');
+            if (params.has('search')) prefs.searchQuery = params.get('search');
+            if (params.has('tags')) prefs.selectedTags = params.get('tags').split(',').filter(t => t);
+            if (params.has('category')) prefs.currentFilter = params.get('category');
+            if (params.has('items')) prefs.itemsPerPage = params.get('items');
+
+            return Object.keys(prefs).length > 0 ? prefs : null;
+        }
+
+        // Generate shareable URL with current preferences
+        function sharePreferences() {
+            const params = new URLSearchParams();
+
+            if (currentTheme !== 'light') params.set('theme', currentTheme);
+
+            const search = document.getElementById('searchInput').value;
+            if (search) params.set('search', search);
+
+            if (selectedTags.length > 0) params.set('tags', selectedTags.join(','));
+
+            if (currentFilter !== 'All') params.set('category', currentFilter);
+
+            const itemsValue = document.getElementById('itemsPerPageSelect').value;
+            if (itemsValue !== '10') params.set('items', itemsValue);
+
+            const url = params.toString()
+                ? `${window.location.origin}${window.location.pathname}?${params.toString()}`
+                : window.location.origin + window.location.pathname;
+
+            // Copy to clipboard
+            navigator.clipboard.writeText(url).then(() => {
+                // Show success message
+                const btn = event.target;
+                const originalText = btn.textContent;
+                btn.textContent = '✓ Copied!';
+                btn.style.background = 'linear-gradient(135deg, #52b788 0%, #2d6a4f 100%)';
+                btn.style.color = 'white';
+                btn.style.borderColor = 'transparent';
+
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                    btn.style.color = '';
+                    btn.style.borderColor = '';
+                }, 2000);
+            }).catch(err => {
+                // Fallback: show URL in prompt
+                prompt('Share this URL:', url);
+            });
+        }
+
+        // Clear all saved preferences
+        function clearPreferences() {
+            if (confirm('Clear all saved preferences and reload with defaults?')) {
+                localStorage.removeItem('recipePreferences');
+                localStorage.removeItem('selectedTheme'); // Also clear theme
+                // Reload page without URL parameters
+                window.location.href = window.location.origin + window.location.pathname;
+            }
+        }
+
+        // Auto-save preferences when they change
+        function setupAutoSave() {
+            // Save on search change
+            document.getElementById('searchInput').addEventListener('input', () => {
+                setTimeout(savePreferences, 500); // Debounce
+            });
+
+            // Save on theme change (handled in setTheme)
+            // Save on tag change (handled in addTag/removeTag)
+            // Save on filter change (handled in filter click)
+            // Save on items per page change (handled in changeItemsPerPage)
+        }
+
         // Search functionality with real-time filtering
         document.getElementById('searchInput').addEventListener('input', filterRecipes);
 
@@ -2327,19 +2969,35 @@
         // Items per page selector
         document.getElementById('itemsPerPageSelect').addEventListener('change', changeItemsPerPage);
 
-        // Close theme menu when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.theme-selector')) {
-                document.getElementById('themeMenu').style.display = 'none';
-            }
-        });
-
         // Initialize
-        loadRecipes();
+        async function initializeApp() {
+            // Load recipes first
+            await loadRecipes();
 
-        // Load saved theme
-        const savedTheme = localStorage.getItem('selectedTheme') || 'light';
-        setTheme(savedTheme);
+            // Check for URL parameters (priority over localStorage)
+            const urlParams = getURLParameters();
+
+            if (urlParams) {
+                // URL parameters take precedence
+                applyPreferences(urlParams);
+            } else {
+                // Load from localStorage
+                const savedPrefs = loadPreferences();
+                if (savedPrefs) {
+                    applyPreferences(savedPrefs);
+                } else {
+                    // No saved preferences, use defaults
+                    const savedTheme = localStorage.getItem('selectedTheme') || 'light';
+                    setTheme(savedTheme);
+                }
+            }
+
+            // Setup auto-save for future changes
+            setupAutoSave();
+        }
+
+        // Start the app
+        initializeApp();
     </script>
 </body>
 </html>
