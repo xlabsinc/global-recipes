@@ -2,7 +2,9 @@
 
 A beautiful, interactive web application featuring 420 authentic recipes from around the world. Search, explore, and cook delicious dishes from 16 different cuisines across Asia, Europe, Middle East, Africa, Australia, and the Americas.
 
-**Live Demo:** [https://YOUR-USERNAME.github.io/global-recipes/](https://YOUR-USERNAME.github.io/global-recipes/)
+**Live Demo:** [https://xlabsinc.github.io/global-recipes/](https://xlabsinc.github.io/global-recipes/)
+
+**Repository:** [https://github.com/xlabsinc/global-recipes](https://github.com/xlabsinc/global-recipes)
 
 ![Recipes](https://img.shields.io/badge/Recipes-420-orange) ![Cuisines](https://img.shields.io/badge/Cuisines-16-blue) ![License-MIT](https://img.shields.io/badge/License-MIT-green)
 
@@ -46,18 +48,22 @@ A beautiful, interactive web application featuring 420 authentic recipes from ar
 
 ## 🚀 Quick Start
 
-### Option 1: Use GitHub Pages (Recommended)
+### Option 1: Visit the Live Site
 
-1. Fork this repository
-2. Go to Settings > Pages
+Simply go to [https://xlabsinc.github.io/global-recipes/](https://xlabsinc.github.io/global-recipes/) to start browsing recipes immediately!
+
+### Option 2: Fork and Deploy Your Own
+
+1. Fork this repository on GitHub
+2. Go to your fork's Settings > Pages
 3. Select "main" branch as source
 4. Your site will be live at `https://YOUR-USERNAME.github.io/global-recipes/`
 
-### Option 2: Run Locally
+### Option 3: Run Locally
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/global-recipes.git
+git clone https://github.com/xlabsinc/global-recipes.git
 
 # Navigate to the directory
 cd global-recipes
@@ -71,6 +77,80 @@ npx serve
 ```
 
 Then visit `http://localhost:8000` in your browser.
+
+## 📖 Setting Up GitHub Pages
+
+If you want to host your own copy or contribute to this project, here's how to set up GitHub Pages:
+
+### For Contributors (Forking)
+
+1. **Fork the Repository**
+   - Go to [https://github.com/xlabsinc/global-recipes](https://github.com/xlabsinc/global-recipes)
+   - Click the "Fork" button in the top-right corner
+   - This creates a copy in your GitHub account
+
+2. **Enable GitHub Pages on Your Fork**
+   - Go to your forked repository
+   - Click "Settings" (top-right)
+   - Scroll down to "Pages" in the left sidebar
+   - Under "Source", select "main" branch
+   - Keep "/" (root) as the folder
+   - Click "Save"
+
+3. **Access Your Site**
+   - Wait 1-2 minutes for deployment
+   - Your site will be live at: `https://YOUR-USERNAME.github.io/global-recipes/`
+
+4. **Make Changes**
+   - Edit files in your fork
+   - Commit and push changes
+   - GitHub Pages automatically redeploys (1-2 minutes)
+
+### For Organization Members (Direct Access)
+
+If you have write access to the xlabsinc organization:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/xlabsinc/global-recipes.git
+   cd global-recipes
+   ```
+
+2. **Make Your Changes**
+   - Edit files as needed
+   - Test locally before pushing
+
+3. **Commit and Push**
+   ```bash
+   git add .
+   git commit -m "Description of your changes"
+   git push origin main
+   ```
+
+4. **Automatic Deployment**
+   - GitHub Pages automatically rebuilds
+   - Changes appear at [https://xlabsinc.github.io/global-recipes/](https://xlabsinc.github.io/global-recipes/) within 1-2 minutes
+
+### Troubleshooting GitHub Pages
+
+**Issue: Site not loading**
+- Verify GitHub Pages is enabled in Settings > Pages
+- Ensure "main" branch is selected as source
+- Wait 2-3 minutes after enabling
+- Check that index.html is in the root directory
+
+**Issue: Recipes not showing**
+- Clear browser cache (Ctrl+Shift+R or Cmd+Shift+R)
+- Check browser console (F12) for errors
+- Verify all files in `recipes/` folder are uploaded
+- Ensure file paths use `recipes/` prefix
+
+**Issue: 404 Error**
+- Double-check the URL format: `https://username.github.io/global-recipes/`
+- Ensure repository name is exactly "global-recipes"
+- Wait a few minutes for DNS propagation
+
+For more detailed setup instructions, see [SETUP.md](SETUP.md).
 
 ## 📁 Project Structure
 

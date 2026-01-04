@@ -2,6 +2,10 @@
 
 First off, thank you for considering contributing to the Global Recipe Collection! 🙏
 
+**Repository:** [https://github.com/xlabsinc/global-recipes](https://github.com/xlabsinc/global-recipes)
+
+**Live Site:** [https://xlabsinc.github.io/global-recipes/](https://xlabsinc.github.io/global-recipes/)
+
 ## How Can I Contribute?
 
 ### 🍽️ Adding New Recipes

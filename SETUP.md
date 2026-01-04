@@ -2,60 +2,27 @@
 
 Follow these simple steps to host your Global Recipe Collection on GitHub Pages:
 
-## Step 1: Create a GitHub Repository
+## 🌟 Official Deployment
 
-1. Go to [GitHub](https://github.com) and log in
-2. Click the "+" icon in the top right, then "New repository"
-3. Name your repository: `global-recipes` (or any name you prefer)
-4. Set it to "Public"
-5. Click "Create repository"
+**Live Site:** [https://xlabsinc.github.io/global-recipes/](https://xlabsinc.github.io/global-recipes/)
 
-## Step 2: Upload Your Files
+**Repository:** [https://github.com/xlabsinc/global-recipes](https://github.com/xlabsinc/global-recipes)
 
-### Option A: Using GitHub Web Interface
+This is the official deployment of the Global Recipe Collection. If you want to contribute or deploy your own copy, follow the instructions below.
 
-1. In your new repository, click "uploading an existing file"
-2. Upload the main file:
-   - `index.html`
-3. Create a `recipes` folder and upload all 40 JSON files:
-   - Click "Create new file"
-   - Type `recipes/` in the filename field
-   - Upload all recipe JSON files into this folder
-4. Upload documentation files:
-   - `README.md`
-   - `SETUP.md`
-   - `CONTRIBUTING.md`
-   - `PROMPT_HISTORY.md`
-   - `MASTER_PROMPT.md`
-   - `LICENSE`
-5. Click "Commit changes"
+---
 
-### Option B: Using Git Command Line (Recommended)
+## 📋 For Contributors: Fork and Deploy
 
-```bash
-# Navigate to your project folder
-cd /Users/B1V6/tmp20
+### Step 1: Fork the Repository
 
-# Initialize git
-git init
+1. Go to [https://github.com/xlabsinc/global-recipes](https://github.com/xlabsinc/global-recipes)
+2. Click the "Fork" button in the top right
+3. This creates a copy in your GitHub account at `https://github.com/YOUR-USERNAME/global-recipes`
 
-# Add all files
-git add .
+### Step 2: Enable GitHub Pages
 
-# Commit
-git commit -m "Initial commit: Global Recipe Collection with 420 recipes"
-
-# Add remote (replace YOUR-USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR-USERNAME/global-recipes.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
-## Step 3: Enable GitHub Pages
-
-1. Go to your repository on GitHub
+1. Go to your forked repository settings
 2. Click "Settings" (top right)
 3. Scroll down to "Pages" in the left sidebar
 4. Under "Source", select "main" branch
@@ -63,14 +30,112 @@ git push -u origin main
 6. Click "Save"
 7. Wait 1-2 minutes for deployment
 
-## Step 4: Access Your Site
+### Step 3: Access Your Site
 
 Your site will be live at:
 ```
 https://YOUR-USERNAME.github.io/global-recipes/
 ```
 
-## Configuration Options
+---
+
+## 🔧 For Organization Members: Direct Deployment
+
+If you have write access to xlabsinc/global-recipes:
+
+### Step 1: Clone the Repository
+
+```bash
+# Clone the repository
+git clone https://github.com/xlabsinc/global-recipes.git
+
+# Navigate to the directory
+cd global-recipes
+```
+
+### Step 2: Make Changes
+
+Edit files as needed and test locally:
+
+```bash
+# Test with Python
+python3 -m http.server 8000
+
+# Or with Node.js
+npx serve
+```
+
+### Step 3: Commit and Push
+
+```bash
+# Add your changes
+git add .
+
+# Commit with a descriptive message
+git commit -m "Your change description"
+
+# Push to main branch
+git push origin main
+```
+
+### Step 4: Automatic Deployment
+
+- GitHub Pages automatically rebuilds from the main branch
+- Changes appear at [https://xlabsinc.github.io/global-recipes/](https://xlabsinc.github.io/global-recipes/)
+- Deployment takes 1-2 minutes
+
+---
+
+## 🆕 Creating a New Deployment from Scratch
+
+If you want to create a completely new repository (not forked):
+
+### Step 1: Create Repository
+
+1. Go to [GitHub](https://github.com) and log in
+2. Click "+" icon > "New repository"
+3. Name it (e.g., `my-recipes`)
+4. Set to "Public"
+5. Click "Create repository"
+
+### Step 2: Upload Files
+
+**Option A: GitHub Web Interface**
+
+1. Click "uploading an existing file"
+2. Upload `index.html`
+3. Create `recipes/` folder and upload all 40 JSON files
+4. Upload documentation files (README.md, etc.)
+5. Commit changes
+
+**Option B: Git Command Line**
+
+```bash
+# Navigate to project folder
+cd /path/to/global-recipes
+
+# Initialize git (if not already)
+git init
+
+# Add all files
+git add .
+
+# Commit
+git commit -m "Initial commit: Global Recipe Collection"
+
+# Add your remote repository
+git remote add origin https://github.com/YOUR-USERNAME/my-recipes.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
+```
+
+### Step 3: Enable GitHub Pages
+
+Same as Step 2 in "For Contributors" section above.
+
+---## Configuration Options
 
 ### Option 1: Local Files (Default - Recommended)
 

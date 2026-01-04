@@ -144,6 +144,18 @@ back ground is blue and the cards are blue as well; update the prompt files
 
 ---
 
+## Prompt 12: Repository & GitHub Pages Setup
+```
+This directory is now turned into a repository, it is hosted in
+https://github.com/xlabsinc/global-recipes; update README files to reflect that.
+Also add instructions on how to setup the github.io page as a separate section
+in README file, update all necessary files as well.
+```
+
+**Result:** Updated all documentation with xlabsinc/global-recipes repository URL, added comprehensive GitHub Pages setup section to README, updated SETUP.md with forking instructions, added live demo links throughout.
+
+---
+
 ## Summary of Evolution
 
 ### Version 1.0

@@ -2,6 +2,10 @@
 
 This is a comprehensive single prompt that can be used to recreate the entire Global Recipe Collection project from scratch (420 recipes from around the world).
 
+**Official Repository:** [https://github.com/xlabsinc/global-recipes](https://github.com/xlabsinc/global-recipes)
+
+**Live Demo:** [https://xlabsinc.github.io/global-recipes/](https://xlabsinc.github.io/global-recipes/)
+
 ---
 
 ## Complete Project Prompt
@@ -442,9 +446,16 @@ global-recipes/
 
 ## TARGET HOSTING
 
-Primary: GitHub Pages
-- Repository name: global-recipes (or world-recipe-collection)
-- URL: https://username.github.io/global-recipes/
+**Official Deployment:**
+- Repository: [https://github.com/xlabsinc/global-recipes](https://github.com/xlabsinc/global-recipes)
+- Live Site: [https://xlabsinc.github.io/global-recipes/](https://xlabsinc.github.io/global-recipes/)
+- Branch: main
+- Directory: / (root)
+
+**For Your Own Deployment:**
+- Fork the xlabsinc/global-recipes repository
+- Repository name: Can be customized
+- URL: https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
 - Branch: main
 - Directory: / (root)
 
