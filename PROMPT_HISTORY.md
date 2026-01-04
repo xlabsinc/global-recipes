@@ -4,7 +4,38 @@ This document contains all the prompts used to create and enhance this project, 
 
 ---
 
-## Latest Updates (Version 2.2)
+## Latest Updates (Version 2.2.1)
+
+### Prompt: URL Parameter Parsing Bug Fix
+```
+when I share the link, as the page takes time to load, it doesn't parse the url; also the link with the url parameters doesn't get parsed again
+```
+
+**Result:** Fixed URL parameter parsing issues:
+- Added 100ms delay after recipe loading for DOM to settle
+- Updated `setTheme()` function with optional `skipEventHandling` parameter
+- Prevents errors when loading theme without user click event
+- Added `updateActiveFilterButton()` to properly highlight active category filter
+- Added error handling and debug logging to initialization
+- URL parameters now correctly applied after full page load
+
+**Technical Implementation:**
+```javascript
+// Initialization sequence
+await loadRecipes();                                    // Wait for recipes
+await new Promise(resolve => setTimeout(resolve, 100)); // Wait for DOM
+applyPreferences(urlParams);                            // Apply URL params
+```
+
+**Functions Modified:**
+- `initializeApp()` - Added try-catch, delay, and logging
+- `setTheme(themeName, skipEventHandling = false)` - Added parameter
+- `applyPreferences(prefs)` - Updated to call `setTheme(prefs.theme, true)`
+- `updateActiveFilterButton()` - New helper function
+
+---
+
+## Previous Updates (Version 2.2)
 
 ### Prompt: Preferences Management & Enhanced Theming
 ```

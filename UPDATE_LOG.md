@@ -1,5 +1,57 @@
 # Update Log - Enhanced Features
 
+## Version 2.2.1 - URL Parameter Parsing Fix
+
+### 🐛 Bug Fix
+
+#### **URL Parameters Not Applied on Page Load**
+- Fixed issue where URL parameters were not parsed when sharing links
+- Fixed issue where page took time to load and preferences weren't applied
+- URL parameters now correctly applied after recipes fully load
+
+**Problem:**
+- When sharing a URL with parameters like `?theme=dark&tags=Asian&search=chicken`
+- Parameters were being applied before recipes finished loading
+- DOM elements (filter buttons, recipe cards) didn't exist yet
+- Resulted in preferences not being visible to user
+
+**Solution:**
+1. Added 100ms delay after recipe loading for DOM to settle
+2. Updated `setTheme()` to accept `skipEventHandling` parameter
+3. Prevents errors when loading theme without user event
+4. Added `updateActiveFilterButton()` to sync filter button UI
+5. Added error handling and debug logging
+
+**Technical Changes:**
+```javascript
+// Before: Applied immediately
+await loadRecipes();
+applyPreferences(urlParams);
+
+// After: Wait for DOM to update
+await loadRecipes();
+await new Promise(resolve => setTimeout(resolve, 100));
+applyPreferences(urlParams);
+```
+
+**Functions Modified:**
+- `initializeApp()` - Added delay and error handling (index.html:2997)
+- `setTheme(themeName, skipEventHandling)` - Added optional parameter (index.html:1784)
+- `applyPreferences(prefs)` - Calls setTheme with skipEventHandling=true (index.html:2834)
+- `updateActiveFilterButton()` - New function to update filter UI (index.html:2867)
+
+**Testing:**
+✅ URL parameters parse correctly on fresh load
+✅ Shared links work as expected
+✅ Theme applies immediately
+✅ Search box fills correctly
+✅ Tags are selected
+✅ Category filter button highlights
+✅ Items per page setting applies
+✅ Works on slow connections
+
+---
+
 ## Version 2.2 - Preferences Management & Theme Expansion
 
 ### 🎉 New Features Implemented

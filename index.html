@@ -1781,9 +1781,15 @@
         }
 
         // Set theme
-        function setTheme(themeName) {
+        function setTheme(themeName, skipEventHandling = false) {
             currentTheme = themeName;
             const theme = themes[themeName];
+
+            if (!theme) {
+                console.warn('Theme not found:', themeName);
+                return;
+            }
+
             document.body.style.background = theme.bg;
 
             // Update all cards
@@ -1848,19 +1854,28 @@
             `;
             document.head.appendChild(style);
 
-            // Mark active theme
-            document.querySelectorAll('.theme-option').forEach(opt => {
-                opt.classList.remove('active');
-            });
-            if (event && event.target) {
-                event.target.classList.add('active');
+            // Mark active theme (only if not skipping event handling)
+            if (!skipEventHandling) {
+                document.querySelectorAll('.theme-option').forEach(opt => {
+                    opt.classList.remove('active');
+                });
+                if (event && event.target) {
+                    event.target.classList.add('active');
+                }
             }
 
             localStorage.setItem('selectedTheme', themeName);
-            document.getElementById('themeMenu').style.display = 'none';
 
-            // Save preferences
-            savePreferences();
+            // Close theme popup/menu if open
+            const popup = document.getElementById('themePopup');
+            if (popup && popup.classList.contains('active')) {
+                // Don't close immediately, it will be closed by selectTheme()
+            }
+
+            // Save preferences (only if not initial load)
+            if (!skipEventHandling) {
+                savePreferences();
+            }
         }
 
         // Pagination functions
@@ -2829,9 +2844,9 @@
         function applyPreferences(prefs) {
             if (!prefs) return;
 
-            // Apply theme
+            // Apply theme first (doesn't depend on recipes)
             if (prefs.theme) {
-                setTheme(prefs.theme);
+                setTheme(prefs.theme, true); // Pass true to skip event handling
             }
 
             // Apply search query
@@ -2848,6 +2863,8 @@
             // Apply category filter
             if (prefs.currentFilter) {
                 currentFilter = prefs.currentFilter;
+                // Update active filter button
+                updateActiveFilterButton();
             }
 
             // Apply items per page
@@ -2859,6 +2876,13 @@
 
             // Re-filter with loaded preferences
             filterRecipes();
+        }
+
+        // Update active filter button UI
+        function updateActiveFilterButton() {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent === currentFilter);
+            });
         }
 
         // Get URL parameters
@@ -2971,29 +2995,40 @@
 
         // Initialize
         async function initializeApp() {
-            // Load recipes first
-            await loadRecipes();
+            try {
+                // Load recipes first and wait for completion
+                await loadRecipes();
 
-            // Check for URL parameters (priority over localStorage)
-            const urlParams = getURLParameters();
+                // Give DOM a moment to update after recipes load
+                await new Promise(resolve => setTimeout(resolve, 100));
 
-            if (urlParams) {
-                // URL parameters take precedence
-                applyPreferences(urlParams);
-            } else {
-                // Load from localStorage
-                const savedPrefs = loadPreferences();
-                if (savedPrefs) {
-                    applyPreferences(savedPrefs);
+                // Check for URL parameters (priority over localStorage)
+                const urlParams = getURLParameters();
+
+                if (urlParams) {
+                    // URL parameters take precedence
+                    console.log('Applying URL parameters:', urlParams);
+                    applyPreferences(urlParams);
                 } else {
-                    // No saved preferences, use defaults
-                    const savedTheme = localStorage.getItem('selectedTheme') || 'light';
-                    setTheme(savedTheme);
+                    // Load from localStorage
+                    const savedPrefs = loadPreferences();
+                    if (savedPrefs) {
+                        console.log('Applying saved preferences:', savedPrefs);
+                        applyPreferences(savedPrefs);
+                    } else {
+                        // No saved preferences, use defaults
+                        const savedTheme = localStorage.getItem('selectedTheme') || 'light';
+                        setTheme(savedTheme, true);
+                    }
                 }
-            }
 
-            // Setup auto-save for future changes
-            setupAutoSave();
+                // Setup auto-save for future changes
+                setupAutoSave();
+
+                console.log('App initialization complete');
+            } catch (error) {
+                console.error('Error initializing app:', error);
+            }
         }
 
         // Start the app
