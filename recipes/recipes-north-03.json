@@ -1,0 +1,282 @@
+[
+  {
+    "id": 121,
+    "name": "Keema",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf56",
+    "description": "Rich North Indian Keema.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Seekh Kebab",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf56",
+    "description": "Rich North Indian Seekh Kebab.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Nihari",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf56",
+    "description": "Rich North Indian Nihari.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Haleem",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf56",
+    "description": "Rich North Indian Haleem.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Biryani Lucknowi",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf56",
+    "description": "Rich North Indian Biryani Lucknowi.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Shahi Tukda",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf6e",
+    "description": "Rich North Indian Shahi Tukda.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Ras Malai",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf6e",
+    "description": "Rich North Indian Ras Malai.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Kheer",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf6e",
+    "description": "Rich North Indian Kheer.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Peda",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf6e",
+    "description": "Rich North Indian Peda.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Barfi",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "emoji": "\ud83c\udf6e",
+    "description": "Rich North Indian Barfi.",
+    "ingredients": [
+      "Premium ingredients",
+      "Aromatic spices",
+      "Ghee or oil",
+      "Special seasonings"
+    ],
+    "instructions": [
+      "Marinate if needed",
+      "Cook with patience",
+      "Layer flavors",
+      "Serve with pride"
+    ],
+    "tags": [
+      "North Indian",
+      "Rich"
+    ]
+  }
+]

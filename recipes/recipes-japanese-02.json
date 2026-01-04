@@ -1,0 +1,282 @@
+[
+  {
+    "id": 251,
+    "name": "Gyoza",
+    "category": "Snack",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd5f",
+    "description": "Pan-fried dumplings.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Dumplings",
+      "Crispy"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "Teriyaki Chicken",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf57",
+    "description": "Glazed chicken with sweet soy sauce.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Sweet",
+      "Grilled"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "Miso Soup",
+    "category": "Soup",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd63",
+    "description": "Soybean paste soup with tofu.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Soup",
+      "Simple"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "Onigiri",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf59",
+    "description": "Rice balls with various fillings.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Rice",
+      "Portable"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Shabu Shabu",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf72",
+    "description": "Hot pot with thinly sliced meat.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Hot Pot",
+      "Interactive"
+    ]
+  },
+  {
+    "id": 256,
+    "name": "Curry Rice",
+    "category": "Rice",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Japanese-style curry with rice.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Curry",
+      "Comfort"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "Sukiyaki",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Sweet beef hot pot.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Hot Pot",
+      "Sweet"
+    ]
+  },
+  {
+    "id": 258,
+    "name": "Dorayaki",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd5e",
+    "description": "Pancake sandwich with red bean.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Dessert",
+      "Sweet"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Matcha Ice Cream",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf68",
+    "description": "Green tea flavored ice cream.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Dessert",
+      "Cold"
+    ]
+  },
+  {
+    "id": 260,
+    "name": "Yakisoba",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Stir-fried noodles with vegetables.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Noodles",
+      "Stir-fry"
+    ]
+  }
+]

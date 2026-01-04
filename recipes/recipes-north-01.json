@@ -1,0 +1,282 @@
+[
+  {
+    "id": 101,
+    "name": "Butter Chicken",
+    "category": "Curry",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf57",
+    "description": "Creamy tomato-based chicken curry",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Paneer Butter Masala",
+    "category": "Curry",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\uddc0",
+    "description": "Cottage cheese in rich tomato gravy",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Chole Bhature",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\uded3",
+    "description": "Spicy chickpeas with fried bread",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Palak Paneer",
+    "category": "Curry",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd6c",
+    "description": "Cottage cheese in spinach gravy",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Rajma Chawal",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\uded8",
+    "description": "Kidney beans curry with rice",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Aloo Paratha",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\uded3",
+    "description": "Potato-stuffed flatbread",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Dal Makhani",
+    "category": "Curry",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf72",
+    "description": "Creamy black lentils",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Rogan Josh",
+    "category": "Curry",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf56",
+    "description": "Kashmiri lamb curry",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Tandoori Chicken",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf57",
+    "description": "Yogurt-marinated grilled chicken",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Naan",
+    "category": "Bread",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\uded3",
+    "description": "Leavened flatbread",
+    "ingredients": [
+      "Ingredient 1",
+      "Ingredient 2",
+      "Ingredient 3",
+      "Spices as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook as per tradition",
+      "Simmer until done",
+      "Garnish and serve hot"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  }
+]

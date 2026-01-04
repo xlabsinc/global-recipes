@@ -1,0 +1,282 @@
+[
+  {
+    "id": 351,
+    "name": "Maqluba",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5a",
+    "description": "Upside-down rice and meat casserole.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Rice",
+      "Festive"
+    ]
+  },
+  {
+    "id": 352,
+    "name": "Fatayer",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd5f",
+    "description": "Stuffed pastries with spinach.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Pastry",
+      "Baked"
+    ]
+  },
+  {
+    "id": 353,
+    "name": "Manakish",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\uded3",
+    "description": "Flatbread with za'atar.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Bread",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "Labneh",
+    "category": "Side Dish",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd5b",
+    "description": "Strained yogurt cheese.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Dip",
+      "Creamy"
+    ]
+  },
+  {
+    "id": 355,
+    "name": "Shakshuka",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf73",
+    "description": "Eggs poached in tomato sauce.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Breakfast",
+      "Eggs"
+    ]
+  },
+  {
+    "id": 356,
+    "name": "Kunafa",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf70",
+    "description": "Cheese pastry with syrup.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Dessert",
+      "Sweet"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "Baklava",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd50",
+    "description": "Layered phyllo with nuts.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Dessert",
+      "Sweet"
+    ]
+  },
+  {
+    "id": 358,
+    "name": "Ma'amoul",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf6a",
+    "description": "Date-filled cookies.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Dessert",
+      "Cookie"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "Halva",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf6c",
+    "description": "Sesame seed sweet.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Dessert",
+      "Sweet"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "Turkish Coffee",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\u2615",
+    "description": "Strong unfiltered coffee.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Beverage",
+      "Traditional"
+    ]
+  }
+]

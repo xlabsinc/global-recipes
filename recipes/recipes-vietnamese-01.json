@@ -1,0 +1,282 @@
+[
+  {
+    "id": 181,
+    "name": "Pho",
+    "category": "Soup",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Aromatic beef noodle soup with herbs.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Soup",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Banh Mi",
+    "category": "Snack",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd56",
+    "description": "Vietnamese baguette sandwich with pork.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Sandwich",
+      "Street Food"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Spring Rolls",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf2f",
+    "description": "Fresh rice paper rolls with vegetables.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Fresh",
+      "Healthy"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Bun Cha",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf72",
+    "description": "Grilled pork with noodles and herbs.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Grilled",
+      "Noodles"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Cao Lau",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Hoi An specialty noodles with pork.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Regional",
+      "Noodles"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Com Tam",
+    "category": "Rice",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5a",
+    "description": "Broken rice with grilled pork.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Rice",
+      "Grilled"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Goi Cuon",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf2f",
+    "description": "Fresh summer rolls with shrimp.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Fresh",
+      "Light"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Banh Xeo",
+    "category": "Snack",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd5e",
+    "description": "Crispy turmeric crepe with pork and shrimp.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Crispy",
+      "Street Food"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "Bun Bo Hue",
+    "category": "Soup",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Spicy beef noodle soup from Hue.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Spicy",
+      "Soup"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "Cha Ca",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83d\udc1f",
+    "description": "Turmeric fish with dill and noodles.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Fish",
+      "Aromatic"
+    ]
+  }
+]

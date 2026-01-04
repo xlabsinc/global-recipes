@@ -1,0 +1,282 @@
+[
+  {
+    "id": 91,
+    "name": "Kaima Idli",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Kaima Idli from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Rava Idli",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Rava Idli from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Thattu Dosa",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Thattu Dosa from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Attu Kaal Soup",
+    "category": "Curry",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Attu Kaal Soup from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Mutton Sukka",
+    "category": "Curry",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Mutton Sukka from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Anchovies Fry",
+    "category": "Curry",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Anchovies Fry from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Karuvattu Kuzhambu",
+    "category": "Curry",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Karuvattu Kuzhambu from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Thengai Sadam",
+    "category": "Rice",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Thengai Sadam from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Ven Pongal",
+    "category": "Rice",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Ven Pongal from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Chakka Varattiyathu",
+    "category": "Rice",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5b",
+    "description": "Authentic Chakka Varattiyathu from South India.",
+    "ingredients": [
+      "Primary ingredient",
+      "Spices and seasonings",
+      "Cooking oil",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Prep all ingredients",
+      "Follow traditional method",
+      "Cook until done",
+      "Garnish and serve"
+    ],
+    "tags": [
+      "South Indian",
+      "Authentic"
+    ]
+  }
+]

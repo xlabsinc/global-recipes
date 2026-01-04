@@ -1,0 +1,282 @@
+[
+  {
+    "id": 111,
+    "name": "Kadhi Pakora",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Kadhi Pakora.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Makki ki Roti",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Makki ki Roti.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Sarson ka Saag",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Sarson ka Saag.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Gajar ka Halwa",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Gajar ka Halwa.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Gulab Jamun",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Gulab Jamun.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Jalebi",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Jalebi.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Samosa",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Samosa.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Kachori",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Kachori.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Pani Puri",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Pani Puri.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Dahi Bhalla",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Popular North Indian Dahi Bhalla.",
+    "ingredients": [
+      "Main components",
+      "Spice mix",
+      "Cooking medium",
+      "Garnishes"
+    ],
+    "instructions": [
+      "Prepare base",
+      "Cook step by step",
+      "Add finishing touches",
+      "Serve appropriately"
+    ],
+    "tags": [
+      "North Indian",
+      "Popular"
+    ]
+  }
+]

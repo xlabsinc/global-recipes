@@ -1,0 +1,282 @@
+[
+  {
+    "id": 261,
+    "name": "Pizza Margherita",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf55",
+    "description": "Italian pizza with tomato and mozzarella.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Italian",
+      "Classic"
+    ]
+  },
+  {
+    "id": 262,
+    "name": "Pasta Carbonara",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5d",
+    "description": "Creamy pasta with bacon and egg.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Italian",
+      "Creamy"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "Paella",
+    "category": "Rice",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Spanish saffron rice with seafood.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Spanish",
+      "Seafood"
+    ]
+  },
+  {
+    "id": 264,
+    "name": "Moussaka",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf46",
+    "description": "Greek eggplant casserole.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Greek",
+      "Baked"
+    ]
+  },
+  {
+    "id": 265,
+    "name": "Ratatouille",
+    "category": "Side Dish",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf45",
+    "description": "French vegetable stew.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "French",
+      "Vegetable"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "Schnitzel",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd69",
+    "description": "Austrian breaded veal cutlet.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Austrian",
+      "Fried"
+    ]
+  },
+  {
+    "id": 267,
+    "name": "Goulash",
+    "category": "Soup",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf72",
+    "description": "Hungarian beef stew with paprika.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Hungarian",
+      "Hearty"
+    ]
+  },
+  {
+    "id": 268,
+    "name": "Pierogi",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd5f",
+    "description": "Polish dumplings with potato.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Polish",
+      "Comfort"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "Tiramisu",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf70",
+    "description": "Italian coffee dessert.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Italian",
+      "Dessert"
+    ]
+  },
+  {
+    "id": 270,
+    "name": "Croque Monsieur",
+    "category": "Snack",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd6a",
+    "description": "French grilled ham and cheese.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "French",
+      "Sandwich"
+    ]
+  }
+]

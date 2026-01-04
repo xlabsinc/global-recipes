@@ -1,0 +1,282 @@
+[
+  {
+    "id": 81,
+    "name": "Varuval",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Varuval.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Idiyappam",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Idiyappam.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Kothu Idiyappam",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Kothu Idiyappam.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Thirattupal",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Thirattupal.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Banana Halwa",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Banana Halwa.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Moong Dal Payasam",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Moong Dal Payasam.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Parippu Payasam",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Parippu Payasam.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Unniappam",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Unniappam.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Churuttu",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Churuttu.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Achappam",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf7d\ufe0f",
+    "description": "Traditional South Indian Achappam.",
+    "ingredients": [
+      "Main ingredient",
+      "Spices",
+      "Oil/Ghee",
+      "Water as needed"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook traditionally",
+      "Season to taste",
+      "Serve hot or warm"
+    ],
+    "tags": [
+      "South Indian",
+      "Traditional"
+    ]
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 241,
+    "name": "Sushi",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf63",
+    "description": "Vinegared rice with raw fish.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Raw",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "Ramen",
+    "category": "Soup",
+    "type": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Noodle soup with rich broth.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Noodles",
+      "Comfort"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "Tempura",
+    "category": "Snack",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf64",
+    "description": "Batter-fried seafood and vegetables.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Fried",
+      "Crispy"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "Tonkatsu",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd69",
+    "description": "Breaded deep-fried pork cutlet.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Fried",
+      "Crispy"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Yakitori",
+    "category": "Snack",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf62",
+    "description": "Grilled chicken skewers.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Grilled",
+      "Savory"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "Udon",
+    "category": "Soup",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Thick wheat noodles in broth.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Noodles",
+      "Simple"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Okonomiyaki",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd5e",
+    "description": "Savory cabbage pancake.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Griddled",
+      "Savory"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "Takoyaki",
+    "category": "Snack",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83d\udc19",
+    "description": "Octopus balls with sauce.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Street Food",
+      "Fried"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "Soba",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Buckwheat noodles served cold or hot.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Noodles",
+      "Healthy"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "Katsudon",
+    "category": "Rice",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5a",
+    "description": "Rice bowl with breaded pork and egg.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Rice",
+      "Comfort"
+    ]
+  }
+]

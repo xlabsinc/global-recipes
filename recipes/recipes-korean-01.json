@@ -1,0 +1,282 @@
+[
+  {
+    "id": 201,
+    "name": "Kimchi",
+    "category": "Side Dish",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd6c",
+    "description": "Fermented spicy cabbage.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Fermented",
+      "Spicy"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Bibimbap",
+    "category": "Rice",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5a",
+    "description": "Mixed rice with vegetables and egg.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Rice",
+      "Healthy"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Bulgogi",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd69",
+    "description": "Marinated grilled beef.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Grilled",
+      "Sweet"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Japchae",
+    "category": "Main Course",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Stir-fried glass noodles with vegetables.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Noodles",
+      "Festive"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Kimchi Jjigae",
+    "category": "Soup",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf72",
+    "description": "Spicy kimchi stew with pork.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Spicy",
+      "Stew"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Tteokbokki",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf36\ufe0f",
+    "description": "Spicy stir-fried rice cakes.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Spicy",
+      "Street Food"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Korean Fried Chicken",
+    "category": "Snack",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf57",
+    "description": "Crispy chicken with sweet-spicy glaze.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Fried",
+      "Popular"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Samgyeopsal",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd53",
+    "description": "Grilled pork belly slices.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Grilled",
+      "BBQ"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Sundubu Jjigae",
+    "category": "Soup",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\udd58",
+    "description": "Soft tofu stew with vegetables.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "Spicy",
+      "Stew"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Galbi",
+    "category": "Main Course",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83c\udf56",
+    "description": "Marinated beef short ribs.",
+    "ingredients": [
+      "Main ingredient 1",
+      "Main ingredient 2",
+      "Spices and seasonings",
+      "Additional ingredients"
+    ],
+    "instructions": [
+      "Prepare ingredients",
+      "Cook main components",
+      "Combine and season",
+      "Serve hot"
+    ],
+    "tags": [
+      "BBQ",
+      "Sweet"
+    ]
+  }
+]

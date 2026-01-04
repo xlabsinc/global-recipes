@@ -1,0 +1,331 @@
+[
+  {
+    "id": 71,
+    "name": "Kara Sev",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 8,
+    "emoji": "\ud83e\uddf6",
+    "description": "Spicy fried gram flour noodles.",
+    "ingredients": [
+      "2 cups gram flour",
+      "Rice flour",
+      "Red chili powder",
+      "Asafoetida",
+      "Butter",
+      "Salt",
+      "Oil for frying"
+    ],
+    "instructions": [
+      "Mix flours with spices and butter",
+      "Make stiff dough",
+      "Use sev maker to press into hot oil",
+      "Fry until crispy",
+      "Cool and store"
+    ],
+    "tags": [
+      "Snack",
+      "Crunchy",
+      "Spicy"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Pineapple Kesari",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 6,
+    "emoji": "\ud83c\udf4d",
+    "description": "Pineapple flavored semolina sweet.",
+    "ingredients": [
+      "1 cup rava",
+      "1 cup pineapple crushed",
+      "3/4 cup sugar",
+      "Ghee",
+      "Cashews",
+      "Food color",
+      "Cardamom"
+    ],
+    "instructions": [
+      "Roast rava in ghee",
+      "Boil pineapple with water",
+      "Add rava and cook",
+      "Add sugar and ghee",
+      "Add nuts and cardamom",
+      "Serve warm"
+    ],
+    "tags": [
+      "Dessert",
+      "Fruity",
+      "Sweet"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Karuppatti Coffee",
+    "category": "Beverage",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "emoji": "\u2615",
+    "description": "Palm jaggery sweetened coffee.",
+    "ingredients": [
+      "2 cups milk",
+      "Coffee decoction",
+      "Palm jaggery",
+      "Cardamom"
+    ],
+    "instructions": [
+      "Boil milk",
+      "Add palm jaggery and dissolve",
+      "Add coffee decoction",
+      "Add cardamom",
+      "Mix well and serve"
+    ],
+    "tags": [
+      "Beverage",
+      "Traditional",
+      "Healthy"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Kovakkai Fry",
+    "category": "Side Dish",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "emoji": "\ud83e\udd52",
+    "description": "Crispy ivy gourd stir fry.",
+    "ingredients": [
+      "250g kovakkai",
+      "Mustard seeds",
+      "Curry leaves",
+      "Red chili powder",
+      "Turmeric",
+      "Salt",
+      "Oil"
+    ],
+    "instructions": [
+      "Slice kovakkai thinly",
+      "Heat oil and add mustard",
+      "Add kovakkai and spices",
+      "Stir fry until crispy",
+      "Serve hot with rice"
+    ],
+    "tags": [
+      "Side Dish",
+      "Crispy",
+      "Healthy"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Sundal",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 4,
+    "emoji": "\ud83e\udd5c",
+    "description": "Spiced chickpea or lentil snack popular in Tamil Nadu.",
+    "ingredients": [
+      "1 cup chickpeas",
+      "Mustard seeds",
+      "Curry leaves",
+      "Grated coconut",
+      "Green chilies",
+      "Lemon juice",
+      "Salt"
+    ],
+    "instructions": [
+      "Soak and boil chickpeas",
+      "Drain well",
+      "Heat oil and add mustard seeds",
+      "Add curry leaves and chilies",
+      "Add chickpeas and salt",
+      "Mix well",
+      "Add coconut and lemon juice",
+      "Serve warm or cold"
+    ],
+    "tags": [
+      "Snack",
+      "Healthy",
+      "Protein"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Mor Milagai",
+    "category": "Side Dish",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 30,
+    "cookTime": 0,
+    "servings": 10,
+    "emoji": "\ud83c\udf36\ufe0f",
+    "description": "Yogurt marinated sun-dried chilies.",
+    "ingredients": [
+      "20 green chilies",
+      "1 cup yogurt",
+      "Salt",
+      "Mustard powder"
+    ],
+    "instructions": [
+      "Slit chilies and remove seeds",
+      "Mix yogurt with salt and mustard",
+      "Stuff chilies with yogurt",
+      "Sun dry for 3-4 days",
+      "Store and serve with curd rice"
+    ],
+    "tags": [
+      "Pickle",
+      "Tangy",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Milagu Kuzhambu",
+    "category": "Curry",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\u26ab",
+    "description": "Spicy black pepper curry.",
+    "ingredients": [
+      "Black pepper",
+      "Cumin",
+      "Tamarind",
+      "Tomatoes",
+      "Curry leaves",
+      "Mustard seeds",
+      "Sesame oil",
+      "Garlic"
+    ],
+    "instructions": [
+      "Crush pepper and cumin",
+      "Extract tamarind juice",
+      "Make gravy with tomatoes",
+      "Add pepper-cumin paste",
+      "Temper and serve"
+    ],
+    "tags": [
+      "Curry",
+      "Spicy",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Nei Payasam",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 6,
+    "emoji": "\ud83e\udd5b",
+    "description": "Ghee-rich rice pudding.",
+    "ingredients": [
+      "1/4 cup rice",
+      "4 cups milk",
+      "1/2 cup sugar",
+      "1/2 cup ghee",
+      "Cashews",
+      "Raisins",
+      "Cardamom"
+    ],
+    "instructions": [
+      "Fry rice in ghee until golden",
+      "Cook in milk until soft",
+      "Add sugar and simmer",
+      "Fry nuts in ghee",
+      "Mix and serve warm"
+    ],
+    "tags": [
+      "Dessert",
+      "Rich",
+      "Festive"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Seeni Sambol",
+    "category": "Side Dish",
+    "type": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\uddc5",
+    "description": "Caramelized onion chili relish.",
+    "ingredients": [
+      "4 onions sliced",
+      "Dried fish",
+      "Red chilies",
+      "Curry leaves",
+      "Tamarind",
+      "Sugar",
+      "Oil"
+    ],
+    "instructions": [
+      "Fry onions until golden",
+      "Add dried fish and chilies",
+      "Add tamarind and sugar",
+      "Cook until caramelized",
+      "Serve with rice or roti"
+    ],
+    "tags": [
+      "Side Dish",
+      "Spicy",
+      "Sri Lankan"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Vazhaithandu Mor Kootu",
+    "category": "Curry",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "emoji": "\ud83c\udf3f",
+    "description": "Banana stem in yogurt gravy.",
+    "ingredients": [
+      "1 cup banana stem chopped",
+      "1 cup yogurt",
+      "Coconut",
+      "Green chilies",
+      "Cumin",
+      "Curry leaves",
+      "Oil"
+    ],
+    "instructions": [
+      "Cook banana stem with turmeric",
+      "Grind coconut with chilies and cumin",
+      "Add to cooked stem",
+      "Add yogurt and mix",
+      "Temper and serve"
+    ],
+    "tags": [
+      "Curry",
+      "Healthy",
+      "Traditional"
+    ]
+  }
+]

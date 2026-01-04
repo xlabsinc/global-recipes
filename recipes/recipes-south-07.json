@@ -1,0 +1,331 @@
+[
+  {
+    "id": 61,
+    "name": "Onion Pakoda",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "emoji": "\ud83e\uddc5",
+    "description": "Crispy onion fritters with spices.",
+    "ingredients": [
+      "2 large onions sliced",
+      "1 cup gram flour",
+      "Rice flour 2 tbsp",
+      "Red chili powder",
+      "Curry leaves",
+      "Salt",
+      "Oil for frying"
+    ],
+    "instructions": [
+      "Mix onions with flour and spices",
+      "Add little water to bind",
+      "Heat oil for deep frying",
+      "Drop spoonfuls and fry until golden",
+      "Drain and serve hot"
+    ],
+    "tags": [
+      "Snack",
+      "Fried",
+      "Tea-time"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Karadaiyan Nombu Adai",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 6,
+    "emoji": "\ud83d\udfe4",
+    "description": "Sweet rice flour dumplings for festival.",
+    "ingredients": [
+      "1 cup rice flour",
+      "1/2 cup jaggery",
+      "Grated coconut",
+      "Cardamom powder",
+      "Ghee"
+    ],
+    "instructions": [
+      "Melt jaggery with water",
+      "Add rice flour and cook",
+      "Add coconut and cardamom",
+      "Make small dumplings",
+      "Steam until done",
+      "Serve warm"
+    ],
+    "tags": [
+      "Dessert",
+      "Festival",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Ellu Urundai",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 8,
+    "emoji": "\u26ab",
+    "description": "Sesame seed balls with jaggery.",
+    "ingredients": [
+      "2 cups sesame seeds",
+      "1 cup jaggery",
+      "1/4 tsp cardamom powder",
+      "Ghee for greasing"
+    ],
+    "instructions": [
+      "Dry roast sesame seeds",
+      "Melt jaggery to one string consistency",
+      "Add sesame and cardamom",
+      "Mix well and shape into balls",
+      "Cool and store"
+    ],
+    "tags": [
+      "Dessert",
+      "Healthy",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Vazhakkai Bajji",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "emoji": "\ud83c\udf4c",
+    "description": "Raw banana fritters in gram flour batter.",
+    "ingredients": [
+      "2 raw bananas",
+      "1 cup gram flour",
+      "Rice flour",
+      "Red chili powder",
+      "Turmeric",
+      "Salt",
+      "Oil"
+    ],
+    "instructions": [
+      "Slice bananas lengthwise",
+      "Make thick batter with flours and spices",
+      "Dip banana slices in batter",
+      "Deep fry until crispy",
+      "Serve hot with chutney"
+    ],
+    "tags": [
+      "Snack",
+      "Fried",
+      "Popular"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Karuveppilai Sadam",
+    "category": "Rice",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "emoji": "\ud83c\udf5a",
+    "description": "Curry leaf rice with aromatic spices.",
+    "ingredients": [
+      "2 cups cooked rice",
+      "30 curry leaves",
+      "Peanuts",
+      "Chana dal",
+      "Urad dal",
+      "Mustard seeds",
+      "Red chilies",
+      "Turmeric",
+      "Oil"
+    ],
+    "instructions": [
+      "Fry curry leaves until crispy",
+      "Make tempering with dals and spices",
+      "Add to rice",
+      "Mix with fried curry leaves",
+      "Serve with papad"
+    ],
+    "tags": [
+      "Rice",
+      "Aromatic",
+      "Easy"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Kadala Curry",
+    "category": "Curry",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "emoji": "\ud83e\uded8",
+    "description": "Black chickpea curry from Kerala.",
+    "ingredients": [
+      "1 cup black chickpeas",
+      "Coconut",
+      "Fennel seeds",
+      "Red chili powder",
+      "Curry leaves",
+      "Mustard seeds",
+      "Coconut oil"
+    ],
+    "instructions": [
+      "Soak and pressure cook chickpeas",
+      "Grind coconut with fennel",
+      "Make gravy with coconut paste",
+      "Add chickpeas and spices",
+      "Temper and serve with puttu"
+    ],
+    "tags": [
+      "Curry",
+      "Kerala",
+      "Protein"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Maa Laddu",
+    "category": "Dessert",
+    "type": "Vegetarian",
+    "difficulty": "Hard",
+    "prepTime": 30,
+    "cookTime": 40,
+    "servings": 10,
+    "emoji": "\ud83d\udfe1",
+    "description": "Roasted gram flour sweet balls.",
+    "ingredients": [
+      "2 cups roasted gram flour",
+      "1.5 cups sugar",
+      "1 cup ghee",
+      "Cardamom powder",
+      "Cashews"
+    ],
+    "instructions": [
+      "Roast gram flour in ghee",
+      "Make sugar syrup",
+      "Mix flour with syrup",
+      "Add cardamom and nuts",
+      "Shape into balls while warm"
+    ],
+    "tags": [
+      "Dessert",
+      "Sweet",
+      "Festive"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Tamarind Sevai",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "emoji": "\ud83c\udf5c",
+    "description": "Tangy tamarind vermicelli.",
+    "ingredients": [
+      "2 cups sevai",
+      "Tamarind extract",
+      "Peanuts",
+      "Curry leaves",
+      "Mustard seeds",
+      "Red chili powder",
+      "Turmeric",
+      "Oil"
+    ],
+    "instructions": [
+      "Cook sevai and set aside",
+      "Make tamarind gravy with spices",
+      "Make tempering",
+      "Mix gravy with sevai",
+      "Garnish with peanuts",
+      "Serve"
+    ],
+    "tags": [
+      "Breakfast",
+      "Tangy",
+      "Easy"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Vazhaipoo Vadai",
+    "category": "Snack",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 30,
+    "cookTime": 20,
+    "servings": 6,
+    "emoji": "\ud83c\udf38",
+    "description": "Banana flower fritters.",
+    "ingredients": [
+      "1 banana flower",
+      "1 cup chana dal",
+      "Red chilies",
+      "Fennel seeds",
+      "Curry leaves",
+      "Oil for frying"
+    ],
+    "instructions": [
+      "Clean and chop banana flower",
+      "Soak and grind dal coarsely",
+      "Mix with banana flower",
+      "Add spices",
+      "Shape and deep fry",
+      "Serve hot"
+    ],
+    "tags": [
+      "Snack",
+      "Unique",
+      "Traditional"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Paruppu Usili",
+    "category": "Side Dish",
+    "type": "Vegetarian",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 4,
+    "emoji": "\ud83e\udd57",
+    "description": "Steamed lentil crumble with vegetables.",
+    "ingredients": [
+      "Toor dal and chana dal",
+      "Beans chopped",
+      "Red chilies",
+      "Mustard seeds",
+      "Curry leaves",
+      "Asafoetida",
+      "Oil"
+    ],
+    "instructions": [
+      "Soak dals and grind coarsely",
+      "Steam the dal mixture",
+      "Crumble when cool",
+      "Saut\u00e9 beans",
+      "Add crumbled dal",
+      "Mix and serve"
+    ],
+    "tags": [
+      "Side Dish",
+      "Protein",
+      "Tamil Nadu"
+    ]
+  }
+]

@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Recipe Collection</title>
+    <meta name="description" content="Explore 400+ authentic recipes from around the world - Indian, Asian, European, Middle Eastern, African, and more">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .search-container {
+            background: white;
+            border-radius: 15px;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+        }
+
+        .search-container input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 1.1em;
+            padding: 10px;
+        }
+
+        .search-icon {
+            color: #667eea;
+            font-size: 1.5em;
+        }
+
+        .controls {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        .filter-btn {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 8px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        .filter-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0, 114, 255, 0.2);
+            border-color: rgba(0, 114, 255, 0.3);
+        }
+
+        .filter-btn.active {
+            background: #0071e3;
+            color: white;
+            border-color: #0071e3;
+            box-shadow: 0 2px 8px rgba(0, 114, 255, 0.3);
+        }
+
+        .load-custom {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .loader-toggle {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader-content {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .loader-content.expanded {
+            display: block;
+        }
+
+        .loader-options {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .loader-option {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .loader-option h4 {
+            margin-bottom: 10px;
+            color: #667eea;
+            font-size: 0.95em;
+        }
+
+        .help-section {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .help-content {
+            display: none;
+            margin-top: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        .help-content.expanded {
+            display: block;
+        }
+
+        .help-content h4 {
+            color: #667eea;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .help-content pre {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid #e0e0e0;
+        }
+
+        .help-content code {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .file-controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        #loadStatus {
+            text-align: center;
+            font-size: 0.9em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .loaded-files {
+            margin-top: 15px;
+        }
+
+        .loaded-files-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            transition: background 0.3s;
+        }
+
+        .loaded-files-header:hover {
+            background: #e9ecef;
+        }
+
+        .loaded-files-title {
+            font-size: 0.9em;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .toggle-icon {
+            font-size: 0.8em;
+            color: #0071e3;
+            transition: transform 0.3s;
+        }
+
+        .toggle-icon.collapsed {
+            transform: rotate(-90deg);
+        }
+
+        .file-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .file-list.collapsed {
+            display: none;
+        }
+
+        .file-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #e8f4f8;
+            border: 1px solid rgba(0, 114, 255, 0.2);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: #005bb5;
+        }
+
+        .file-tag .recipe-count {
+            background: #0071e3;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .file-tag .remove-btn {
+            background: #f56565;
+            color: white;
+            border: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 0.9em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .file-tag .remove-btn:hover {
+            background: #c53030;
+        }
+
+        .docked-area {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.98);
+            border-top: 3px solid #0071e3;
+            box-shadow: 0 -4px 12px rgba(0,0,0,0.15);
+            padding: 15px 20px;
+            z-index: 1000;
+            max-height: 150px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            display: none;
+        }
+
+        .docked-area.active {
+            display: block;
+        }
+
+        .docked-cards {
+            display: flex;
+            gap: 12px;
+            flex-wrap: nowrap;
+        }
+
+        .docked-card {
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+            color: white;
+            padding: 12px 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            white-space: nowrap;
+            min-width: 200px;
+            box-shadow: 0 2px 8px rgba(0, 114, 255, 0.3);
+        }
+
+        .docked-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .docked-card-name {
+            flex: 1;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .docked-card-actions {
+            display: flex;
+            gap: 6px;
+        }
+
+        .docked-card button {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .docked-card button:hover {
+            background: rgba(255,255,255,0.35);
+        }
+
+        .docked-card .restore-btn {
+            font-size: 0.9em;
+        }
+
+        .docked-card .close-btn {
+            background: rgba(220, 53, 69, 0.8);
+        }
+
+        .docked-card .close-btn:hover {
+            background: rgba(220, 53, 69, 1);
+        }
+
+        .recipe-card.viewing {
+            border: 3px solid #667eea;
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .close-card-btn {
+            background: rgba(220, 53, 69, 0.2);
+            border: none;
+            color: #dc3545;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2em;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .recipe-card.expanded .close-card-btn {
+            display: flex;
+            background: rgba(220, 53, 69, 0.8);
+            color: white;
+        }
+
+        .close-card-btn:hover {
+            background: rgba(220, 53, 69, 0.3);
+        }
+
+        .recipe-card.expanded .close-card-btn:hover {
+            background: rgba(220, 53, 69, 1);
+        }
+
+        .url-loader {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .url-input-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .url-input-group input {
+            flex: 1;
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 0.9em;
+            transition: border-color 0.3s;
+        }
+
+        .url-input-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .url-input-group button {
+            padding: 10px 20px;
+            white-space: nowrap;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-label {
+            font-weight: 600;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        select.filter-select {
+            padding: 8px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 0.9em;
+            background: white;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+
+        select.filter-select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .stats {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .recipe-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .recipe-card.expanded {
+            grid-column: 1 / -1;
+            cursor: default;
+        }
+
+        .recipe-header {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            color: #1d3557;
+            padding: 20px;
+            min-height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .recipe-card.expanded .recipe-header {
+            background: linear-gradient(135deg, #0071e3 0%, #005bb5 100%);
+            color: white;
+        }
+
+        .recipe-header-left {
+            flex: 1;
+        }
+
+        .recipe-name {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .recipe-category {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .minimize-btn {
+            background: rgba(0, 113, 227, 0.2);
+            border: none;
+            color: #0071e3;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2em;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .recipe-card.expanded .minimize-btn {
+            display: flex;
+            background: rgba(255,255,255,0.2);
+            color: white;
+        }
+
+        .minimize-btn:hover {
+            background: rgba(0, 113, 227, 0.3);
+        }
+
+        .recipe-card.expanded .minimize-btn:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .recipe-body {
+            padding: 20px;
+        }
+
+        .recipe-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .recipe-description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin: 2px;
+            color: #667eea;
+        }
+
+        .tag.veg {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .tag.non-veg {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .expanded-content {
+            display: none;
+            padding: 0 20px 20px;
+        }
+
+        .recipe-card.expanded .expanded-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .section h3 {
+            font-size: 1.5em;
+            color: #0071e3;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0071e3;
+            padding-bottom: 10px;
+        }
+
+        .ingredients-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .ingredients-list li {
+            padding: 10px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+        }
+
+        .ingredients-list li:before {
+            content: "✓";
+            color: #0071e3;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .instructions-list {
+            list-style: none;
+            counter-reset: step-counter;
+            padding: 0;
+        }
+
+        .instructions-list li {
+            padding: 15px;
+            padding-left: 60px;
+            margin-bottom: 10px;
+            background: white;
+            border-radius: 10px;
+            counter-increment: step-counter;
+            position: relative;
+            line-height: 1.6;
+        }
+
+        .instructions-list li:before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            width: 30px;
+            height: 30px;
+            background: #0071e3;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .no-results {
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+            padding: 50px;
+        }
+
+        @media (max-width: 968px) {
+            .recipe-card.expanded .expanded-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .recipe-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Global Recipe Collection</h1>
+            <p class="subtitle">Discover 400+ authentic recipes from around the world</p>
+        </header>
+
+        <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search by recipe name or ingredient... (e.g., dosa, coconut, chicken)">
+        </div>
+
+        <div class="controls">
+            <div class="filter-group">
+                <span class="filter-label">Type:</span>
+                <select id="typeFilter" class="filter-select">
+                    <option value="">All Types</option>
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Non-Vegetarian">Non-Vegetarian</option>
+                </select>
+            </div>
+
+            <div class="filters" id="filters"></div>
+
+            <div class="load-custom">
+                <div class="loader-toggle">
+                    <button class="filter-btn" onclick="toggleLoader()">
+                        📁 Load Recipes
+                    </button>
+                    <button class="filter-btn" onclick="toggleHelp()">
+                        ❓ Help
+                    </button>
+                </div>
+
+                <div class="loader-content" id="loaderContent">
+                    <div class="loader-options">
+                        <div class="loader-option">
+                            <h4>📂 Load from Computer</h4>
+                            <input type="file" id="customJsonFile" accept=".json" multiple style="display: none;">
+                            <button class="filter-btn" onclick="document.getElementById('customJsonFile').click()">
+                                Choose Files
+                            </button>
+                        </div>
+                        <div class="loader-option">
+                            <h4>🌐 Load from URL</h4>
+                            <div class="url-input-group">
+                                <input type="url" id="urlInput" placeholder="Enter JSON URL (e.g., GitHub Gist)">
+                                <button class="filter-btn" onclick="loadFromURL()">Load</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="help-section">
+                    <div class="help-content" id="helpContent">
+                        <h4>📋 JSON Recipe File Structure</h4>
+                        <p>Your JSON file should be an array of recipe objects with this structure:</p>
+                        <pre><code>[
+  {
+    "id": 1,
+    "name": "Recipe Name",
+    "category": "Breakfast",
+    "type": "Vegetarian",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "emoji": "🍛",
+    "description": "Brief description of the dish",
+    "ingredients": [
+      "2 cups flour",
+      "1 cup water",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Step 1: Do this",
+      "Step 2: Do that",
+      "Step 3: Serve hot"
+    ],
+    "tags": ["Quick", "Easy", "Popular"]
+  }
+]</code></pre>
+
+                        <h4>🔑 Required Fields</h4>
+                        <ul>
+                            <li><strong>name:</strong> Recipe name (string)</li>
+                            <li><strong>category:</strong> Breakfast, Main Course, Curry, Rice, Snack, Dessert, Side Dish, Soup, Bread</li>
+                            <li><strong>type:</strong> "Vegetarian" or "Non-Vegetarian"</li>
+                            <li><strong>difficulty:</strong> "Easy", "Medium", or "Hard"</li>
+                            <li><strong>prepTime:</strong> Preparation time in minutes (number)</li>
+                            <li><strong>cookTime:</strong> Cooking time in minutes (number)</li>
+                            <li><strong>servings:</strong> Number of servings (number)</li>
+                            <li><strong>ingredients:</strong> Array of ingredient strings</li>
+                            <li><strong>instructions:</strong> Array of instruction strings</li>
+                        </ul>
+
+                        <h4>📦 Optional Fields</h4>
+                        <ul>
+                            <li><strong>id:</strong> Unique number (auto-generated if missing)</li>
+                            <li><strong>emoji:</strong> Emoji icon for the recipe</li>
+                            <li><strong>description:</strong> Short description</li>
+                            <li><strong>tags:</strong> Array of tag strings</li>
+                        </ul>
+
+                        <h4>💡 Tips</h4>
+                        <ul>
+                            <li>Validate your JSON at <a href="https://jsonlint.com" target="_blank">jsonlint.com</a></li>
+                            <li>Use GitHub Gist for sharing recipes</li>
+                            <li>Keep ingredient measurements clear</li>
+                            <li>Number your instructions for clarity</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="loadStatus"></div>
+
+                <div class="loaded-files" id="loadedFilesSection" style="display: none;">
+                    <div class="loaded-files-header" onclick="toggleLoadedFiles()">
+                        <span class="loaded-files-title">Loaded Files</span>
+                        <span class="toggle-icon collapsed" id="filesToggleIcon">▼</span>
+                    </div>
+                    <div class="file-list collapsed" id="fileList"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+            Showing <span id="recipeCount">0</span> of <span id="totalCount">0</span> recipes
+        </div>
+
+        <div class="recipe-grid" id="recipeGrid"></div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            No recipes found. Try a different search term!
+        </div>
+    </div>
+
+    <!-- Docked Minimized Cards Area -->
+    <div class="docked-area" id="dockedArea">
+        <div class="docked-cards" id="dockedCards"></div>
+    </div>
+
+    <script>
+        let recipes = [];
+        let filteredRecipes = [];
+        let currentFilter = 'All';
+        let currentTypeFilter = '';
+        const MAX_INITIAL_DISPLAY = 30;
+
+        // Track loaded files and their recipes
+        let loadedFiles = new Map(); // filename -> {recipes: [], builtIn: boolean}
+
+        // Track docked (minimized) cards
+        let dockedCards = new Map(); // recipeId -> recipe object
+
+        // Toggle loader content
+        function toggleLoader() {
+            const loaderContent = document.getElementById('loaderContent');
+            const helpContent = document.getElementById('helpContent');
+            loaderContent.classList.toggle('expanded');
+            if (loaderContent.classList.contains('expanded')) {
+                helpContent.classList.remove('expanded');
+            }
+        }
+
+        // Toggle help content
+        function toggleHelp() {
+            const helpContent = document.getElementById('helpContent');
+            const loaderContent = document.getElementById('loaderContent');
+            helpContent.classList.toggle('expanded');
+            if (helpContent.classList.contains('expanded')) {
+                loaderContent.classList.remove('expanded');
+            }
+        }
+
+        // Toggle loaded files section
+        function toggleLoadedFiles() {
+            const fileList = document.getElementById('fileList');
+            const toggleIcon = document.getElementById('filesToggleIcon');
+            fileList.classList.toggle('collapsed');
+            toggleIcon.classList.toggle('collapsed');
+        }
+
+        // Load from remote URL
+        async function loadFromURL() {
+            const urlInput = document.getElementById('urlInput');
+            const url = urlInput.value.trim();
+
+            if (!url) {
+                updateLoadStatus('❌ Please enter a URL', 'error');
+                return;
+            }
+
+            try {
+                updateLoadStatus('⏳ Loading from URL...', 'info');
+
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+
+                if (!Array.isArray(data)) {
+                    updateLoadStatus('❌ Invalid format. Expected an array of recipes.', 'error');
+                    return;
+                }
+
+                // Assign unique IDs if missing
+                const maxId = recipes.length > 0 ? Math.max(...recipes.map(r => r.id || 0)) : 0;
+                data.forEach((recipe, index) => {
+                    if (!recipe.id) {
+                        recipe.id = maxId + index + 1;
+                    }
+                });
+
+                // Extract filename from URL
+                const filename = url.split('/').pop().split('?')[0] || 'remote-file.json';
+
+                // Track this file
+                loadedFiles.set(filename, {
+                    recipes: data,
+                    builtIn: false
+                });
+
+                // Update everything
+                recipes = Array.from(loadedFiles.values()).flatMap(f => f.recipes);
+                filterRecipes();
+                setupFilters();
+                updateFileList();
+                updateLoadStatus(`✓ Loaded ${data.length} recipes from ${filename}`, 'success');
+
+                // Clear input
+                urlInput.value = '';
+            } catch (error) {
+                console.error('Error loading from URL:', error);
+                updateLoadStatus(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        // Load recipes from multiple JSON files
+        // Supports loading from local files OR a remote base URL
+        // To load from a remote URL (e.g., GitHub raw or Gist), set the BASE_URL below
+        // Example: 'https://gist.githubusercontent.com/username/gist-id/raw/'
+        async function loadRecipes() {
+            try {
+                // CONFIGURATION: Set to empty string '' for local files
+                // Or set to a remote URL base path (must end with /)
+                // Example: 'https://raw.githubusercontent.com/username/repo/main/'
+                // Example: 'https://gist.githubusercontent.com/username/gist-id/raw/'
+                const BASE_URL = '';  // Empty for local files
+
+                const jsonFiles = [
+                    'recipes/recipes-south-01.json',
+                    'recipes/recipes-south-02.json',
+                    'recipes/recipes-south-03.json',
+                    'recipes/recipes-south-04.json',
+                    'recipes/recipes-south-05.json',
+                    'recipes/recipes-south-06.json',
+                    'recipes/recipes-south-07.json',
+                    'recipes/recipes-south-08.json',
+                    'recipes/recipes-south-09.json',
+                    'recipes/recipes-south-10.json',
+                    'recipes/recipes-north-01.json',
+                    'recipes/recipes-north-02.json',
+                    'recipes/recipes-north-03.json',
+                    'recipes/recipes-north-04.json',
+                    'recipes/recipes-north-05.json',
+                    'recipes/recipes-other-01.json',
+                    'recipes/recipes-chinese-01.json',
+                    'recipes/recipes-chinese-02.json',
+                    'recipes/recipes-vietnamese-01.json',
+                    'recipes/recipes-vietnamese-02.json',
+                    'recipes/recipes-korean-01.json',
+                    'recipes/recipes-korean-02.json',
+                    'recipes/recipes-thai-01.json',
+                    'recipes/recipes-thai-02.json',
+                    'recipes/recipes-japanese-01.json',
+                    'recipes/recipes-japanese-02.json',
+                    'recipes/recipes-european-01.json',
+                    'recipes/recipes-european-02.json',
+                    'recipes/recipes-british-01.json',
+                    'recipes/recipes-british-02.json',
+                    'recipes/recipes-american-01.json',
+                    'recipes/recipes-american-02.json',
+                    'recipes/recipes-iranian-01.json',
+                    'recipes/recipes-iranian-02.json',
+                    'recipes/recipes-middleeastern-01.json',
+                    'recipes/recipes-middleeastern-02.json',
+                    'recipes/recipes-australian-01.json',
+                    'recipes/recipes-australian-02.json',
+                    'recipes/recipes-african-01.json',
+                    'recipes/recipes-african-02.json'
+                ];
+
+                let totalLoaded = 0;
+
+                for (const file of jsonFiles) {
+                    try {
+                        const fileUrl = BASE_URL + file;
+                        const response = await fetch(fileUrl);
+                        const data = await response.json();
+
+                        // Track this file
+                        loadedFiles.set(file, {
+                            recipes: data,
+                            builtIn: true
+                        });
+
+                        totalLoaded += data.length;
+                        console.log(`Loaded ${data.length} recipes from ${fileUrl}`);
+                    } catch (error) {
+                        console.error(`Error loading ${file}:`, error);
+                    }
+                }
+
+                // Combine all recipes
+                recipes = Array.from(loadedFiles.values()).flatMap(f => f.recipes);
+                filteredRecipes = recipes;
+
+                setupFilters();
+                displayRecipes(filteredRecipes.slice(0, MAX_INITIAL_DISPLAY));
+                updateStats();
+                updateFileList();
+                updateLoadStatus(`✓ Loaded ${totalLoaded} recipes from ${jsonFiles.length} files`, 'success');
+            } catch (error) {
+                console.error('Error loading recipes:', error);
+                updateLoadStatus('❌ Error loading recipes', 'error');
+            }
+        }
+
+        // Load custom JSON files (supports multiple files)
+        document.getElementById('customJsonFile').addEventListener('change', function(event) {
+            const files = event.target.files;
+            if (files.length === 0) return;
+
+            let totalAdded = 0;
+            let filesProcessed = 0;
+
+            Array.from(files).forEach(file => {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        const customRecipes = JSON.parse(e.target.result);
+
+                        if (Array.isArray(customRecipes)) {
+                            // Assign unique IDs if missing
+                            const maxId = recipes.length > 0 ? Math.max(...recipes.map(r => r.id || 0)) : 0;
+                            customRecipes.forEach((recipe, index) => {
+                                if (!recipe.id) {
+                                    recipe.id = maxId + totalAdded + index + 1;
+                                }
+                            });
+
+                            // Track this file
+                            loadedFiles.set(file.name, {
+                                recipes: customRecipes,
+                                builtIn: false
+                            });
+
+                            totalAdded += customRecipes.length;
+                            filesProcessed++;
+
+                            // Update UI after all files processed
+                            if (filesProcessed === files.length) {
+                                recipes = Array.from(loadedFiles.values()).flatMap(f => f.recipes);
+                                filterRecipes();
+                                setupFilters();
+                                updateFileList();
+                                updateLoadStatus(`✓ Added ${totalAdded} recipes from ${files.length} file(s)`, 'success');
+                            }
+                        } else {
+                            updateLoadStatus(`❌ Invalid format in ${file.name}. Expected an array of recipes.`, 'error');
+                        }
+                    } catch (error) {
+                        console.error('Error parsing JSON:', error);
+                        updateLoadStatus(`❌ Error parsing ${file.name}`, 'error');
+                    }
+                };
+                reader.readAsText(file);
+            });
+
+            // Reset file input
+            event.target.value = '';
+        });
+
+        // Remove a loaded file
+        function removeFile(filename) {
+            if (loadedFiles.has(filename)) {
+                loadedFiles.delete(filename);
+
+                // Recombine recipes
+                recipes = Array.from(loadedFiles.values()).flatMap(f => f.recipes);
+
+                // Refilter and update UI
+                filterRecipes();
+                setupFilters();
+                updateFileList();
+                updateLoadStatus(`✓ Removed ${filename}`, 'success');
+            }
+        }
+
+        // Update the file list display
+        function updateFileList() {
+            const fileListEl = document.getElementById('fileList');
+            const sectionEl = document.getElementById('loadedFilesSection');
+
+            if (loadedFiles.size === 0) {
+                sectionEl.style.display = 'none';
+                return;
+            }
+
+            sectionEl.style.display = 'block';
+            fileListEl.innerHTML = '';
+
+            loadedFiles.forEach((fileData, filename) => {
+                const fileTag = document.createElement('div');
+                fileTag.className = 'file-tag';
+
+                const nameSpan = document.createElement('span');
+                nameSpan.textContent = filename;
+
+                const countSpan = document.createElement('span');
+                countSpan.className = 'recipe-count';
+                countSpan.textContent = fileData.recipes.length;
+
+                fileTag.appendChild(nameSpan);
+                fileTag.appendChild(countSpan);
+
+                // Only show remove button for non-built-in files or allow removing built-in too
+                const removeBtn = document.createElement('button');
+                removeBtn.className = 'remove-btn';
+                removeBtn.textContent = '×';
+                removeBtn.title = `Remove ${filename}`;
+                removeBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    if (confirm(`Remove ${filename} and its ${fileData.recipes.length} recipes?`)) {
+                        removeFile(filename);
+                    }
+                };
+                fileTag.appendChild(removeBtn);
+
+                fileListEl.appendChild(fileTag);
+            });
+        }
+
+        // Update load status message
+        function updateLoadStatus(message, type) {
+            const statusEl = document.getElementById('loadStatus');
+            statusEl.textContent = message;
+            statusEl.style.color = type === 'error' ? '#dc3545' : '#28a745';
+            setTimeout(() => {
+                statusEl.textContent = '';
+            }, 5000);
+        }
+
+        // Setup filter buttons (fixed to prevent duplicates)
+        function setupFilters() {
+            const categories = ['All', ...new Set(recipes.map(r => r.category))].sort();
+            const filtersContainer = document.getElementById('filters');
+
+            // Clear existing filters first to prevent duplicates
+            filtersContainer.innerHTML = '';
+
+            categories.forEach(category => {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn' + (category === currentFilter ? ' active' : '');
+                btn.textContent = category;
+                btn.onclick = () => {
+                    currentFilter = category;
+                    document.querySelectorAll('.filter-btn').forEach(b => {
+                        b.classList.toggle('active', b.textContent === category);
+                    });
+                    filterRecipes();
+                };
+                filtersContainer.appendChild(btn);
+            });
+        }
+
+        // Filter recipes based on search and category
+        function filterRecipes() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            currentTypeFilter = document.getElementById('typeFilter').value;
+
+            filteredRecipes = recipes.filter(recipe => {
+                const matchesCategory = currentFilter === 'All' || recipe.category === currentFilter;
+                const matchesType = currentTypeFilter === '' || recipe.type === currentTypeFilter;
+
+                if (!searchTerm) return matchesCategory && matchesType;
+
+                // Fix: Use exact matching for type to prevent "Veg" from matching "Non-Vegetarian"
+                const searchLower = searchTerm.toLowerCase();
+                const matchesSearch =
+                    recipe.name.toLowerCase().includes(searchLower) ||
+                    recipe.description.toLowerCase().includes(searchLower) ||
+                    recipe.ingredients.some(ing => ing.toLowerCase().includes(searchLower)) ||
+                    recipe.tags.some(tag => tag.toLowerCase().includes(searchLower)) ||
+                    recipe.category.toLowerCase().includes(searchLower) ||
+                    // Only match type if it's an exact match (case insensitive)
+                    recipe.type.toLowerCase() === searchLower;
+
+                return matchesCategory && matchesType && matchesSearch;
+            });
+
+            displayRecipes(filteredRecipes.slice(0, MAX_INITIAL_DISPLAY));
+            updateStats();
+        }
+
+        // Update statistics
+        function updateStats() {
+            document.getElementById('recipeCount').textContent = Math.min(filteredRecipes.length, MAX_INITIAL_DISPLAY);
+            document.getElementById('totalCount').textContent = filteredRecipes.length;
+        }
+
+        // Display recipes
+        function displayRecipes(recipesToDisplay) {
+            const grid = document.getElementById('recipeGrid');
+            const noResults = document.getElementById('noResults');
+
+            if (recipesToDisplay.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            grid.style.display = 'grid';
+            noResults.style.display = 'none';
+            grid.innerHTML = '';
+
+            recipesToDisplay.forEach(recipe => {
+                const card = createRecipeCard(recipe);
+                grid.appendChild(card);
+            });
+        }
+
+        // Create recipe card
+        function createRecipeCard(recipe) {
+            const card = document.createElement('div');
+            card.className = 'recipe-card';
+            card.id = `recipe-${recipe.id}`;
+
+            const typeTag = recipe.type === 'Vegetarian' ? 'veg' : 'non-veg';
+
+            card.innerHTML = `
+                <div class="recipe-header">
+                    <div class="recipe-header-left">
+                        <div class="recipe-name">${recipe.emoji} ${recipe.name}</div>
+                        <div class="recipe-category">${recipe.category}</div>
+                    </div>
+                    <div class="card-actions">
+                        <button class="minimize-btn" onclick="dockRecipe(${recipe.id})" title="Minimize to dock">−</button>
+                        <button class="close-card-btn" onclick="closeRecipe(${recipe.id})" title="Close">×</button>
+                    </div>
+                </div>
+                <div class="recipe-body">
+                    <div class="recipe-meta">
+                        <div class="meta-item">⏱️ ${recipe.prepTime + recipe.cookTime} min</div>
+                        <div class="meta-item">👥 ${recipe.servings} servings</div>
+                        <div class="meta-item">📊 ${recipe.difficulty}</div>
+                    </div>
+                    <div class="recipe-description">${recipe.description}</div>
+                    <div class="tags">
+                        <span class="tag ${typeTag}">${recipe.type}</span>
+                        ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                </div>
+                <div class="expanded-content">
+                    <div class="section">
+                        <h3>📝 Ingredients</h3>
+                        <ul class="ingredients-list">
+                            ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="section">
+                        <h3>👨‍🍳 Instructions</h3>
+                        <ol class="instructions-list">
+                            ${recipe.instructions.map(inst => `<li>${inst}</li>`).join('')}
+                        </ol>
+                    </div>
+                </div>
+            `;
+
+            // Click handler for expanding (only on the card body, not the minimize button)
+            card.querySelector('.recipe-body').addEventListener('click', () => {
+                if (!card.classList.contains('expanded')) {
+                    expandRecipe(recipe.id);
+                }
+            });
+
+            return card;
+        }
+
+        // Expand recipe to show full details
+        function expandRecipe(id) {
+            const card = document.getElementById(`recipe-${id}`);
+            card.classList.add('expanded');
+            card.classList.add('viewing');
+            card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // Dock recipe (minimize to docked area)
+        function dockRecipe(id) {
+            const recipe = recipes.find(r => r.id === id);
+            if (!recipe) return;
+
+            // Add to docked cards
+            dockedCards.set(id, recipe);
+
+            // Hide the expanded card
+            const card = document.getElementById(`recipe-${id}`);
+            if (card) {
+                card.classList.remove('expanded');
+                card.classList.remove('viewing');
+            }
+
+            // Update docked area
+            updateDockedArea();
+        }
+
+        // Close recipe (dismiss completely)
+        function closeRecipe(id) {
+            const card = document.getElementById(`recipe-${id}`);
+            if (card) {
+                card.classList.remove('expanded');
+                card.classList.remove('viewing');
+            }
+
+            // Also remove from docked if present
+            if (dockedCards.has(id)) {
+                dockedCards.delete(id);
+                updateDockedArea();
+            }
+        }
+
+        // Restore recipe from docked area
+        function restoreRecipe(id) {
+            const recipe = recipes.find(r => r.id === id);
+            if (!recipe) return;
+
+            // Check if card exists in DOM
+            let card = document.getElementById(`recipe-${id}`);
+
+            if (!card) {
+                // Card not visible, need to scroll/search to find it or just expand in place
+                // For now, we'll just show a message
+                updateLoadStatus(`ℹ️ "${recipe.name}" is not in current view. Try searching for it.`, 'info');
+                return;
+            }
+
+            // Expand the card
+            card.classList.add('expanded');
+            card.classList.add('viewing');
+            card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+            // Remove from docked
+            dockedCards.delete(id);
+            updateDockedArea();
+        }
+
+        // Close from docked area
+        function closeDocked(id) {
+            dockedCards.delete(id);
+            updateDockedArea();
+        }
+
+        // Update docked area display
+        function updateDockedArea() {
+            const dockedArea = document.getElementById('dockedArea');
+            const dockedCardsContainer = document.getElementById('dockedCards');
+
+            if (dockedCards.size === 0) {
+                dockedArea.classList.remove('active');
+                return;
+            }
+
+            dockedArea.classList.add('active');
+            dockedCardsContainer.innerHTML = '';
+
+            dockedCards.forEach((recipe, id) => {
+                const dockedCard = document.createElement('div');
+                dockedCard.className = 'docked-card';
+
+                dockedCard.innerHTML = `
+                    <div class="docked-card-name">${recipe.emoji} ${recipe.name}</div>
+                    <div class="docked-card-actions">
+                        <button class="restore-btn" onclick="restoreRecipe(${id})" title="Restore">↑</button>
+                        <button class="close-btn" onclick="closeDocked(${id})" title="Close">×</button>
+                    </div>
+                `;
+
+                dockedCardsContainer.appendChild(dockedCard);
+            });
+        }
+
+        // Search functionality with real-time filtering
+        document.getElementById('searchInput').addEventListener('input', filterRecipes);
+
+        // Type filter
+        document.getElementById('typeFilter').addEventListener('change', filterRecipes);
+
+        // Initialize
+        loadRecipes();
+    </script>
+</body>
+</html>
